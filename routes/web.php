@@ -6,6 +6,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/candidatos', function () {
+    return view('candidatos.index');
+});
+Route::get('/HorarioCapacitacion', function () {
+    return view('HorarioCapacitacion.index');
+});
 Route::get('/areas', function () {
     return view('areas.index');
 });
@@ -61,3 +67,15 @@ Route::get('/configuracion-programa', function () {
 Route::get('/configuracion-herramienta', function () {
     return view('configuracion-herramienta.index');
 });
+
+Route::get('/salones', function () {
+    return view('salones.index');
+});
+
+Route::get('/colaboradores', function () {
+    return view('colaboradores.index');
+});
+Route::get('/horario-clases', function () {
+    return view('colaboradores.horario-clases');
+});
+
