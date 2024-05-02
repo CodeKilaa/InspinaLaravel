@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
+
 Route::get('/areas', function () {
     return view('areas.index');
 });
@@ -36,4 +38,16 @@ Route::get('/horarioMaquina', function () {
 
 Route::get('/horarioVirtual', function () {
     return view('horarioVirtual.index');
+});   
+=======
+>>>>>>> 7d02dcd891ba504a2b50e1b06045ab5f8342dbfa
+Route::get('/salones', function () {
+    return view('salones.index');
+});
+
+Route::get('/colaboradores', function () {
+    return view('colaboradores.index');
+});
+Route::get('/horario-clases', function () {
+    return view('colaboradores.horario-clases');
 });
