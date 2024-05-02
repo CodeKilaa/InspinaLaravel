@@ -37,3 +37,27 @@ Route::get('/horarioMaquina', function () {
 Route::get('/horarioVirtual', function () {
     return view('horarioVirtual.index');
 });
+
+Route::get('/configuracion', function () {
+    return view('configuracion.index');
+});
+
+Route::get('/configuracion-institucion', function () {
+    return view('configuracion-institucion.index');
+});
+
+Route::get('/configuracion-carrera', function () {
+    return view('configuracion-carrera.index');
+});
+
+Route::get('/configuracion-curso', function () {
+    return view('configuracion-curso.index');
+});
+
+Route::get('/configuracion-programa', function () {
+    return view('configuracion-programa.index');
+});
+
+Route::get('/configuracion-herramienta', function () {
+    return view('configuracion-herramienta.index');
+});
