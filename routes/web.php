@@ -72,10 +72,20 @@ Route::get('/salones', function () {
     return view('salones.index');
 });
 
+
+// AVANCE LUIS VIERNES
 Route::get('/colaboradores', function () {
     return view('colaboradores.index');
 });
 Route::get('/horario-clases', function () {
     return view('colaboradores.horario-clases');
+});
+
+Route::get('/prestamos', function () {
+    return view('prestamos.index');
+});
+
+Route::get('/computadoras', function () {
+    return view('computadoras.index');
 });
 
