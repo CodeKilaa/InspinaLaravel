@@ -358,8 +358,8 @@
                                                 <img src="img/a4.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="Computadora.html" ></a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="Prestamos.html" ></a>
+                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                 </div>
@@ -414,7 +414,7 @@
                                     <div class="ibox-content">
                                         <div class="text-right ">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="form-horario-clase.html" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion-colab.html" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
                                         </div>
@@ -558,7 +558,7 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="form-horario-clase.html" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion-colab.html" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
                                         </div>
@@ -688,7 +688,7 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="form-horario-clase.html" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion-colab.html" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
                                         </div>
@@ -802,7 +802,7 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="form-horario-clase.html" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion-colab.html" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
                                         </div>
@@ -906,7 +906,7 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="form-horario-clase.html" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion-colab.html" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
                                         </div>
@@ -1010,7 +1010,7 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="form-horario-clase.html" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion-colab.html" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
                                         </div>
