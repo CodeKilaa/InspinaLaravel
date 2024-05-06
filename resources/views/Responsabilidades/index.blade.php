@@ -10,10 +10,6 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
-
-    <link href="css/plugins/fullcalendar/fullcalendar.css" rel="stylesheet">
-    <link href="css/plugins/fullcalendar/fullcalendar.print.css" rel='stylesheet' media='print'>
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -71,7 +67,7 @@
                         <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
-                                <a href="candidatos">Candidatos</a>
+                                <a href="candidatos.html">Candidatos</a>
                                 
                                 <!--- <ul class="nav nav-third-level">
                                     <li>
@@ -84,7 +80,7 @@
                                 -->
                             </li>
                             <li>
-                                <a href="colaboradores">Colaboradores</a>
+                                <a href="Colaboradores.html">Colaboradores</a>
                                 <!---
                                 <ul class="nav nav-third-level">
                                     <li>
@@ -109,8 +105,8 @@
                                 
                             </li>
     
-                            <li class="active">
-                                <a href="HorarioCapacitacion">Capacitacion-Horario</a>
+                            <li>
+                                <a href="capacitacion-horario.html">Capacitacion-Horario</a>
                                 <!---
                                 <ul class="nav nav-third-level">
                                     <li>
@@ -128,7 +124,7 @@
                     <li>
                         <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="responsabilidades_areas.html"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                         <!-- 
                         <ul class="nav nav-second-level">
@@ -172,6 +168,7 @@
     
             </div>
         </nav>
+        
         <div id="page-wrapper" class="gray-bg">
         <div class="row border-bottom">
         <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
@@ -298,6 +295,7 @@
 
         </nav>
         </div>
+
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
                 <h2>Dashboards</h2>
@@ -305,61 +303,218 @@
                     <li class="breadcrumb-item">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="breadcrumb-item">
-                        <a href="index.html">Capacitacion</a>
-                    </li>
+                    
                     <li class="breadcrumb-item active">
-                        <strong>Horario</strong>
+                        <strong>Responsabilidades-Areas</strong>
                     </li>
                 </ol>
             </div>
         </div>
-
         
         <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="col-lg-12">
-                <div class="ibox ">
-                    <div class="ibox-title">
-                        <h5>Horario</h5>
-                        <div class="ibox-tools">
-                            <a class="collapse-link">
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <i class="fa fa-wrench"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-user">
-                                <li><a href="#" class="dropdown-item">Config option 1</a>
-                                </li>
-                                <li><a href="#" class="dropdown-item">Config option 2</a>
-                                </li>
-                            </ul>
-                            <a class="close-link">
-                                <i class="fa fa-times"></i>
-                            </a>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+                            <div class="product-imitation">
+                                <img src="svg/001.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <!---<span class="product-price">
+                                    ON
+                                </span>
+                                -->
+                                <button class="btn btn-outline btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">001</small>
+                                <a href="#" class="product-name"> Programacion</a>
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i> Meses</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="ibox-content">
-                        <style>
-                            .fc-event {
-                                text-align: center;
-                                font-size: 15px;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                
-                            }
-                            
-                             
-                        </style>
-                        <div id="calendar"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img id="previewImage" src="svg/002.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">002</small>
+                                <a href="#" class="product-name"> Analisis</a>
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i> Meses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img src="svg/003.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">003</small>
+                                <a href="#" class="product-name"> Planeacion</a>
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i>Meses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img src="svg/004.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">004</small>
+                                <a href="#" class="product-name"> Diseño</a>
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i>Meses</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
+            <div class="row">
+                
+                
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img src="svg/005.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">005</small>
+                                <a href="#" class="product-name"> Arquitectura</a>
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i>Meses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img src="svg/006.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">006</small>
+                                <a href="#" class="product-name"> Android</a>
+
+
+
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i> Meses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img src="svg/007.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">007</small>
+                                <a href="#" class="product-name"> Inteligencia Artificial</a>
+
+
+
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i> Meses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="product-imitation">
+                                <img src="svg/008.svg" alt="" class="img-lg">
+                            </div>
+                            <div class="product-desc">
+                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                <small class="text-muted">008</small>
+                                <a href="#" class="product-name"> Programacion Web</a>
+
+
+
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a class="btn btn-success" href="responsabilidades-meses"><i class="fa fa-paste"></i> Meses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
             <div class="wrapper wrapper-content">
-                
+                <div class="row">
+                    <div class="col-lg-8">
+                </div>
+        <div class="footer">
+            <div class="float-right">
+                10GB of <strong>250GB</strong> Free.
+            </div>
+            <div>
+                <strong>Copyright</strong> Example Company &copy; 2014-2018
+            </div>
+        </div>
+        </div>
         <div id="right-sidebar">
             <div class="sidebar-container">
 
@@ -683,7 +838,6 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="js/plugins/fullcalendar/moment.min.js"></script>
 
     <!-- Flot -->
     <script src="js/plugins/flot/jquery.flot.js"></script>
@@ -717,21 +871,6 @@
 
     <!-- Sparkline demo data  -->
     <script src="js/demo/sparkline-demo.js"></script>
-
-    <!-- Mainly scripts -->
-<script src="js/plugins/fullcalendar/moment.min.js"></script>
-
-
-<!-- Custom and plugin javascript -->
-<script src="js/inspinia.js"></script>
-<script src="js/plugins/pace/pace.min.js"></script>
-
-<!-- jQuery UI  -->
-<script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-<!-- iCheck -->
-<script src="js/plugins/iCheck/icheck.min.js"></script>
-
 
     <script>
         $(document).ready(function() {
@@ -896,226 +1035,5 @@
             });
         });
     </script>
-
-<!-- Full Calendar -->
-<script src="js/plugins/fullcalendar/fullcalendar.min.js"></script>
-
-<script>
-
-    $(document).ready(function() {
-
-            $('.i-checks').iCheck({
-                checkboxClass: 'icheckbox_square-green',
-                radioClass: 'iradio_square-green'
-            });
-
-        /* initialize the external events
-         -----------------------------------------------------------------*/
-
-
-        $('#external-events div.external-event').each(function() {
-
-            // store data so the calendar knows to render an event upon drop
-            $(this).data('event', {
-                title: $.trim($(this).text()), // use the element's text as the event title
-                stick: true // maintain when user navigates (see docs on the renderEvent method)
-            });
-
-            // make the event draggable using jQuery UI
-            $(this).draggable({
-                zIndex: 1111999,
-                revert: true,      // will cause the event to go back to its
-                revertDuration: 0  //  original position after the drag
-            });
-
-        });
-
-
-        /* initialize the calendar
-         -----------------------------------------------------------------*/
-        var date = new Date();
-        var d = date.getDate();
-        var m = date.getMonth();
-        var y = date.getFullYear();
-
-        $('#calendar').fullCalendar({
-            
-            defaultView:'agendaWeek',
-            header: {
-                left: 'prev,next today',
-                center: 'title',
-                right: 'agendaWeek'
-            },
-            allDayText: 'Curso',
-            slotDuration: '00:30:00', // Intervalo de tiempo de 30 minutos
-            slotLabelInterval: '01:00', // Etiquetas de hora cada hora
-            minTime:'07:00:00',
-            maxTime: '22:00:00',
-            contentHeight: 'auto',
-            //eventOverlap: true,
-            slotEventOverlap: false,
-
-            editable: true,
-            droppable: true, // this allows things to be dropped onto the calendar
-            drop: function() {
-                // is the "remove after drop" checkbox checked?
-                if ($('#drop-remove').is(':checked')) {
-                    // if so, remove the element from the "Draggable Events" list
-                    $(this).remove();
-                }
-            },
-            events: [
-                {
-                    title: 'All Day Event',
-                    start: new Date(y, m, 1)
-                },
-                {
-                    title: 'Creacion de Logotipo',
-                    start: new Date(y, m, d-5,7,0),
-                    end: new Date(y, m, d+9,12,0),
-                    allDay: true
-                },
-                {
-                    title: 'Oscar Enciso',
-                    start: new Date(y, m, d-4,9,0),
-                    end: new Date(y, m, d-4,12,0),
-                    allDay: false,
-                    color:'#D2D467'
-                },
-                {
-                    title: 'Oscar Enciso',
-                    start: new Date(y, m, d-2,9,0),
-                    end: new Date(y, m, d-2,12,0),
-                    allDay: false,
-                    color:'#D2D467'
-                },
-                {
-                    title: 'Lucas Adrian Rengifo',
-                    start: new Date(y, m, d-4,14,0),
-                    end: new Date(y, m, d-4,17,0),
-                    allDay: false,
-                    color:'#9360D3'
-                },
-                {
-                    title: 'Lucas Adrian Rengifo',
-                    start: new Date(y, m, d-2,14,0),
-                    end: new Date(y, m, d-2,17,0),
-                    allDay: false,
-                    color:'#9360D3'
-                },
-                {
-                    title: 'Lucas Adrian Hernandez',
-                    start: new Date(y, m, d-4,18,0),
-                    end: new Date(y, m, d-4,20,0),
-                    allDay: false,
-                    color:'#C3B093'
-                },
-                {
-                    title: 'Daniel Roman',
-                    start: new Date(y, m, d-2,18,0),
-                    end: new Date(y, m, d-2,20,0),
-                    allDay: false,
-                    color:'#6ED6D6'
-                },
-                {
-                    title: 'Karla Flores Flores',
-                    start: new Date(y, m, d-3,8,0),
-                    end: new Date(y, m, d-3,11,0),
-                    allDay: false,
-                    color:'#8ac11c'
-                },
-                {
-                    title: 'Karla Flores Flores',
-                    start: new Date(y, m, d-1,8,0),
-                    end: new Date(y, m, d-1,11,0),
-                    allDay: false,
-                    color:'#8ac11c'
-                },
-                {
-                    title: 'Daniel Roman',
-                    start: new Date(y, m, d+3,7,0),
-                    end: new Date(y, m, d+3,12,0),
-                    allDay: false,
-                    color: '#FC3500'
-                },
-                {
-                    title: 'Sonia Cabello',
-                    start: new Date(y, m, d-5,8,0),
-                    end: new Date(y, m, d-5,11,0),
-                    allDay: false,
-                    color: '#C1E7C9'
-                },
-                {
-                title: 'Marlo Samaniego',
-                    start: new Date(y, m, d-5,12,0),
-                    end: new Date(y, m, d-5,15,0),
-                    allDay: false,
-                    color: '#96A0C2'
-                },
-                {
-                title: 'Marlo Samaniego',
-                    start: new Date(y, m, d-1,12,0),
-                    end: new Date(y, m, d-1,15,0),
-                    allDay: false,
-                    color: '#96A0C2'
-                },
-                {
-                title: 'Juan Jose Arevalo',
-                    start: new Date(y, m, d-1,16,0),
-                    end: new Date(y, m, d-1,20,0),
-                    allDay: false,
-                    color: '#E9B568'
-                },
-                {
-                title: 'Juan Jose Arevalo',
-                    start: new Date(y, m, d-5,16,0),
-                    end: new Date(y, m, d-5,20,0),
-                    allDay: false,
-                    color: '#E9B568'
-                },
-                {
-                title: 'Juan Jose Arevalo',
-                    start: new Date(y, m, d-3,16,0),
-                    end: new Date(y, m, d-3,20,0),
-                    allDay: false,
-                    color: '#E9B568'
-                },
-                {
-                title: 'Marlo Samaniego',
-                    start: new Date(y, m, d,14,0),
-                    end: new Date(y, m, d,18,0),
-                    allDay: false,
-                    color: '#96A0C2'
-                },
-                {
-                title: 'Maria Jose Casas',
-                    start: new Date(y, m, d+1,16,0),
-                    end: new Date(y, m, d+1,19,0),
-                    allDay: false,
-                    color: '#9C27B0'
-                },
-                {
-                title: 'Juan Jose Arevalo',
-                    start: new Date(y, m, d+2,12,0),
-                    end: new Date(y, m, d+2,17,0),
-                    allDay: false,
-                    color: '#FCBB00'
-                }
-                
-            ],
-            eventRender: function(event, element) {
-            var daysToShow = 4; // Número de días que deseas mostrar
-            var columnWidth = $('.fc-day-grid-container').width() / daysToShow; // Ancho de la columna
-            element.css('width', columnWidth); // Aplicar el ancho al evento
-
-            // Eliminar la hora del evento
-            $(element).find('.fc-time').remove();
-        }
-        });
-
-
-    });
-
-</script>
 </body>
 </html>

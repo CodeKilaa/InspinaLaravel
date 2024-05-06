@@ -113,7 +113,7 @@
                         </li>
 
                         <li>
-                            <a href="capacitacion-horario.html">Capacitacion-Horario</a>
+                            <a href="HorarioCapacitacion">Capacitacion-Horario</a>
                             <!---
                             <ul class="nav nav-third-level">
                                 <li>

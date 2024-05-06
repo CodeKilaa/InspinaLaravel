@@ -89,3 +89,23 @@ Route::get('/computadoras', function () {
     return view('computadoras.index');
 });
 
+
+// AVANCE DIA LUNES 06 DE JHORDY
+Route::get('/form-candidatos-colab', function () {
+    return view('candidatos.form-candidatos-colab');
+});
+
+Route::get('/Responsabilidades', function () {
+    return view('Responsabilidades.index');
+});
+Route::get('/responsabilidades-meses', function () {
+    return view('Responsabilidades.responsabilidades-meses');
+});
+Route::get('/responsabilidades-terminado', function () {
+    return view('Responsabilidades.responsabilidades-terminado');
+});
+Route::get('/responsabilidades-asis', function () {
+    return view('Responsabilidades.responsabilidades-asis');
+});
+
+

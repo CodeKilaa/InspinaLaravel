@@ -54,14 +54,14 @@
                     <li>
                         <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="horario-general-presencial.html">Presencial</a></li>
-                            <li><a href="horario-general-calendar.html">Horario General</a></li>
-                            <li><a href="horario-gp-areas.html">Areas</a></li>
-                            <li><a href="horario-gp-salon.html">Salon</a></li>
+                            <li><a href="horarioPresencial">Presencial</a></li>
+                            <li><a href="horarioGeneral">Horario General</a></li>
+                            <li><a href="horarioArea">Areas</a></li>
+                            <li><a href="horarioSalon">Salon</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="horario-general-virtual.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
+                        <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
                     </li>
                     <li>
                         <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
@@ -80,7 +80,7 @@
                                 -->
                             </li>
                             <li>
-                                <a href="Colaboradores.html">Colaboradores</a>
+                                <a href="colaboradores">Colaboradores</a>
                                 <!---
                                 <ul class="nav nav-third-level">
                                     <li>
@@ -125,7 +125,7 @@
                         <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
                     </li>
                     <li>
-                        <a href="responsabilidades_areas.html"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
+                        <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                         <!-- 
                         <ul class="nav nav-second-level">
                             <li><a href="responsabilidades_areas.html">Areas</a></li>
@@ -417,7 +417,7 @@
                                     Martha Lopez
                                 </p>
                                 <p class="text-center">
-                                    <a class="btn btn-primary" href="form-candidatos-colab.html">Agregar Colaborador</a>
+                                    <a class="btn btn-primary" href="form-candidatos-colab">Agregar Colaborador</a>
                                 </p>
                             </div>
                             <div class="col-sm-6">
@@ -661,7 +661,7 @@
                                     Marlo Zamaniego
                                 </p>
                                 <p class="text-center">
-                                    <a class="btn btn-primary" href="form-candidatos-colab.html">Agregar Colaborador</a>
+                                    <a class="btn btn-primary" href="form-candidatos-colab">Agregar Colaborador</a>
                                 </p>
                             </div>
                             <div class="col-sm-6">
@@ -819,7 +819,7 @@
                                         Jorge Gomez
                                     </p>
                                     <p class="text-center">
-                                        <a class="btn btn-primary" href="form-candidatos-colab.html">Agregar Colaborador</a>
+                                        <a class="btn btn-primary" href="form-candidatos-colab">Agregar Colaborador</a>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
@@ -976,7 +976,7 @@
                                         Karla Lopez
                                     </p>
                                     <p class="text-center">
-                                        <a class="btn btn-primary" href="form-candidatos-colab.html">Agregar Colaborador</a>
+                                        <a class="btn btn-primary" href="form-candidatos-colab">Agregar Colaborador</a>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
@@ -1135,7 +1135,7 @@
                                         Daniel Roman
                                     </p>
                                     <p class="text-center">
-                                        <a class="btn btn-primary" href="form-candidatos-colab.html">Agregar Colaborador</a>
+                                        <a class="btn btn-primary" href="form-candidatos-colab">Agregar Colaborador</a>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
@@ -1292,7 +1292,7 @@
                                         Ana Cristina
                                     </p>
                                     <p class="text-center">
-                                        <a class="btn btn-primary" href="form-candidatos-colab.html">Agregar Colaborador</a>
+                                        <a class="btn btn-primary" href="form-candidatos-colab">Agregar Colaborador</a>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
