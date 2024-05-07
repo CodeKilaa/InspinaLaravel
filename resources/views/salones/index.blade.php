@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | E-commerce</title>
+    <title>Salones</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -329,8 +329,8 @@
                                                 <p></p>
 
                                                 <form role="form">
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripcion</h3></label><input type="text" placeholder="Enter Description" class="form-control"></div>
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Enter Description" class="form-control"></div>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                         <select class="form-control m-b" name="account">
                                                             <option> 1</option>
                                                             <option> 2</option>
@@ -390,11 +390,11 @@
                                 <div class="small m-t-xs text-center">
                                     <h5>001</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>Ambiente para la elaboracion para el trabajo.</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Cantidad De Maquinas</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Cantidad De Máquinas</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>0</h5>
                                 </div>
@@ -416,8 +416,8 @@
                                                                 <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="email" placeholder="" class="form-control"></div>
                                                                 <p></p>
                                                                 <form role="form">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripcion</h3></label><input type="email" placeholder="" class="form-control"></div>
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Codigo</h3></label>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="email" placeholder="" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                         <select class="form-control m-b" name="account">
                                                                             <option> 001</option>
                                                                             <option> 002</option>

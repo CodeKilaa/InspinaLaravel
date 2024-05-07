@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Configuración</title>
+    <title>Configuración</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -407,14 +407,14 @@
                         <div class="show-grid container-fluid">
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <img src="svg/apariencia.svg" class="">
+                                     <!---<img src="img/herramienta.png" class="width=62 height=49 ">-->
                                 </div>
                                 <div class="col-sm">
                                     <h4><strong>Tipo de Configuración</strong></h4>
                                     <p>Herramientas</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="prueba"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="configuracion-herramienta"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>

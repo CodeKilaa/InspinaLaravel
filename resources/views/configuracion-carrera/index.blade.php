@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Configuración</title>
+    <title>Carrera</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -372,7 +372,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="ibox-content col-lg-8">
+                <div class="ibox-content col-lg-12">
 
                     <table class="table table-bordered">
                         <thead>

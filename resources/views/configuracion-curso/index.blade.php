@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Configuración</title>
+    <title>Curso</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -379,15 +379,15 @@
                         </a>
                     </div>
                 </div>
-                <div class="ibox-content col-lg-8">
+                <div class="ibox-content col-lg-12">
 
                     <table class="table table-bordered">
                         <thead>
                         <tr>
                             <th class="col-lg-1">ID</th>
-                            <th class="col-lg-5">Curso</th>
-                            <th class="col-lg-5">Categoria</th>
-                            <th class="col-lg-5">Duracion</th>
+                            <th class="col-lg-2">Curso</th>
+                            <th class="col-lg-2">Categoria</th>
+                            <th class="col-lg-2">Duracion</th>
                             <th class="col-lg-1">Estado</th>
                             <th class="col-lg-1">Editar</th>
                             <th class="col-lg-1">Ver</th>
