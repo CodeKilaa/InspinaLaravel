@@ -126,10 +126,10 @@
                         
                     </li>
                     <li>
-                        <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
+                        <a href="areas"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
                     </li>
                     <li>
-                        <a href="responsabilidades_areas.html"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
+                        <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                         <!-- 
                         <ul class="nav nav-second-level">
                             <li><a href="responsabilidades_areas.html">Areas</a></li>
