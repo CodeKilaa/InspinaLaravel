@@ -1,0 +1,104 @@
+[33mcommit 2a720e06d983dac1685c938ea6f63e9ff538d7b3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/jhordy[m[33m, [m[1;32mjhordy[m[33m)[m
+Author: Jhordy22 <1444772@senati.pe>
+Date:   Mon May 6 11:42:47 2024 -0500
+
+    Subiendo las vistas de Candidato-Colaborador, Responsabilidades-areas, Responsabilidades-meses, responsabilidades-terminado, Responsabilidades-asistencia y modifique parte del codigo de las rutas de las vistas, Ademas agregue una nueva carpeta llamada SVG que contiene imagenes para la vista de Responsabilidades-areas, por ultimo agregue las rutas de las vistas en la carpeta web.php
+
+[33mcommit 9032e57b6091eba8529420ffbc82bd8a40dc1ef5[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 26d9cef 8965eb9
+Author: luis velasquez <116452752+CodeKilaa@users.noreply.github.com>
+Date:   Fri May 3 16:31:30 2024 -0500
+
+    Merge pull request #3 from CodeKilaa/luis
+    
+    Subiendo avance (colaboradores, computadoras, prestamos y horario cla…
+
+[33mcommit 8965eb9347017149e17823738810aa8f3c539cb3[m
+Author: CodeKilaa <xluixarturox123@gmail.com>
+Date:   Fri May 3 16:31:01 2024 -0500
+
+    Subiendo avance (colaboradores, computadoras, prestamos y horario clase) con su rutas
+
+[33mcommit 26d9cef33b63170dcb65d54964c8d4db31d621cb[m
+Merge: 1d9eef1 5725ea1
+Author: Coolmesito <msamaniegocalderon@gmail.com>
+Date:   Thu May 2 13:40:42 2024 -0500
+
+    Eliminando comentarios
+
+[33mcommit 1d9eef18b8067c4d90f283f905376dee22ead5bc[m
+Author: Coolmesito <msamaniegocalderon@gmail.com>
+Date:   Thu May 2 13:36:32 2024 -0500
+
+    Subiendo vistas sobre todo lo de configuracion
+
+[33mcommit 5725ea190cb3ef0f497aa0aa34aea4fd5269657b[m
+Merge: 9e77adc 307e446
+Author: Jhordy22 <1444772@senati.pe>
+Date:   Thu May 2 13:27:33 2024 -0500
+
+    eliminando una ruta de maquinas
+
+[33mcommit 307e44662e2f1a201fde18d9440469a033bf0a96[m
+Merge: 98b252e c9f5fcc
+Author: luis velasquez <116452752+CodeKilaa@users.noreply.github.com>
+Date:   Thu May 2 13:11:58 2024 -0500
+
+    Merge pull request #2 from CodeKilaa/luis
+    
+    Luis
+
+[33mcommit c9f5fcc22d2778441e66314713c4b139d7565a3f[m
+Merge: c60ce84 7d02dcd
+Author: CodeKilaa <xluixarturox123@gmail.com>
+Date:   Thu May 2 13:10:52 2024 -0500
+
+    Agregando las rutas
+
+[33mcommit 9e77adc1a7800751486ef65e1dfd4875cbf40303[m
+Author: Jhordy22 <1444772@senati.pe>
+Date:   Thu May 2 13:10:18 2024 -0500
+
+    eliminando maquinas de la rama jhordy
+
+[33mcommit c60ce84c2578dab5a9d448ac047668c3422ddd20[m
+Author: CodeKilaa <xluixarturox123@gmail.com>
+Date:   Thu May 2 13:07:36 2024 -0500
+
+    Agregando las rutas de marlo
+
+[33mcommit 7d02dcd891ba504a2b50e1b06045ab5f8342dbfa[m
+Author: CodeKilaa <xluixarturox123@gmail.com>
+Date:   Thu May 2 12:59:57 2024 -0500
+
+    Agregando vista colaboradores y salones
+
+[33mcommit 7b9a494f23fab51a1dd647710ca5e3c206088671[m
+Author: Jhordy22 <1444772@senati.pe>
+Date:   Thu May 2 12:55:01 2024 -0500
+
+    subiendo vistas de HorarioCapacitacion, Candidatos, Maquinas
+
+[33mcommit 98b252ede4679a313adb07f6bc90741e2633e0f9[m
+Author: Coolmesito <msamaniegocalderon@gmail.com>
+Date:   Thu May 2 12:51:40 2024 -0500
+
+    Subiendo vistas de areas,maquinas y horarios(General,Presencial,Virtual,Salon,Maquina,Area)
+
+[33mcommit 8e131cc8ed38f6c0d93c2023a3d64ac010eea099[m[33m ([m[1;31morigin/luis[m[33m, [m[1;32mluis[m[33m)[m
+Author: Jhordy22 <1444772@senati.pe>
+Date:   Thu May 2 10:03:34 2024 -0500
+
+    Agregando archivos css, js, img, fonts-awesone al proyecto laravel-inspina
+
+[33mcommit b6067e4751a50ddee1fd72c9c27ae8ffedee0d4b[m[33m ([m[1;31morigin/marlo[m[33m, [m[1;32mmarlo[m[33m)[m
+Author: CodeKilaa <xluixarturox123@gmail.com>
+Date:   Thu May 2 09:40:42 2024 -0500
+
+    Install Pest
+
+[33mcommit 3079799f980c4600f067504bf5f18ecfe36575b9[m
+Author: CodeKilaa <xluixarturox123@gmail.com>
+Date:   Thu May 2 09:40:28 2024 -0500
+
+    Set up a fresh Laravel app

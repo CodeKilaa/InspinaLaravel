@@ -72,20 +72,20 @@
                 <li class="active">
                     <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li><a href="horario-general-presencial.html">Presencial</a></li>
-                        <li class="active"><a href="horario-general-calendar.html">Horario General</a></li>
-                        <li><a href="horario-gp-areas.html">Areas</a></li>
-                        <li><a href="horario-gp-salon.html">Salon</a></li>
+                        <li><a href="horarioPresencial">Presencial</a></li>
+                        <li class="active"><a href="horarioGeneral">Horario General</a></li>
+                        <li><a href="horarioArea">Areas</a></li>
+                        <li><a href="horarioSalon">Salon</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="horario-general-virtual.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
+                    <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
                 </li>
                 <li>
                     <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
                         <li>
-                            <a href="candidatos.html">Candidatos</a>
+                            <a href="candidatos">Candidatos</a>
                             
                             <!--- <ul class="nav nav-third-level">
                                 <li>
@@ -98,7 +98,7 @@
                             -->
                         </li>
                         <li>
-                            <a href="Colaboradores.html">Colaboradores</a>
+                            <a href="colaboradores">Colaboradores</a>
                             <!---
                             <ul class="nav nav-third-level">
                                 <li>
@@ -124,7 +124,7 @@
                         </li>
 
                         <li>
-                            <a href="capacitacion-horario.html">Capacitacion-Horario</a>
+                            <a href="HorarioCapacitacion">Capacitacion-Horario</a>
                             <!---
                             <ul class="nav nav-third-level">
                                 <li>
@@ -140,10 +140,10 @@
                     
                 </li>
                 <li>
-                    <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
+                    <a href="areas"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
                 </li>
                 <li>
-                    <a href="responsabilidades_areas.html"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
+                    <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                     <!-- 
                     <ul class="nav nav-second-level">
                         <li><a href="responsabilidades_areas.html">Areas</a></li>
@@ -153,7 +153,7 @@
                     -->
                 </li>
                 <li>
-                    <a href="Maquinas.html"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                    <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
                     <!---
                     <ul class="nav nav-second-level collapse">
 
@@ -168,15 +168,15 @@
                     -->
                 </li>
                 <li>
-                    <a href="salones.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
+                    <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                 </li>
                 <li>
                     <a href="configuracion.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li><a href="config-institucion.html">Institucion</a></li>
-                        <li><a href="config-carrera.html">Carrera</a></li>
-                        <li><a href="config-curso.html">Curso</a></li>
-                        <li><a href="config-programas.html">Programas</a></li>
+                        <li><a href="configuracion-institucion">Institucion</a></li>
+                        <li><a href="configuracion-carrera">Carrera</a></li>
+                        <li><a href="configuracion-curso">Curso</a></li>
+                        <li><a href="configuracion-programa">Programas</a></li>
                     </ul>
                 </li>
                 <li>

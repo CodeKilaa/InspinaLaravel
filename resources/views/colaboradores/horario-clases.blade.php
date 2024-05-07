@@ -63,14 +63,14 @@
                     <li>
                         <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="horario-general-presencial.html">Presencial</a></li>
-                            <li><a href="horario-general-calendar.html">Horario General</a></li>
-                            <li><a href="horario-gp-areas.html">Areas</a></li>
-                            <li><a href="horario-gp-salon.html">Salon</a></li>
+                            <li><a href="horarioPresencial">Presencial</a></li>
+                            <li><a href="horarioGeneral">Horario General</a></li>
+                            <li><a href="horarioArea">Areas</a></li>
+                            <li><a href="horarioSalon">Salon</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="horario-general-virtual.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
+                        <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
                     </li>
                     <li class="active">
                         <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
@@ -79,7 +79,7 @@
                                 <a href="#">Candidatos<span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                     <li>
-                                        <a href="candidatos.html">Candidatos</a>
+                                        <a href="candidatos">Candidatos</a>
                                     </li>
                                     <li>
                                         <a href="form-candidatos-colab.html">Formulario</a>
@@ -90,7 +90,7 @@
                                 <a href="#">Colaboradores<span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                     <li>
-                                        <a href="Colaboradores.html">Colaboradores</a>
+                                        <a href="colaboradores">Colaboradores</a>
                                     </li>
                                     <li>
                                         <a href="form-candidatos-colab.html">Candidato a Colab</a>

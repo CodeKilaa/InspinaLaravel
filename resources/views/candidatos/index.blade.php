@@ -67,7 +67,7 @@
                         <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li class="active">
-                                <a href="candidatos.html">Candidatos</a>
+                                <a href="candidatos">Candidatos</a>
                                 
                                 <!--- <ul class="nav nav-third-level">
                                     <li>
@@ -150,15 +150,15 @@
                         -->
                     </li>
                     <li>
-                        <a href="salones.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
+                        <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
                     <li>
                         <a href="configuracion.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="config-institucion.html">Institucion</a></li>
-                            <li><a href="config-carrera.html">Carrera</a></li>
-                            <li><a href="config-curso.html">Curso</a></li>
-                            <li><a href="config-programas.html">Programas</a></li>
+                            <li><a href="configuracion-institucion">Institucion</a></li>
+                            <li><a href="configuracion-carrera">Carrera</a></li>
+                            <li><a href="configuracion-curso">Curso</a></li>
+                            <li><a href="configuracion-programa">Programas</a></li>
                         </ul>
                     </li>
                     <li>
