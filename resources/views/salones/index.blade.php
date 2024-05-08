@@ -726,6 +726,14 @@
                                 </small>
                                 <div class="m-t text-righ">
 
+                                    <style>
+                                    
+                                        .modal-custom {
+                                            max-width: 80%; 
+                                            
+                                        }
+                                    </style>
+
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
                                         <div class="text-right">
@@ -1134,6 +1142,14 @@
         var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
         var elem_6 = document.querySelector('.js-switch6');
         var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
+
+
+        var eleme_4 = document.querySelector('.js-switch_4');
+        var switcheryy_4 = new Switchery(eleme_4, { color: '#1AB394' });
+        var eleme_5 = document.querySelector('.js-switch_5');
+        var switcheryy_5 = new Switchery(eleme_5, { color: '#1AB394' });
+        var eleme_6 = document.querySelector('.js-switch_6');
+        var switcheryy_6 = new Switchery(eleme_6, { color: '#1AB394' });
 
             
 
