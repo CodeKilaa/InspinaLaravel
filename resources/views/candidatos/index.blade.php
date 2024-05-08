@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Candidatos</title>
+    <title>Personal-Candidatos</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -42,14 +42,6 @@
                     </li>
                     <li>
                         <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span> <span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="index.html">Dashboard v.1</a></li>
-                            <li><a href="dashboard_2.html">Dashboard v.2</a></li>
-                            <li><a href="dashboard_3.html">Dashboard v.3</a></li>
-                            <li><a href="dashboard_4_1.html">Dashboard v.4</a></li>
-                            <li><a href="dashboard_5.html">Dashboard v.5 </a></li>
-                            <li><a href="dashboard_areas.html">Áreas</a></li>
-                        </ul>
                     </li>
                     <li>
                         <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
@@ -68,55 +60,11 @@
                         <ul class="nav nav-second-level collapse">
                             <li class="active">
                                 <a href="candidatos">Candidatos</a>
-                                
-                                <!--- <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="candidatos.html">Candidatos</a>
-                                    </li>
-                                    <li>
-                                        <a href="form-candidatos-colab.html">Formulario</a>
-                                    </li>
-                                </ul>
-                                -->
                             </li>
                             <li>
                                 <a href="colaboradores">Colaboradores</a>
-                                <!---
-                                <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="Colaboradores.html">Colaboradores</a>
-                                    </li>
-                                    <li>
-                                        <a href="form-candidatos-colab.html">Candidato a Colab</a>
-                                    </li>
-                                    <li>
-                                        <a href="form-horario-clase.html">Horario Clase</a>
-                                        
-                                    </li>
-                                    <li>
-                                        <a href="horario-clase-semanal.html">Horario Semanal</a>
-                                    </li>
-                                </ul>
-                                -->
-                            </li>
-    
-    
-                            <li>
-                                
-                            </li>
-    
                             <li>
                                 <a href="HorarioCapacitacion">Capacitacion-Horario</a>
-                                <!---
-                                <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="capacitacion-colab.html">Informacion</a>
-                                    </li>
-                                    <li>
-                                        <a href="capacitacion-horario.html">Horario</a>
-                                    </li>
-                                </ul>
-                                -->
                             </li>
                         </ul>
                         
@@ -126,28 +74,9 @@
                     </li>
                     <li>
                         <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
-                        <!-- 
-                        <ul class="nav nav-second-level">
-                            <li><a href="responsabilidades_areas.html">Areas</a></li>
-                            <li><a href="responsabilidades-semanas.html">Semanas</a></li>
-                            <li><a href="responsabilidades-asis.html">Asistencia</a></li>
-                        </ul>
-                        -->
                     </li>
                     <li>
                         <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
-                        <!---
-                        <ul class="nav nav-second-level collapse">
-    
-                            <li>
-                                <a href="Maquinas.html"><span class="nav-label">Maquinas</span></a>
-                                
-                            </li>
-    
-                            <li><a href="Computadora.html">Computadoras</a></li>
-                            
-                        </ul>
-                        -->
                     </li>
                     <li>
                         <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
@@ -278,8 +207,6 @@
                         </li>
                     </ul>
                 </li>
-
-
                 <li>
                     <a href="login.html">
                         <i class="fa fa-sign-out"></i> Log out
@@ -578,23 +505,23 @@
         
                                                             <form role="form">
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Nombres:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="Martha " class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="Lopez Huaman" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Direccion:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Institucion:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="Senati" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="3er ciclo" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -607,23 +534,23 @@
         
                                                             <form role="form">
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Fecha Nac:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="01/04/2001" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">DNI:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="01234567" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Celular:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="987654321" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Carrera:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="Ingenieria de Software" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group row"><label class="col-lg-4 col-form-label">Correo:</label>
-                                                                    <div class="col-lg-8"><input type="text" placeholder="" class="form-control"> <span class="form-text m-b-none"></span>
+                                                                    <div class="col-lg-8"><input type="text" placeholder="01234567@gmail.com" class="form-control"> <span class="form-text m-b-none"></span>
                                                                     </div>
                                                                 </div>
                                                                 <div>
