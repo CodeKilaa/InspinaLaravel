@@ -427,68 +427,75 @@
                                 <div class="m-t text-righ">
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
+
                                     <div class="ibox-content">
-                                        <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;"  href="#modal-form" ></a>
-                                        </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-body">
-                                                        <div class="row">
-                                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
-                                                                <select class="form-control m-b" name="account">
-                                                                    <option> 1</option>
-                                                                    <option> 2</option>
-                                                                    <option> 3</option>
-                                                                    <option> 4</option>
-                                                                    <option> 5</option>
-                                                                    <option> 6</option>
-                                                                </select>
-                                                                <p></p>
-                                                                <form role="form">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="email" placeholder="Enter Description" class="form-control"></div>
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
-                                                                        <select class="form-control m-b" name="account">
-                                                                            <option> 001</option>
-                                                                            <option> 002</option>
-                                                                            <option> 003</option>
-                                                                            <option> 004</option>
-                                                                            <option> 005</option>
-                                                                            <option> 006</option>
-                                                                        </select>
-                                                                        
-                                                                    </div>
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
-                                                                        <select class="form-control m-b" name="account">
-                                                                            <option> Salon 1</option>
-                                                                            <option> Salon 2</option>
-                                                                            <option> Salon 3</option>
-                                                                            <option> Salon 4</option>
-                                                                            <option> Ninguno</option>
-                                                                            
-                                                                        </select>
-                                                                    </div> 
-                                                                    <div>
-                                                                        <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>ADD</strong></button>
-                                                                        
-                                                                    </div>
-                                                                </form>
-                                                            </div>
-                                                            <div class="col-sm-6"><h4> Cambiar Icono </h4>
-                                                                <div class="custom-file">
-                                                                    <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
-                                                                    <label class="custom-file-label" for="imputGroupFile"></i></label>
-                
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;"  href="#modal-edit" ></a>
+                                                    <div id="modal-edit" class="modal fade" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
                                                                     
+                                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> 1</option>
+                                                                                <option> 2</option>
+                                                                                <option> 3</option>
+                                                                                <option> 4</option>
+                                                                                <option> 5</option>
+                                                                                <option> 6</option>
+                                                                            </select>
+                                                                            <p></p>
+                            
+                                                                            <form role="form">
+                                                                                
+                                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                                    <select class="form-control m-b" name="account">
+                                                                                        <option> 001</option>
+                                                                                        <option> 002</option>
+                                                                                        <option> 003</option>
+                                                                                        <option> 004</option>
+                                                                                        <option> 005</option>
+                                                                                        <option> 006</option>
+                                                                                    </select>
+                                                                                    
+                                                                                </div>
+                                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                                    <select class="form-control m-b" name="account">
+                                                                                        <option> Sin Asignar</option>
+                                                                                        <option> Salon 1</option>
+                                                                                        <option> Salon 2</option>
+                                                                                        <option> Salon 3</option>
+                                                                                        <option> Salon 4</option>
+                                                                                        
+                                                                                    </select>
+                                                                                </div> 
+                                                                                <div class="form-group"><label>Estado:   </label>
+                                                                                    <input type="checkbox" class="js-switch_2" checked />        
+                                                                                </div>
+                                                                                <div>
+                                                                                    <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Agregar</strong></button>
+                                                                                    
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                            <h4> Cambiar Icono </h4>
+                                                                            <div class="custom-file">
+                                                                                <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                                                <label class="custom-file-label" for="imputGroupFile"></i></label>
+                            
+                                                                                
+                                                                            </div>
+                                                                        </div>    
+                                                                        
+                                                                    </div>
                                                                 </div>
-                                                            </div>  
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +524,7 @@
                                 </div>
                                 <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>001</h5>
+                                    <h5>002</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
@@ -527,10 +534,75 @@
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
-                                        <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                        <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
-                                        </div>                                       
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit2" ></a>
+                                            <div id="modal-edit2" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                            
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                    <select class="form-control m-b" name="account">
+                                                                        <option> 2</option>
+                                                                        <option> 1</option>
+                                                                        <option> 3</option>
+                                                                        <option> 4</option>
+                                                                        <option> 5</option>
+                                                                        <option> 6</option>
+                                                                    </select>
+                                                                    <p></p>
+                    
+                                                                    <form role="form">
+                                                                        
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> 002</option>
+                                                                                <option> 001</option>
+                                                                                
+                                                                                <option> 003</option>
+                                                                                <option> 004</option>
+                                                                                <option> 005</option>
+                                                                                <option> 006</option>
+                                                                            </select>
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> Salon 2</option>
+                                                                                <option> Sin Asignar</option>
+                                                                                <option> Salon 1</option>
+                                                                                
+                                                                                <option> Salon 3</option>
+                                                                                <option> Salon 4</option>
+                                                                                
+                                                                            </select>
+                                                                        </div> 
+                                                                        <div class="form-group"><label>Estado:   </label>
+                                                                            <input type="checkbox" class="js-switch" checked />        
+                                                                        </div>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Agregar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <h4> Cambiar Icono </h4>
+                                                                    <div class="custom-file">
+                                                                        <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                                        <label class="custom-file-label" for="imputGroupFile"></i></label>
+                    
+                                                                        
+                                                                    </div>
+                                                                </div>    
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                                     
                                     </div>
                                 </div>
                             </div>
@@ -559,7 +631,7 @@
                                 </div>
                                 <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>001</h5>
+                                    <h5>003</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
@@ -569,10 +641,78 @@
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
-                                        <div class="text-right">
+                                        
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash"  style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
-                                        </div>                                   
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit3" ></a>
+                                            <div id="modal-edit3" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                            
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                    <select class="form-control m-b" name="account">
+                                                                        <option> 3</option>
+                                                                        <option> 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 4</option>
+                                                                        <option> 5</option>
+                                                                        <option> 6</option>
+                                                                    </select>
+                                                                    <p></p>
+                    
+                                                                    <form role="form">
+                                                                        
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> 003</option>
+                                                                                <option> 001</option>
+                                                                                <option> 002</option>
+                                                                                
+                                                                                
+                                                                                
+                                                                                <option> 004</option>
+                                                                                <option> 005</option>
+                                                                                <option> 006</option>
+                                                                            </select>
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> Salon 1</option>
+                                                                                <option> Sin Asignar</option>
+                                                                                <option> Salon 2</option>
+                                                                                <option> Salon 3</option>
+                                                                                <option> Salon 4</option>
+                                                                                
+                                                                            </select>
+                                                                        </div> 
+                                                                        <div class="form-group"><label>Estado:   </label>
+                                                                            <input type="checkbox" class="js-switch_3" checked />        
+                                                                        </div>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Agregar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <h4> Cambiar Icono </h4>
+                                                                    <div class="custom-file">
+                                                                        <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                                        <label class="custom-file-label" for="imputGroupFile"></i></label>
+                    
+                                                                        
+                                                                    </div>
+                                                                </div>    
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>   
+                                                                          
                                     </div>
                                 </div>
                             </div>
@@ -600,22 +740,91 @@
                                 </div>
                                 <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>001</h5>
+                                    <h5>004</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>Salon3</h5>
                                 </div>
-                                <div class="m-t text-righ">
+                                
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
-                                        <div class="text-right">
+                                        
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
-                                        </div>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit4" ></a>
+                                            <div id="modal-edit4" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                            
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                    <select class="form-control m-b" name="account">
+                                                                        <option> 4</option>
+                                                                        
+                                                                        <option> 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                        
+                                                                        <option> 5</option>
+                                                                        <option> 6</option>
+                                                                    </select>
+                                                                    <p></p>
+                    
+                                                                    <form role="form">
+                                                                        
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> 004</option>
+                                                                                
+                                                                                <option> 001</option>
+                                                                                <option> 002</option>
+                                                                                <option> 003</option>
+                                                                                
+                                                                                <option> 005</option>
+                                                                                <option> 006</option>
+                                                                            </select>
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> Salon 3</option>
+                                                                                <option> Sin Asignar</option>
+                                                                                <option> Salon 1</option>
+                                                                                <option> Salon 2</option>
+                                                                                <option> Salon 4</option>
+                                                                                
+                                                                            </select>
+                                                                        </div> 
+                                                                        <div class="form-group"><label>Estado:   </label>
+                                                                            <input type="checkbox" class="js-switch_4" checked />        
+                                                                        </div>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Agregar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <h4> Cambiar Icono </h4>
+                                                                    <div class="custom-file">
+                                                                        <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                                        <label class="custom-file-label" for="imputGroupFile"></i></label>
+                    
+                                                                        
+                                                                    </div>
+                                                                </div>    
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        
                                     </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -641,7 +850,7 @@
                                 </div>
                                 <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>001</h5>
+                                    <h5>005</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
@@ -651,10 +860,82 @@
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
-                                        <div class="text-right">
+                                        
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
-                                        </div>                                       
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit5" ></a>
+                                            <div id="modal-edit5" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                            
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                    <select class="form-control m-b" name="account">
+                                                                        <option> 5</option>
+                                                                        
+                                                                        
+                                                                        <option> 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                        <option> 4</option>
+                                                                        
+                                                                        <option> 6</option>
+                                                                    </select>
+                                                                    <p></p>
+                    
+                                                                    <form role="form">
+                                                                        
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> 005</option>
+                                                                                
+                                                                                
+                                                                                <option> 001</option>
+                                                                                <option> 002</option>
+                                                                                <option> 003</option>
+                                                                                <option> 004</option>
+                                                                                
+                                                                                <option> 006</option>
+                                                                            </select>
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> Salon 4</option>
+                                                                                
+                                                                                <option> Sin Asignar</option>
+                                                                                <option> Salon 1</option>
+                                                                                <option> Salon 2</option>
+                                                                                <option> Salon 3</option>
+                                                                                
+                                                                                
+                                                                            </select>
+                                                                        </div> 
+                                                                        <div class="form-group"><label>Estado:   </label>
+                                                                            <input type="checkbox" class="js-switch_5" checked />        
+                                                                        </div>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Agregar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <h4> Cambiar Icono </h4>
+                                                                    <div class="custom-file">
+                                                                        <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                                        <label class="custom-file-label" for="imputGroupFile"></i></label>
+                    
+                                                                        
+                                                                    </div>
+                                                                </div>    
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                                      
                                     </div>
                                 </div>
                             </div>
@@ -682,7 +963,7 @@
                                 </div>
                                 <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>001</h5>
+                                    <h5>006</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
@@ -692,10 +973,84 @@
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
-                                        <div class="text-right">
+                                        
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
-                                        </div>                                    
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit6" ></a>
+                                            <div id="modal-edit6" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                            
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                    <select class="form-control m-b" name="account">
+                                                                        <option> 6</option>
+                                                                        
+                                                                        
+                                                                        <option> 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                        <option> 4</option>
+                                                                        <option> 5</option>
+                                                                        
+                                                                    </select>
+                                                                    <p></p>
+                    
+                                                                    <form role="form">
+                                                                        
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> 006</option>
+                                                                                
+                                                                                
+                                                                                <option> 001</option>
+                                                                                <option> 002</option>
+                                                                                <option> 003</option>
+                                                                                <option> 004</option>
+                                                                                <option> 005</option>
+                                                                                
+                                                                            </select>
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                            <select class="form-control m-b" name="account">
+                                                                                <option> Salon 3</option>
+                                                                                
+                                                                                
+                                                                                <option> Sin Asignar</option>
+                                                                                <option> Salon 1</option>
+                                                                                <option> Salon 2</option>
+                                                                                <option> Salon 4</option>
+                                                                                
+                                                                                
+                                                                            </select>
+                                                                        </div> 
+                                                                        <div class="form-group"><label>Estado:   </label>
+                                                                            <input type="checkbox" class="js-switch_6" checked />        
+                                                                        </div>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Agregar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <h4> Cambiar Icono </h4>
+                                                                    <div class="custom-file">
+                                                                        <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                                        <label class="custom-file-label" for="imputGroupFile"></i></label>
+                    
+                                                                        
+                                                                    </div>
+                                                                </div>    
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                                                           
                                     </div>
                                 </div>
                             </div>
@@ -752,11 +1107,11 @@
         var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
 
         var elem_4 = document.querySelector('.js-switch_4');
-        var switchery_4 = new Switchery(elem_4, { color: '#f8ac59' });
-            switchery_4.disable();
+        var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
         var elem_5 = document.querySelector('.js-switch_5');
-        var switchery_5 = new Switchery(elem_5, { color: '#f8ac59' });
-            switchery_5.disable();
+        var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
+        var elem_6 = document.querySelector('.js-switch_6');
+        var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
 
         
 

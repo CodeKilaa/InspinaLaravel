@@ -615,7 +615,7 @@
                 weekNumbers: false,
                 weekNumbersWithinDays: 7,
                 viewRender: function(view, element) {
-                    var startDate = moment('2024-03-24');             
+                    var startDate = moment('2024-05-06');             
                     var endDate = moment(startDate).add(6, 'weeks');     
                     if (view.end.isAfter(endDate)) {
                         $('#calendar').fullCalendar('gotoDate', startDate);

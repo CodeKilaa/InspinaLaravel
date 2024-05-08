@@ -109,3 +109,8 @@ Route::get('/responsabilidades-asis', function () {
 });
 
 
+//AVANCE DIA MIERCOLES 08 MAYO
+
+Route::get('/capacitacion', function () {
+    return view('colaboradores.capacitacion');
+});
