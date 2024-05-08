@@ -395,19 +395,19 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;"  href="#modal-form" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;"  href="#modal-edit" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
                                         </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
+                                        <div id="modal-edit" class="modal fade" aria-hidden="true">
                                             <div class="modal-dialog">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
                                                             <div class="col-sm-6 b-r">
-                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="email" placeholder="" class="form-control"></div>
+                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 1" class="form-control"></div>
                                                                 <p></p>
                                                                 <form role="form">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="email" placeholder="" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
                                                                     <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                         <select class="form-control m-b" name="account">
                                                                             <option> 001</option>
@@ -422,7 +422,8 @@
                                                                     </div>
                                                                     <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
                                                                         <select class="form-control m-b" name="account">
-                                                                            <option> 1</option>
+                                                                            <option> 0</option>
+                                                                            <option> 1</option> 
                                                                             <option> 2</option>
                                                                             <option> 3</option>
                                                                             <option> 4</option>
@@ -432,11 +433,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="form-group"><label>Estado:  </label>
-                                                                        <input type="checkbox" class="js-switch" checked />
-                                                                <br>
-                                                                <br>        
-                                                                        
-                                                                </div>
+                                                                        <input type="checkbox" class="js-switch2" checked/>       
+                                                                    </div>
                                                                     <div>
                                                                         <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>EDIT</strong></button>
                                                                         
@@ -494,8 +492,66 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit2" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div id="modal-edit2" class="modal fade" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6 b-r">
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 2" class="form-control"></div>
+                                                        <p></p>
+                                                        <form role="form">
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 002</option>
+                                                                    <option> 001</option>
+                                                                    
+                                                                    <option> 003</option>
+                                                                    <option> 004</option>
+                                                                    <option> 005</option>
+                                                                    <option> 006</option>
+                                                                    <option> 007</option>
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 3</option>
+                                                                    <option> 0</option>
+                                                                    <option> 1</option> 
+                                                                    <option> 2</option>
+                                                                    
+                                                                    <option> 4</option>
+                                                                    <option> 5</option>
+                                                                    <option> 6</option>
+                                                                    
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group"><label>Estado:  </label>
+                                                                <input type="checkbox" class="js-switch" checked/>       
+                                                            </div>
+                                                            <div>
+                                                                <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>EDIT</strong></button>
+                                                                
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-sm-6"><h4> Cambiar Icono </h4>
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                            <label class="custom-file-label" for="imputGroupFile"></i></label>
+                                                        </div>
+                                                        
+                                                    </div>  
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -536,8 +592,68 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit3" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="modal-edit3" class="modal fade" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6 b-r">
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 2" class="form-control"></div>
+                                                        <p></p>
+                                                        <form role="form">
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 003</option>
+                                                                    <option> 001</option>
+                                                                    <option> 002</option>
+                                                                    
+                                                                    
+                                                                    
+                                                                    <option> 004</option>
+                                                                    <option> 005</option>
+                                                                    <option> 006</option>
+                                                                    <option> 007</option>
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 1</option> 
+                                                                    
+                                                                    <option> 0</option>
+                                                                    
+                                                                    <option> 2</option>
+                                                                    <option> 3</option>
+                                                                    <option> 4</option>
+                                                                    <option> 5</option>
+                                                                    <option> 6</option>
+                                                                    
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group"><label>Estado:  </label>
+                                                                <input type="checkbox" class="js-switch3" checked/>       
+                                                            </div>
+                                                            <div>
+                                                                <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>EDIT</strong></button>
+                                                                
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-sm-6"><h4> Cambiar Icono </h4>
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                            <label class="custom-file-label" for="imputGroupFile"></i></label>
+                                                        </div>
+                                                        
+                                                    </div>  
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -578,8 +694,69 @@
                                     <div class="ibox-content">
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit4" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="modal-edit4" class="modal fade" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6 b-r">
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 4" class="form-control"></div>
+                                                        <p></p>
+                                                        <form role="form">
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 004</option>
+                                                                    
+                                                                    <option> 001</option>
+                                                                    <option> 002</option>
+                                                                    
+                                                                    <option> 003</option>
+                                                                    
+                                                                    
+                                                                    <option> 005</option>
+                                                                    <option> 006</option>
+                                                                    <option> 007</option>
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 1</option> 
+                                                                    
+                                                                    <option> 0</option>
+                                                                    
+                                                                    <option> 2</option>
+                                                                    <option> 3</option>
+                                                                    <option> 4</option>
+                                                                    <option> 5</option>
+                                                                    <option> 6</option>
+                                                                    
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group"><label>Estado:  </label>
+                                                                <input type="checkbox" class="js-switch4" checked/>       
+                                                            </div>
+                                                            <div>
+                                                                <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>EDIT</strong></button>
+                                                                
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-sm-6"><h4> Cambiar Icono </h4>
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                            <label class="custom-file-label" for="imputGroupFile"></i></label>
+                                                        </div>
+                                                        
+                                                    </div>  
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -610,26 +787,25 @@
                                 <div class="small m-t-xs text-center">
                                     <h5>Ambiente para la elaboracion para el trabajo.</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Cantidad De Maquinas</strong></h3></small>
-                                <div class="small m-t-xs text-center">
+                                <small class="text-muted text-center"><h3><strong>Cantidad de Maquinas</strong></h3></small>
+                                <small class="small m-t-xs text-center">
                                     <h5>4</h5>
-                                </div>
+                                </small>
                                 <div class="m-t text-righ">
-                                    <style>
-                                    
-                                        .modal-custom {
-                                            max-width: 80%; 
-                                            
-                                        }
-                                    </style>
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     <div class="ibox-content">
-                                        <div class="text-center">
+                                        <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit5" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
-                                            <div class="ibox-content">
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <!---MODAL DE VISTA --->
+                                            
                                                 <div id="modal-form2" class="modal fade" aria-hidden="true">
                                                     <div class="modal-dialog modal-custom">
                                                         <div class="modal-content">
@@ -782,8 +958,74 @@
                                                     </div>
                                                 </div>
                                                 
+                                            
+                                        </div>
+
+                                    </div>
+                                    
+                                    
+
+                                </div>
+                                <div id="modal-edit5" class="modal fade" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6 b-r">
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 5" class="form-control"></div>
+                                                        <p></p>
+                                                        <form role="form">
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 005</option>
+                                                                    
+                                                                    
+                                                                    <option> 001</option>
+                                                                    <option> 002</option>
+                                                                    
+                                                                    <option> 003</option>
+                                                                    
+                                                                    <option> 004</option>
+                                                                    
+                                                                    <option> 006</option>
+                                                                    <option> 007</option>
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                                <select class="form-control m-b" name="account">
+                                                                    <option> 4</option>
+                                                                    
+                                                                    <option> 0</option>
+                                                                    <option> 1</option> 
+                                                                    <option> 2</option>
+                                                                    <option> 3</option>
+                                                                    
+                                                                    <option> 5</option>
+                                                                    <option> 6</option>
+                                                                    
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group"><label>Estado:  </label>
+                                                                <input type="checkbox" class="js-switch5" checked/>       
+                                                            </div>
+                                                            <div>
+                                                                <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>EDIT</strong></button>
+                                                                
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-sm-6"><h4> Cambiar Icono </h4>
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                            <label class="custom-file-label" for="imputGroupFile"></i></label>
+                                                        </div>
+                                                        
+                                                    </div>  
+                                                </div>
                                             </div>
-                                        </div>                                       
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -807,28 +1049,95 @@
                                 <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>006</h5>
-                                <small/>
+                                </small>
                                 <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>Ambiente para la elaboración de trabajo.</h5>
-                                <small/>
+                                </small>
                                 
                                 <small class="text-muted text-center"><h3><strong>Cantidad de Maquinas</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>2</h5>
-                                <small/>
+                                </small>
                                 <div class="m-t text-righ">
 
                                     <a href="#" data-toggle="model"> <i ></i> </a>
                                     
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-form" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit6" ></a>
                                             <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
                                         </div>                                    
                                     
                                 </div>
+                                
+
+                                
                             </div>
+                            <div id="modal-edit6" class="modal fade" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-6 b-r">
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 6" class="form-control"></div>
+                                                    <p></p>
+                                                    <form role="form">
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
+                                                            <select class="form-control m-b" name="account">
+                                                                <option> 006</option>
+                                                                
+                                                                
+                                                                
+                                                                <option> 001</option>
+                                                                <option> 002</option>
+                                                                
+                                                                <option> 003</option>
+                                                                
+                                                                <option> 004</option>
+                                                                <option> 005</option>
+                                                                
+                                                                <option> 007</option>
+                                                            </select>
+                                                            
+                                                        </div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                            <select class="form-control m-b" name="account">
+                                                                <option> 2</option>
+                                                                
+                                                                <option> 0</option>
+                                                                <option> 1</option> 
+                                                                
+                                                                <option> 3</option>
+                                                                <option> 4</option>
+                                                                <option> 5</option>
+                                                                <option> 6</option>
+                                                                
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group"><label>Estado:</label>
+                                                            <input type="checkbox" class="js-switch6" checked/>       
+                                                        </div>
+                                                        <div>
+                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>EDIT</strong></button>
+                                                            
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="col-sm-6"><h4> Cambiar Icono </h4>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
+                                                        <label class="custom-file-label" for="imputGroupFile"></i></label>
+                                                    </div>
+                                                    
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -880,17 +1189,19 @@
         var elem = document.querySelector('.js-switch');
         var switchery = new Switchery(elem, { color: '#1AB394' });
 
-        var elem_4 = document.querySelector('.js-switch_4');
+        var elem_2 = document.querySelector('.js-switch2');
+        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
+
+        var elem_3 = document.querySelector('.js-switch3');
+        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
+
+        var elem_4 = document.querySelector('.js-switch4');
         var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
-            switchery_4.disable();
-
-        var elem_5 = document.querySelector('.js-switch_5');
+        var elem_5 = document.querySelector('.js-switch5');
         var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
-            switchery_5.disable();
-
-        var elem_6 = document.querySelector('.js-switch_6');
+        var elem_6 = document.querySelector('.js-switch6');
         var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
-            switchery_6.disable();
+
             
 
 
