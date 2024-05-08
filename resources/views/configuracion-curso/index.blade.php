@@ -91,14 +91,8 @@
                     <li>
                         <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
-                    <li class="active">
-                        <a href="configuracion.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="configuracion-institucion">Institucion</a></li>
-                            <li><a href="configuracion-carrera">Carrera</a></li>
-                            <li class="active"><a href="configuracion-curso">Curso</a></li>
-                            <li><a href="configuracion-programa">Programas</a></li>
-                        </ul>
+                    <li>
+                        <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                     </li>
                     <li>
                         <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>

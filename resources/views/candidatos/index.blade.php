@@ -70,7 +70,7 @@
                         
                     </li>
                     <li>
-                        <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
+                        <a href="areas"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
                     </li>
                     <li>
                         <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
@@ -82,13 +82,7 @@
                         <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
                     <li>
-                        <a href="configuracion.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="configuracion-institucion">Institucion</a></li>
-                            <li><a href="configuracion-carrera">Carrera</a></li>
-                            <li><a href="configuracion-curso">Curso</a></li>
-                            <li><a href="configuracion-programa">Programas</a></li>
-                        </ul>
+                        <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                     </li>
                     <li>
                         <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>
