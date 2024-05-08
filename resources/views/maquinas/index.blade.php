@@ -77,55 +77,12 @@
                     <ul class="nav nav-second-level collapse">
                         <li>
                             <a href="candidatos">Candidatos</a>
-                            
-                            <!--- <ul class="nav nav-third-level">
-                                <li>
-                                    <a href="candidatos.html">Candidatos</a>
-                                </li>
-                                <li>
-                                    <a href="form-candidatos-colab.html">Formulario</a>
-                                </li>
-                            </ul>
-                            -->
                         </li>
                         <li>
                             <a href="colaboradores">Colaboradores</a>
-                            <!---
-                            <ul class="nav nav-third-level">
-                                <li>
-                                    <a href="Colaboradores.html">Colaboradores</a>
-                                </li>
-                                <li>
-                                    <a href="form-candidatos-colab.html">Candidato a Colab</a>
-                                </li>
-                                <li>
-                                    <a href="form-horario-clase.html">Horario Clase</a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="horario-clase-semanal.html">Horario Semanal</a>
-                                </li>
-                            </ul>
-                            -->
-                        </li>
-
-
-                        <li>
-                            
-                        </li>
 
                         <li>
                             <a href="HorarioCapacitacion">Capacitacion-Horario</a>
-                            <!---
-                            <ul class="nav nav-third-level">
-                                <li>
-                                    <a href="capacitacion-colab.html">Informacion</a>
-                                </li>
-                                <li>
-                                    <a href="capacitacion-horario.html">Horario</a>
-                                </li>
-                            </ul>
-                            -->
                         </li>
                     </ul>
                     
@@ -135,40 +92,15 @@
                 </li>
                 <li>
                     <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
-                    <!-- 
-                    <ul class="nav nav-second-level">
-                        <li><a href="responsabilidades_areas.html">Areas</a></li>
-                        <li><a href="responsabilidades-semanas.html">Semanas</a></li>
-                        <li><a href="responsabilidades-asis.html">Asistencia</a></li>
-                    </ul>
-                    -->
                 </li>
                 <li class="active">
                     <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
-                    <!---
-                    <ul class="nav nav-second-level collapse">
-
-                        <li>
-                            <a href="Maquinas.html"><span class="nav-label">Maquinas</span></a>
-                            
-                        </li>
-
-                        <li><a href="Computadora.html">Computadoras</a></li>
-                        
-                    </ul>
-                    -->
                 </li>
                 <li>
                     <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                 </li>
                 <li>
-                    <a href="configuracion.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="configuracion-institucion">Institucion</a></li>
-                        <li><a href="configuracion-carrera">Carrera</a></li>
-                        <li><a href="configuracion-curso">Curso</a></li>
-                        <li><a href="configuracion-programas">Programas</a></li>
-                    </ul>
+                    <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                 </li>
                 <li>
                     <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>

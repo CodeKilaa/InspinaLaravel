@@ -140,13 +140,7 @@
                         <a href="salones.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
                     <li>
-                        <a href="configuracion.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="config-institucion.html">Institucion</a></li>
-                            <li><a href="config-carrera.html">Carrera</a></li>
-                            <li><a href="config-curso.html">Curso</a></li>
-                            <li><a href="config-programas.html">Programas</a></li>
-                        </ul>
+                        <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                     </li>
                     <li>
                         <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>
