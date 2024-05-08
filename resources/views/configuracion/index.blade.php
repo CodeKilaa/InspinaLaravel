@@ -76,8 +76,7 @@
                                 <a href="capacitacion-horario.html">Capacitacion-Horario</a>
 
                             </li>
-                        </ul>
-                        
+                        </ul>        
                     </li>
                     <li>
                         <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
