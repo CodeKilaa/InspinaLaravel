@@ -281,7 +281,7 @@
                             <a>UI Elements</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <strong>Tabs</strong>
+                            <strong>Horario Semanal</strong>
                         </li>
                     </ol>
                 </div>
@@ -321,11 +321,7 @@
                                                             .fc-day-header {
                                                                 display: none !important;
                                                             }
-                                                            
-                                                            
-                                                            
-                                                                                    
-                                                             
+                               
                                                         </style>
                                                         <div id="calendar"></div>
                                                     </div>
@@ -629,14 +625,18 @@
                 
                 events: [
                     {
-                        title: 'All Day Event',
-                        start: new Date(y, m, 1)
-                    },
-                
-                    
-                    {
                         title: 'Lunes',
+                        id:'lunes',
+                        start: new Date(y, m, d-4, 9, 0),
+                        end: new Date(y, m, d-4, 13, 30),
+                        allDay: true,
+                        color: '#a0d6f4',
+                        editable: false
                         
+                    },
+                    {
+                        title: 'Martes',
+                        id:'martes',
                         start: new Date(y, m, d-3, 9, 0),
                         end: new Date(y, m, d-3, 13, 30),
                         allDay: true,
@@ -645,20 +645,10 @@
                         
                     },
                     {
-                        title: 'Martes',
-                        
+                        title: 'Miercoles',
+                        id:'miercoles',
                         start: new Date(y, m, d-2, 9, 0),
                         end: new Date(y, m, d-2, 13, 30),
-                        allDay: true,
-                        color: '#a0d6f4',
-                        editable: false
-                        
-                    },
-                    {
-                        title: 'Miercoles',
-                        
-                        start: new Date(y, m, d-1, 9, 0),
-                        end: new Date(y, m, d-1, 13, 30),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -667,9 +657,9 @@
                     
                     {
                         title: 'Jueves',
-                        
-                        start: new Date(y, m, d, 9, 0),
-                        end: new Date(y, m, d, 13, 30),
+                        id:'jueves',
+                        start: new Date(y, m, d-1, 9, 0),
+                        end: new Date(y, m, d-1, 13, 30),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -678,7 +668,17 @@
                                    
                     {
                         title: 'Viernes',
+                        id:'viernes',
+                        start: new Date(y, m, d-1, 24),
+                        end: new Date(y, m, d-1, 24),
+                        allDay: true,
+                        color: '#a0d6f4',
+                        editable: false
                         
+                    },
+                    {
+                        title: 'Sabado',
+                        id:'sabado',
                         start: new Date(y, m, d, 24),
                         end: new Date(y, m, d, 24),
                         allDay: true,
@@ -687,8 +687,8 @@
                         
                     },
                     {
-                        title: 'Sabado',
-                        
+                        title: 'Domingo',
+                        id:'domingo',
                         start: new Date(y, m, d+1, 24),
                         end: new Date(y, m, d+1, 24),
                         allDay: true,
@@ -696,25 +696,91 @@
                         editable: false
                         
                     },
-                    {
-                        title: 'Domingo',
-                        
-                        start: new Date(y, m, d+2, 24),
-                        end: new Date(y, m, d+2, 24),
-                        allDay: true,
-                        color: '#a0d6f4',
-                        editable: false
-                        
-                    },
-                    {
-                        title: 'Marlo',
-                        start: new Date(y, m, d-3,7, 0),
-                        end: new Date(y, m, d-3, 21,0),
-                        allDay: false,
-                        color: '#78ea91',
-                        editable: true
-                        
-                    },
+                {
+                    title: 'All Day Event',
+                    start: new Date(y, m, 1)
+                },
+                {
+                    title: 'Clase Presencial',
+                    start: new Date(y, m, d-5,7,0),
+                    end: new Date(y, m, d-5,12,0),
+                    allDay: false
+                },
+                {
+                    title: 'Clase Presencial',
+                    start: new Date(y, m, d-5,13,0),
+                    end: new Date(y, m, d-5,15,0),
+                    allDay: false
+                },
+                {
+                    title: 'Clase Presencial',
+                    start: new Date(y, m, d-4,16,0),
+                    end: new Date(y, m, d-4,18,0),
+                    allDay: false
+                },
+                {
+                    title: 'Clase Presencial',
+                    start: new Date(y, m, d-4,19,0),
+                    end: new Date(y, m, d-4,21,0),
+                    allDay: false
+                },
+                {
+                    title: 'Clase Virtual',
+                    start: new Date(y, m, d-3,8,0),
+                    end: new Date(y, m, d-3,12,0),
+                    allDay: false,
+                    color: '#9C27B0'
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d-2,8,0),
+                    end: new Date(y, m, d-2,12,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d,14,0),
+                    end: new Date(y, m, d,18,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d-1,19,0),
+                    end: new Date(y, m, d-1,21,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Virtual',
+                    start: new Date(y, m, d,12,0),
+                    end: new Date(y, m, d,14,0),
+                    allDay: false,
+                    color: '#9C27B0'
+                },
+                {
+                title: 'Clase Virtual',
+                    start: new Date(y, m, d+1,16,0),
+                    end: new Date(y, m, d+1,19,0),
+                    allDay: false,
+                    color: '#9C27B0'
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d+2,8,0),
+                    end: new Date(y, m, d+2,12,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d+2,14,0),
+                    end: new Date(y, m, d+2,17,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d+2,18,0),
+                    end: new Date(y, m, d+2,21,0),
+                    allDay: false
+                }
                     
                  
                 ],
@@ -725,6 +791,37 @@
                 element.css('width', columnWidth); // Aplicar el ancho al evento
     
                 
+            },
+            eventClick: function(event) {
+                
+                var eventId = event.id;
+
+                
+                switch (eventId) {
+                        case 'lunes':
+                        window.location.href = 'horario-dia'; 
+                        break;
+                        case 'martes':
+                        window.location.href = 'horario-dia2'; 
+                        break;
+                        case 'miercoles':
+                        window.location.href = 'horario-dia'; 
+                        break;
+                        case 'jueves':
+                        window.location.href = 'horario-dia'; 
+                        break;
+                        case 'viernes':
+                        window.location.href = 'horario-dia'; 
+                        break;
+                        case 'sabado':
+                        window.location.href = 'horario-dia'; 
+                        break;
+                        case 'domingo':
+                        window.location.href = 'horario-dia'; 
+                        break;
+                    default:                    
+                        break;
+                }
             }
             
             

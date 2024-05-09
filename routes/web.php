@@ -114,3 +114,12 @@ Route::get('/responsabilidades-asis', function () {
 Route::get('/capacitacion', function () {
     return view('colaboradores.capacitacion');
 });
+
+
+//AVANCE DE JHORDY VISTA HORARIO DIA
+Route::get('/horario-dia', function () {
+    return view('colaboradores.horario-dia');
+});
+Route::get('/horario-dia2', function () {
+    return view('colaboradores.horario-dia2');
+});

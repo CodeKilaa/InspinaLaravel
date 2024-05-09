@@ -40,7 +40,7 @@
                             <li><a class="dropdown-item" href="profile.html">Profile</a></li>
                             <li><a class="dropdown-item" href="contacts.html">Contacts</a></li>
                             <li><a class="dropdown-item" href="mailbox.html">Mailbox</a></li>
-                            <li class="dropdown-divider"></li>
+                            <li class="dropdown-divider"></li>  
                             <li><a class="dropdown-item" href="login.html">Logout</a></li>
                         </ul>
                     </div>
