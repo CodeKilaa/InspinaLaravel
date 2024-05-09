@@ -13,6 +13,7 @@
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
 
 </head>
 
@@ -695,7 +696,7 @@
                                                                             </div>
                                                                             <div class="form-group">
                                                                                     <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch" checked />     
+                                                                                    <input type="checkbox" class="js-switch_10" checked />     
                                                                                 </div>
                                                                             <div>
                                                                                 <button
@@ -2370,7 +2371,14 @@
             </div>
 
             <script>
-                 var elem = document.querySelector('.js-switch');
+        var elem = document.querySelector('.js-switch');
+        var switchery = new Switchery(elem, { color: '#1AB394' });
+
+
+        var elem_10 = document.querySelector('.js-switch_10');
+        var switchery_10 = new Switchery(elem_10, { color: '#1AB394' });
+
+        var elem = document.querySelector('.js-switch');
         var switchery = new Switchery(elem, { color: '#1AB394' });
 
         var elem_2 = document.querySelector('.js-switch_2');
@@ -2442,7 +2450,7 @@
 
             <!-- Sparkline demo data  -->
             <script src="js/demo/sparkline-demo.js"></script>
-
+            <script src="js/plugins/switchery/switchery.js"></script>
             <script>
 
 

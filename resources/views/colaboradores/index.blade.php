@@ -255,12 +255,12 @@
                                             
 
                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Paolo</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Guerrero Carrillo</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Marlo</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Zamaniego Calderon</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Paolo9@gmail.com</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Marlo@gmail.com</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
@@ -276,7 +276,7 @@
                                         <div class="col-sm-6 text-center text-danger"><h2><strong> Colaborador </strong></h2>
                                             <a style="color: black;">ID:00003</a>
                                             <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
-                                                <img src="img/a4.jpg" class="img-lg w-200 h-200" >
+                                                <img src="img/a2.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
                                             <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
@@ -288,202 +288,7 @@
                             </div>
                         </div>
                 </div>
-                </div>
-
-            </div>
-        </div>
-        
-        
-
-        <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box ">
-                            <div class="text-center rounded-circle mb-5">
-                                <img src="img/a2.jpg" class="rounded-circle ">
-                            </div>
-                            <div class="product-desc">
-                                <span class="product-price btn-Default" style="background-color: transparent;">
-                                    <input type="checkbox" class="js-switch_4" checked />
-                                    <a style="color: black;">Activo</a>
-                                </span>
-                                
-                                
-                                <a href="#" class="product-name"><h2>Marlo Samaniego Calderon</h2></a>
-
-
-
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>Estructura</h5>
-                                </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>72802334</h5>
-                                </div>
-                                <small class="text-muted text-left"><h3>Correo:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>marlo@gmail.com</h5>
-                                </div>
-                                <small class="text-muted text-left"><h3>Celular:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>924561234</h5>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a href="#" data-toggle="model"> <i ></i> </a>
-                                    <div class="ibox-content">
-                                        <div class="text-right ">
-                                            <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
-                                            <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
-                                        </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
-                                            <div class="modal-dialog modal-custom">
-                                                <div class="modal-content">
-                                                    <div class="modal-body">
-                                                        <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
-                                                                
-
-                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Paolo"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Guerrero Carrillo"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> Senati</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
-                                                                    </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> 1ro</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
-                                                                    </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="Paolo9@gmail.com"></input></div>
-                                                                                                                       
-                                                                </form>   
-                                                            </div>
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
-                                                                
-
-                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected>Estructura</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
-                                                                    </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> Salon 1</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
-                                                                    </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> Desarrollo de Software</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
-                                                                    </select></div>
-                                                                        
-                                                                    
-                                                                </form>
-            
-                                                                <form role="form">
-                                                                    
-                                                                    <div class="form-group"><label>Estado:   </label>
-                                                                        <input type="checkbox" class="js-switch" checked />
-                                                                <br>
-                                                                <br>        
-                                                                        
-                                                                </div>
-                                                                
-                                                                    <div>
-                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
-                                                                        <div>
-                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
-                                                                            
-                                                                        </div>
-                                                                        
-                                                                        
-                                                                    </div>
-                                                                </form>
-                                                            </div>
-                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
-                                            <a style="color: black;">ID:00003</a>
-                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
-                                                <img src="img/a4.jpg" class="img-lg w-200 h-200" >
-                                                
-                                            </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="Prestamos.html" ></a>
-                                            
-                                    </div>
-                                    
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            </div>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-
-                            <div class="text-center rounded-circle mb-5">
-                                <img src="img/a1.jpg" class="rounded-circle ">
-                            </div>
-                            <div class="product-desc">
-                                <span class="product-price btn-Default" style="background-color: transparent;">
-                                    <input type="checkbox" class="js-switch_5" checked />
-                                    <a style="color: black;">Activo</a>
-                                </span>
-                                
-                                <a href="#" class="product-name"><h2> Juan Flores Ortega</h2></a>
-
-
-
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>Programacion</h5>
-                                </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>77892239</h5>
-                                </div>
-                                <small class="text-muted text-left"><h3>Correo:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>JuanF@gmail.com</h5>
-                                </div>
-                                <small class="text-muted text-left"><h3>Celular:</h3></small>
-                                <div class="small m-t-xs text-left">
-                                    <h5>924661234</h5>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <style>
-                                    
-                                        .modal-custom {
-                                            max-width: 700px; 
-                                            
-                                        }
-                                    </style>
-                                    <a href="#" data-toggle="model"> <i ></i> </a>
-                                    <div class="ibox-content">
-                                        <div class="text-right">
-                                            <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
-                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
-                                            <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
-                                        </div>
-                                        <div id="modal-form5" class="modal fade" aria-hidden="true">
+                <div id="modal-form5" class="modal fade" aria-hidden="true">
                                             <div class="modal-dialog modal-custom">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
@@ -564,6 +369,336 @@
                                                 </div>
                                             </div>
                                     </div>
+                </div>
+
+            </div>
+        </div>
+        
+        
+
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box ">
+                            <div class="text-center rounded-circle mb-5">
+                                <img src="img/a2.jpg" class="rounded-circle ">
+                            </div>
+                            <div class="product-desc">
+                                <span class="product-price btn-Default" style="background-color: transparent;">
+                                    <input type="checkbox" class="js-switch_4" checked />
+                                    <a style="color: black;">Activo</a>
+                                </span>
+                                
+                                
+                                <a href="#" class="product-name"><h2>Marlo Samaniego Calderon</h2></a>
+
+
+
+                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>Estructura</h5>
+                                </div>
+                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>72802334</h5>
+                                </div>
+                                <small class="text-muted text-left"><h3>Correo:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>marlo@gmail.com</h5>
+                                </div>
+                                <small class="text-muted text-left"><h3>Celular:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>924561234</h5>
+                                </div>
+                                <div class="m-t text-righ">
+                                    <a href="#" data-toggle="model"> <i ></i> </a>
+                                    <div class="ibox-content">
+                                        <div class="text-right ">
+                                            <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
+                                            <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
+                                        </div>
+                                        <div id="modal-form" class="modal fade" aria-hidden="true">
+                                            <div class="modal-dialog modal-custom">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Marlo"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Zamaniego Calderon"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Senati</option>
+                                                                        <option> UTP</option>
+                                                                        <option> UCH</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> 1ro</option>
+                                                                        <option> 2do</option>
+                                                                        <option> 3ro</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="Marlo@gmail.com"></input></div>
+                                                                                                                       
+                                                                </form>   
+                                                            </div>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected>Estructura</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salon 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Desarrollo de Software</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option> Diseño Grafico</option>
+                                                                    </select></div>
+                                                                        
+                                                                    
+                                                                </form>
+            
+                                                                <form role="form">
+                                                                    
+                                                                    <div class="form-group"><label>Estado:   </label>
+                                                                        <input type="checkbox" class="js-switch" checked />
+                                                                <br>
+                                                                <br>        
+                                                                        
+                                                                </div>
+                                                                
+                                                                    <div>
+                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                        
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                            <a style="color: black;">ID:00003</a>
+                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                <img src="img/a2.jpg" class="img-lg w-200 h-200" >
+                                                
+                                            </div>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            
+                                    </div>
+                                    
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
+
+                            <div class="text-center rounded-circle mb-5">
+                                <img src="img/a1.jpg" class="rounded-circle ">
+                            </div>
+                            <div class="product-desc">
+                                <span class="product-price btn-Default" style="background-color: transparent;">
+                                    <input type="checkbox" class="js-switch_5" checked />
+                                    <a style="color: black;">Activo</a>
+                                </span>
+                                
+                                <a href="#" class="product-name"><h2> Juan Flores Ortega</h2></a>
+
+
+
+                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>Programacion</h5>
+                                </div>
+                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>77892239</h5>
+                                </div>
+                                <small class="text-muted text-left"><h3>Correo:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>JuanF@gmail.com</h5>
+                                </div>
+                                <small class="text-muted text-left"><h3>Celular:</h3></small>
+                                <div class="small m-t-xs text-left">
+                                    <h5>924661234</h5>
+                                </div>
+                                <div class="m-t text-righ">
+                                    <style>
+                                    
+                                        .modal-custom {
+                                            max-width: 700px; 
+                                            
+                                        }
+                                    </style>
+                                    <a href="#" data-toggle="model"> <i ></i> </a>
+                                    <div class="ibox-content">
+                                        <div class="text-right">
+                                            <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
+                                            <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
+                                            <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-formVer1" ></a>
+                                        </div>
+                                        <div id="modal-formVer1" class="modal fade" aria-hidden="true">
+                                        <div class="modal-dialog modal-custom">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            
+
+                                                            <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Juan</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Flores Ortega</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Juan@gmail.com</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Programacion</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Ingeniero de Software</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
+                                                                <div>
+                                                                    <a data-toggle="modal" class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit btn-success" onclick="hideModal('modal-formVer1'); showModal('modal-formjuan');" style="font-size: 20px; width: 60px;"  href="#modal-form6"></a>
+                                                                    
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="col-sm-6 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                                            <a style="color: black;">ID:00003</a>
+                                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                                <img src="img/a1.jpg" class="img-lg w-200 h-200" >
+                                                                
+                                                            </div>
+                                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
+                                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div id="modal-form6" class="modal fade" aria-hidden="true">
+                                            <div class="modal-dialog modal-custom">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Juan"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Flores Ortega"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Senati</option>
+                                                                        <option> UTP</option>
+                                                                        <option> UCH</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> 1ro</option>
+                                                                        <option> 2do</option>
+                                                                        <option> 3ro</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="juan@gmail.com"></input></div>
+                                                                                                                       
+                                                                </form>   
+                                                            </div>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected>Programacion</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salon 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option > Desarrollo de Software</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option selected> Diseño Grafico</option>
+                                                                    </select></div>
+                                                                        
+                                                                    
+                                                                </form>
+            
+                                                                <form role="form">
+                                                                    
+                                                                    <div class="form-group"><label>Estado:   </label>
+                                                                        <input type="checkbox" class="js-switch_11" checked />
+                                                                <br>
+                                                                <br>        
+                                                                        
+                                                                </div>
+                                                                
+                                                                    <div>
+                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                        
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                            <a style="color: black;">ID:00003</a>
+                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                <img src="img/a1.jpg" class="img-lg w-200 h-200" >
+                                                
+                                            </div>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            
+                                    </div>
+                                    
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -611,59 +746,137 @@
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
                                             <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-formVer2" ></a>
                                         </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
-                                            <div class="modal-dialog">
+                                        <div id="modal-formVer2" class="modal fade" aria-hidden="true">
+                                        <div class="modal-dialog modal-custom">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            
+
+                                                            <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Paolo</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Guerrero Carrillo</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">paolo@gmail.com</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Analisis</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Ingeniero de Software</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
+                                                                <div>
+                                                                    <a data-toggle="modal" class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit btn-success" onclick="hideModal('modal-formVer2'); showModal('modal-formjuan');" style="font-size: 20px; width: 60px;"  href="#modal-form7"></a>
+                                                                    
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="col-sm-6 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                                            <a style="color: black;">ID:00003</a>
+                                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                                <img src="img/a7.jpg" class="img-lg w-200 h-200" >
+                                                                
+                                                            </div>
+                                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
+                                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div id="modal-form7" class="modal fade" aria-hidden="true">
+                                            <div class="modal-dialog modal-custom">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
-                                                                <select class="form-control m-b" name="account">
-                                                                    <option> 1</option>
-                                                                    <option> 2</option>
-                                                                    <option> 3</option>
-                                                                    <option> 4</option>
-                                                                    <option> 5</option>
-                                                                    <option> 6</option>
-                                                                </select>
-                                                                <p></p>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Paolo"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Gerrero Carrillo"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Senati</option>
+                                                                        <option> UTP</option>
+                                                                        <option> UCH</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> 1ro</option>
+                                                                        <option> 2do</option>
+                                                                        <option> 3ro</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="paolo@gmail.com"></input></div>
+                                                                                                                       
+                                                                </form>   
+                                                            </div>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected>Analisis</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salon 1</option>
+                                                                        <option> 2</option>
+                                                                        <option> 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option > Desarrollo de Software</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option selected> Diseño Grafico</option>
+                                                                    </select></div>
+                                                                        
+                                                                    
+                                                                </form>
             
                                                                 <form role="form">
-                                                                    <div class="form-group"><label>Description</label> <input type="email" placeholder="Enter Description" class="form-control"></div>
-                                                                    <div class="form-group"><label>Codigo</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> 001</option>
-                                                                        <option> 002</option>
-                                                                        <option> 003</option>
-                                                                        <option> 004</option>
-                                                                        <option> 005</option>
-                                                                        <option> 006</option>
-                                                                    </select>
-                                                                </div>
-                                                                    <div class="form-group"><label>Estado</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> Active</option>
-                                                                        <option> Inactive</option>
+                                                                    
+                                                                    <div class="form-group"><label>Estado:   </label>
+                                                                        <input type="checkbox" class="js-switch_12" checked />
+                                                                <br>
+                                                                <br>        
                                                                         
-                                                                    </select>
                                                                 </div>
+                                                                
                                                                     <div>
-                                                                        <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong> Save</strong></button>
+                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                        
                                                                         
                                                                     </div>
                                                                 </form>
                                                             </div>
-                                                            <div class="col-sm-6"><h4> Cambiar Icono </h4>
-                                                                <div class="custom-file">
-                                                                    <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
-                                                                    <label class="custom-file-label" for="imputGroupFile"></i></label>
-
-                                                                    
-                                                                </div>
-                                                                
-                                                                
-                                                        </div>
+                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                            <a style="color: black;">ID:00003</a>
+                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                <img src="img/a7.jpg" class="img-lg w-200 h-200" >
+                                                
+                                            </div>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            
+                                    </div>
+                                    
                                                     </div>
                                                 </div>
                                                 </div>
@@ -725,59 +938,137 @@
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
                                             <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-formVer3" ></a>
                                         </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
-                                            <div class="modal-dialog">
+                                        <div id="modal-formVer3" class="modal fade" aria-hidden="true">
+                                        <div class="modal-dialog modal-custom">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            
+
+                                                            <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Juan</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Calderon Torres</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">juanCal@gmail.com</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Programacion</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Diseño Grafico</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
+                                                                <div>
+                                                                    <a data-toggle="modal" class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit btn-success" onclick="hideModal('modal-formVer3'); showModal('modal-formjuan');" style="font-size: 20px; width: 60px;"  href="#modal-form8"></a>
+                                                                    
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="col-sm-6 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                                            <a style="color: black;">ID:00003</a>
+                                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                                <img src="img/a4.jpg" class="img-lg w-200 h-200" >
+                                                                
+                                                            </div>
+                                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
+                                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div id="modal-form8" class="modal fade" aria-hidden="true">
+                                            <div class="modal-dialog modal-custom">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
-                                                                <select class="form-control m-b" name="account">
-                                                                    <option> 1</option>
-                                                                    <option> 2</option>
-                                                                    <option> 3</option>
-                                                                    <option> 4</option>
-                                                                    <option> 5</option>
-                                                                    <option> 6</option>
-                                                                </select>
-                                                                <p></p>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Juan"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Calderon Torres"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Senati</option>
+                                                                        <option> UTP</option>
+                                                                        <option> UCH</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> 1ro</option>
+                                                                        <option> 2do</option>
+                                                                        <option> 3ro</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="Juan@gmail.com"></input></div>
+                                                                                                                       
+                                                                </form>   
+                                                            </div>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected>Programacion</option>
+                                                                        <option> Analisis</option>
+                                                                        <option> Estructura</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salon 2</option>
+                                                                        <option> Salon 1</option>
+                                                                        <option> Salon 3</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option > Desarrollo de Software</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option selected> Diseño Grafico</option>
+                                                                    </select></div>
+                                                                        
+                                                                    
+                                                                </form>
             
                                                                 <form role="form">
-                                                                    <div class="form-group"><label>Description</label> <input type="email" placeholder="Enter Description" class="form-control"></div>
-                                                                    <div class="form-group"><label>Codigo</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> 001</option>
-                                                                        <option> 002</option>
-                                                                        <option> 003</option>
-                                                                        <option> 004</option>
-                                                                        <option> 005</option>
-                                                                        <option> 006</option>
-                                                                    </select>
-                                                                </div>
-                                                                    <div class="form-group"><label>Estados</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> Active</option>
-                                                                        <option> Inactive</option>
+                                                                    
+                                                                    <div class="form-group"><label>Estado:   </label>
+                                                                        <input type="checkbox" class="js-switch_13" checked />
+                                                                <br>
+                                                                <br>        
                                                                         
-                                                                    </select>
                                                                 </div>
+                                                                
                                                                     <div>
-                                                                        <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong> Save</strong></button>
+                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                        
                                                                         
                                                                     </div>
                                                                 </form>
                                                             </div>
-                                                            <div class="col-sm-6"><h4> Cambiar Icono </h4>
-                                                                <div class="custom-file">
-                                                                    <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
-                                                                    <label class="custom-file-label" for="imputGroupFile"></i></label>
-
-                                                                    
-                                                                </div>
-                                                                
-                                                                
-                                                        </div>
+                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                            <a style="color: black;">ID:00003</a>
+                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                <img src="img/a4.jpg" class="img-lg w-200 h-200" >
+                                                
+                                            </div>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            
+                                    </div>
+                                    
                                                     </div>
                                                 </div>
                                                 </div>
@@ -829,59 +1120,138 @@
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
                                             <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-formVer4" ></a>
                                         </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
-                                            <div class="modal-dialog">
+                                        <div id="modal-formVer4" class="modal fade" aria-hidden="true">
+                                        <div class="modal-dialog modal-custom">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            
+
+                                                            <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Ana</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Zapata Condo</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">ana@gmail.com</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Android</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Diseño Grafico</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
+                                                                <div>
+                                                                    <a data-toggle="modal" class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit btn-success" onclick="hideModal('modal-formVer4'); showModal('modal-formjuan');" style="font-size: 20px; width: 60px;"  href="#modal-form9"></a>
+                                                                    
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="col-sm-6 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                                            <a style="color: black;">ID:00003</a>
+                                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                                <img src="img/a3.jpg" class="img-lg w-200 h-200" >
+                                                                
+                                                            </div>
+                                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
+                                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div id="modal-form9" class="modal fade" aria-hidden="true">
+                                            <div class="modal-dialog modal-custom">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
-                                                                <select class="form-control m-b" name="account">
-                                                                    <option> 1</option>
-                                                                    <option> 2</option>
-                                                                    <option> 3</option>
-                                                                    <option> 4</option>
-                                                                    <option> 5</option>
-                                                                    <option> 6</option>
-                                                                </select>
-                                                                <p></p>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Ana"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Zapata Condo"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Senati</option>
+                                                                        <option> UTP</option>
+                                                                        <option> UCH</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> 1ro</option>
+                                                                        <option> 2do</option>
+                                                                        <option> 3ro</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="ana@gmail.com"></input></div>
+                                                                                                                       
+                                                                </form>   
+                                                            </div>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option>Programacion</option>
+                                                                        <option> Analisis</option>
+                                                                        <option selected>Android</option>
+                                                                        <option> Estructura</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salon 3</option>
+                                                                        <option> Salon 1</option>
+                                                                        <option> Salon 2</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option > Desarrollo de Software</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option selected> Diseño Grafico</option>
+                                                                    </select></div>
+                                                                        
+                                                                    
+                                                                </form>
             
                                                                 <form role="form">
-                                                                    <div class="form-group"><label>Description</label> <input type="email" placeholder="Enter Description" class="form-control"></div>
-                                                                    <div class="form-group"><label>Codigo</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> 001</option>
-                                                                        <option> 002</option>
-                                                                        <option> 003</option>
-                                                                        <option> 004</option>
-                                                                        <option> 005</option>
-                                                                        <option> 006</option>
-                                                                    </select>
-                                                                </div>
-                                                                    <div class="form-group"><label>Estado</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> Active</option>
-                                                                        <option> Inactive</option>
+                                                                    
+                                                                    <div class="form-group"><label>Estado:   </label>
+                                                                        <input type="checkbox" class="js-switch_14" checked />
+                                                                <br>
+                                                                <br>        
                                                                         
-                                                                    </select>
                                                                 </div>
+                                                                
                                                                     <div>
-                                                                        <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong> Save</strong></button>
+                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                        
                                                                         
                                                                     </div>
                                                                 </form>
                                                             </div>
-                                                            <div class="col-sm-6"><h4> Cambiar Icono </h4>
-                                                                <div class="custom-file">
-                                                                    <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
-                                                                    <label class="custom-file-label" for="imputGroupFile"></i></label>
-
-                                                                    
-                                                                </div>
-                                                                
-                                                                
-                                                        </div>
+                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                            <a style="color: black;">ID:00003</a>
+                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                <img src="img/a3.jpg" class="img-lg w-200 h-200" >
+                                                
+                                            </div>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            
+                                    </div>
+                                    
                                                     </div>
                                                 </div>
                                                 </div>
@@ -933,59 +1303,138 @@
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash mx-1" style="font-size: 20px;" href="" ></a>
                                             <a class="btn btn-primary fa fa-clock-o mx-1" style="font-size: 20px;" href="horario-clases" ></a>
                                             <a class="btn btn-primary btn-warning fa fa-book mx-1" style="font-size: 20px;" href="capacitacion" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-form1" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye mx-1" style="font-size: 20px;" href="#modal-formVer5" ></a>
                                         </div>
-                                        <div id="modal-form" class="modal fade" aria-hidden="true">
-                                            <div class="modal-dialog">
+                                        <div id="modal-formVer5" class="modal fade" aria-hidden="true">
+                                        <div class="modal-dialog modal-custom">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            
+
+                                                            <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Isabel</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Aguilera Fano</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Isabel@gmail.com</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Analisis</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Diseño Grafico</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
+                                                                <div>
+                                                                    <a data-toggle="modal" class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit btn-success" onclick="hideModal('modal-formVer5'); showModal('modal-formjuan');" style="font-size: 20px; width: 60px;"  href="#modal-form10"></a>
+                                                                    
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="col-sm-6 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                                            <a style="color: black;">ID:00003</a>
+                                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                                <img src="img/a6.jpg" class="img-lg w-200 h-200" >
+                                                                
+                                                            </div>
+                                                            <a class="btn btn-primary btn-success fa fa-desktop" style="width: 100px; font-size: 18px;" href="computadoras" ></a>
+                                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div id="modal-form10" class="modal fade" aria-hidden="true">
+                                            <div class="modal-dialog modal-custom">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
-                                                                <select class="form-control m-b" name="account">
-                                                                    <option> 1</option>
-                                                                    <option> 2</option>
-                                                                    <option> 3</option>
-                                                                    <option> 4</option>
-                                                                    <option> 5</option>
-                                                                    <option> 6</option>
-                                                                </select>
-                                                                <p></p>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Isabel"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Aguilera Fano"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Senati</option>
+                                                                        <option> UTP</option>
+                                                                        <option> UCH</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> 1ro</option>
+                                                                        <option> 2do</option>
+                                                                        <option> 3ro</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Correo:</h5></label><input style="padding: 1px 8px;" type="email" class="form-control" value="ana@gmail.com"></input></div>
+                                                                                                                       
+                                                                </form>   
+                                                            </div>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">.</h3>
+                                                                
+
+                                                                <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option>Programacion</option>
+                                                                        <option selected> Analisis</option>
+                                                                        <option>Android</option>
+                                                                        <option> Estructura</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salon 3</option>
+                                                                        <option> Salon 1</option>
+                                                                        <option> Salon 2</option>
+                                                                    </select></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option > Desarrollo de Software</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option selected> Diseño Grafico</option>
+                                                                    </select></div>
+                                                                        
+                                                                    
+                                                                </form>
             
                                                                 <form role="form">
-                                                                    <div class="form-group"><label>Description</label> <input type="email" placeholder="Enter Description" class="form-control"></div>
-                                                                    <div class="form-group"><label>Codigo</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> 001</option>
-                                                                        <option> 002</option>
-                                                                        <option> 003</option>
-                                                                        <option> 004</option>
-                                                                        <option> 005</option>
-                                                                        <option> 006</option>
-                                                                    </select>
-                                                                </div>
-                                                                    <div class="form-group"><label>Estado</label>
-                                                                    <select class="form-control m-b" name="account">
-                                                                        <option> Active</option>
-                                                                        <option> Inactive</option>
+                                                                    
+                                                                    <div class="form-group"><label>Estado:   </label>
+                                                                        <input type="checkbox" class="js-switch_15" checked />
+                                                                <br>
+                                                                <br>        
                                                                         
-                                                                    </select>
                                                                 </div>
+                                                                
                                                                     <div>
-                                                                        <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong> Save</strong></button>
+                                                                        <button class="btn btn-sm btn-primary float-left m-t-n-xs btn-success"  type="submit"><strong> Guardar</strong></button>
+                                                                        <div>
+                                                                            <button class="btn btn-sm btn-primary float-right m-t-n-xs  btn-success"  type="submit"><strong> Descartar</strong></button>
+                                                                            
+                                                                        </div>
+                                                                        
                                                                         
                                                                     </div>
                                                                 </form>
                                                             </div>
-                                                            <div class="col-sm-6"><h4> Cambiar Icono </h4>
-                                                                <div class="custom-file">
-                                                                    <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
-                                                                    <label class="custom-file-label" for="imputGroupFile"></i></label>
-
-                                                                    
-                                                                </div>
-                                                                
-                                                                
-                                                        </div>
+                                                            <div class="col-sm-4 text-center text-danger"><h2><strong> Colaborador </strong></h2>
+                                            <a style="color: black;">ID:00003</a>
+                                            <div class="custom-file w-200 h-300 " style="padding: 20px 0px;">
+                                                <img src="img/a6.jpg" class="img-lg w-200 h-200" >
+                                                
+                                            </div>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            
+                                    </div>
+                                    
                                                     </div>
                                                 </div>
                                                 </div>
@@ -1057,11 +1506,27 @@ function showModal(modalId) {
   }
 }
 
+        var elem_11 = document.querySelector('.js-switch_11');
+        var switchery_11 = new Switchery(elem_11, { color: '#1AB394' });
+        
+        var elem_12 = document.querySelector('.js-switch_12');
+        var switchery_12 = new Switchery(elem_12, { color: '#1AB394' });
+
+        var elem_13 = document.querySelector('.js-switch_13');
+        var switchery_13 = new Switchery(elem_13, { color: '#1AB394' });
+
+        var elem_14 = document.querySelector('.js-switch_14');
+        var switchery_14 = new Switchery(elem_14, { color: '#1AB394' });
+
+        var elem_15 = document.querySelector('.js-switch_15');
+        var switchery_15 = new Switchery(elem_15, { color: '#1AB394' });
 
     
 
         var elem = document.querySelector('.js-switch');
         var switchery = new Switchery(elem, { color: '#1AB394' });
+        
+        
 
         var elem_4 = document.querySelector('.js-switch_4');
         var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
@@ -1090,18 +1555,9 @@ function showModal(modalId) {
         var elem_10 = document.querySelector('.js-switch_10');
         var switchery_10 = new Switchery(elem_10, { color: '#1AB394' });
             switchery_10.disable();
-    
 
-
-        var elem_3 = document.querySelector('.js-switch_3');
-        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
-
-        var elem_2 = document.querySelector('.js-switch_2');
-        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
-
-        var elem_3 = document.querySelector('.js-switch_3');
-        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
-
+        
+        
         
 
       
