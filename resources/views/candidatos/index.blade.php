@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Personal-Candidatos</title>
+
     <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
+
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
 
 </head>
 
@@ -688,9 +691,18 @@
                                                                                         class="form-text m-b-none"></span>
                                                                                 </div>
                                                                             </div>
+<<<<<<< HEAD
+                                                                            <div class="form-group">
+                                                                                    <label >Estado: </label>
+                                                                                    <input type="checkbox" class="js-switch_10" checked />     
+=======
                                                                                 <div class="form-group">
                                                                                     <label >Estado:     </label>
                                                                                     <input type="checkbox" class="js-switch" checked />     
+<<<<<<< HEAD
+=======
+>>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
+>>>>>>> 12c5caff080f1a0ae89474c5f99c1261f5ad1b56
                                                                                 </div>
                                                                             <div>
                                                                                 <button
@@ -700,7 +712,6 @@
                                                                                     class="btn btn-primary btn-sm m-t-n-xs float-right"
                                                                                     type="submit"><i
                                                                                         class="fa fa-check"></i>&nbsp;Guardar</button>
-
                                                                             </div>
                                                                         </form>
                                                                     </div>
@@ -2789,10 +2800,37 @@
                 </div>
             </div>
 <<<<<<< HEAD
-            <script src="js/plugins/switchery/switchery.js"></script>                                                           
-            
-=======
 
+            <script>
+        var elem = document.querySelector('.js-switch');
+        var switchery = new Switchery(elem, { color: '#1AB394' });
+
+
+        var elem_10 = document.querySelector('.js-switch_10');
+        var switchery_10 = new Switchery(elem_10, { color: '#1AB394' });
+
+        var elem = document.querySelector('.js-switch');
+        var switchery = new Switchery(elem, { color: '#1AB394' });
+
+        var elem_2 = document.querySelector('.js-switch_2');
+        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
+
+        var elem_3 = document.querySelector('.js-switch_3');
+        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
+
+        var elem_4 = document.querySelector('.js-switch_4');
+        var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
+        var elem_5 = document.querySelector('.js-switch_5');
+        var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
+        var elem_6 = document.querySelector('.js-switch_6');
+        var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
+            </script>
+
+
+=======
+            <script src="js/plugins/switchery/switchery.js"></script>                                                            
+           
+>>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
             <!--- Cambiar Imagen-->
             <script>
                 document.getElementById('inputGroupFile').addEventListener('change', function() {
@@ -2807,7 +2845,7 @@
                     }
                 });
             </script>
->>>>>>> f4855347742d1abc05e97bf6cd1d2da1775d1908
+
 
             <!-- Mainly scripts -->
             <script src="js/jquery-3.1.1.min.js"></script>
@@ -2849,13 +2887,24 @@
 
             <!-- Sparkline demo data  -->
             <script src="js/demo/sparkline-demo.js"></script>
+<<<<<<< HEAD
             
 
 <script>
     
+=======
+<<<<<<< HEAD
+            <script src="js/plugins/switchery/switchery.js"></script>
+            <script>
+=======
+ 
+            
+<script> 
+>>>>>>> 12c5caff080f1a0ae89474c5f99c1261f5ad1b56
 
     var elem = document.querySelector('.js-switch');
     var switchery = new Switchery(elem, { color: '#1AB394' });
+>>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
 
     var elem_2 = document.querySelector('.js-switch_2');
     var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
@@ -2865,16 +2914,23 @@
 
     var elem_4 = document.querySelector('.js-switch_4');
     var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
+
     var elem_5 = document.querySelector('.js-switch_5');
     var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
+
     var elem_6 = document.querySelector('.js-switch_6');
     var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
 
+<<<<<<< HEAD
     
 
 
 </script>                                                    
             
+=======
+    </script>
+                                                           
+>>>>>>> 12c5caff080f1a0ae89474c5f99c1261f5ad1b56
         
 </body>
 
