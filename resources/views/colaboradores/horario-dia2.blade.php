@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Áreas</title>
+    <title>Horario de Clases-Día</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -45,56 +45,58 @@
                     </div>
                 </li>
                 <li>
-                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="index.html">Dashboard v.1</a></li>
-                        <li><a href="dashboard_2.html">Dashboard v.2</a></li>
-                        <li><a href="dashboard_3.html">Dashboard v.3</a></li>
-                        <li><a href="dashboard_4_1.html">Dashboard v.4</a></li>
-                        <li><a href="dashboard_5.html">Dashboard v.5 </a></li>
-                        <li><a href="dashboard_areas.html">Áreas</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horario G.P</span></a>
-                </li>
-                <li >
-                    <a href="horario-general-virtual.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horario G.V</span></a>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="candidatos.html">Candidatos</a></li>
-                        <li><a href="form-candidatos-colab.html">Formulario</a></li>
-                        <li><a href="Colaboradores.html">Colaboradores</a></li>
-                        <li><a href="Computadora.html">Computadoras</a></li>
-                        <li><a href="horario-clase-semanal.html">Horario de Clase Semanal</a></li>
-                        <li ><a href="form-horario-clase.html">Formulario de Clases</a></li>
-                        <li><a href="capacitacion-colab.html">Capacitacion</a></li>
-                        <li><a href="capacitacion-horario.html">Horario Capacitacion</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span><span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="config-institucion.html">Institucion</a></li>
-                        <li><a href="config-carrera.html">Carrera</a></li>
-                        <li><a href="config-curso.html">Curso</a></li>
-                        <li><a href="config-programas.html">Programas</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>
-                </li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span> <span class="fa arrow"></span></a>
+                    </li>
+                    <li>
+                        <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span
+                                class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="horarioPresencial">Presencial</a></li>
+                            <li><a href="horarioGeneral">Horario General</a></li>
+                            <li><a href="horarioArea">Areas</a></li>
+                            <li><a href="horarioSalon">Salon</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios
+                                G.Virtual</span></a>
+                    </li>
+                    <li>
+                        <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span
+                                class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active">
+                                <a href="candidatos">Candidatos</a>
+                            </li>
+                            <li>
+                                <a href="colaboradores">Colaboradores</a>
+                            <li>
+                                <a href="HorarioCapacitacion">Capacitacion-Horario</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a href="areas"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
+                    </li>
+                    <li>
+                        <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span
+                                class="nav-label">Responsabilidades</span></a>
+                    </li>
+                    <li>
+                        <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                    </li>
+                    <li>
+                        <a href="salones"><i class="fa fa-address-card-o"></i> <span
+                                class="nav-label">Salones</span></a>
+                    </li>
+                    <li>
+                        <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
+                    </li>
+                    <li>
+                        <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar
+                                Sesion</span></a>
+                    </li>
             </ul>
 
         </div>
