@@ -8,6 +8,8 @@
 
     <title>Personal-Candidatos</title>
 
+    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
@@ -396,7 +398,7 @@
                                             <dl class="row mb-0">
                                                 <div class="col-sm-6 text-sm-left">
                                                     <dt>Carrera:</dt>
-                                                    <dd class="sm-2">Desarrollo</dd>
+                                                    <dd class="sm-2">Desarrollo De Software</dd>
                                                 </div>
                                             </dl>
                                             <dl class="row mb-0">
@@ -574,16 +576,11 @@
                                                             </style>
                                                             <div class="modal-body">
                                                                 <div class="row">
-                                                                    <div class="col-sm-3 text-center">
-                                                                        <p>
-                                                                        <h4>Candidato</h4>
-                                                                        <i
-                                                                            class="fa fa-cloud-download big-icon"></i><br>
-                                                                        <button class="btn btn-success btn-sm m-t-n-xs"
-                                                                            type="submit">?</button>
-
-                                                                        </p>
-                                                                    </div>
+                                                                <div class="col-sm-3 text-center">
+                                                                    <h4>Candidato</h4>
+                                                                    <img src="img/a5.jpg" class="col-lg-12 mt-3" alt="#">
+                                                                    <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
+                                                                </div>
                                                                     <div class="col-sm-4 b-r">
                                                                         <h3 class="m-t-none m-b">Informacion Principal
                                                                         </h3>
@@ -680,7 +677,7 @@
                                                                                     class="col-lg-4 col-form-label">Carrera:</label>
                                                                                 <div class="col-lg-8"><input
                                                                                         type="text"
-                                                                                        placeholder="Ingenieria de Software"
+                                                                                        placeholder="Desarrollo De Software"
                                                                                         class="form-control"> <span
                                                                                         class="form-text m-b-none"></span>
                                                                                 </div>
@@ -694,9 +691,15 @@
                                                                                         class="form-text m-b-none"></span>
                                                                                 </div>
                                                                             </div>
+<<<<<<< HEAD
                                                                             <div class="form-group">
                                                                                     <label >Estado: </label>
                                                                                     <input type="checkbox" class="js-switch_10" checked />     
+=======
+                                                                                <div class="form-group">
+                                                                                    <label >Estado:     </label>
+                                                                                    <input type="checkbox" class="js-switch" checked />     
+>>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
                                                                                 </div>
                                                                             <div>
                                                                                 <button
@@ -706,7 +709,6 @@
                                                                                     class="btn btn-primary btn-sm m-t-n-xs float-right"
                                                                                     type="submit"><i
                                                                                         class="fa fa-check"></i>&nbsp;Guardar</button>
-
                                                                             </div>
                                                                         </form>
                                                                     </div>
@@ -747,7 +749,7 @@
                                             <dl class="row mb-0">
                                                 <div class="col-sm-6 text-sm-left">
                                                     <dt>Carrera:</dt>
-                                                    <dd class="sm-2">Arquitectura</dd>
+                                                    <dd class="sm-2">Ingenieria de Software</dd>
                                                 </div>
                                             </dl>
                                             <dl class="row mb-0">
@@ -887,7 +889,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Arquitectura
+                                                                                            Ingenieria de Software
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -925,16 +927,11 @@
                                                                 </style>
                                                                 <div class="modal-body">
                                                                     <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <i
-                                                                                class="fa fa-cloud-download big-icon"></i><br>
-                                                                            <button class="btn btn-success btn-sm m-t-n-xs"
-                                                                                type="submit">?</button>
-    
-                                                                            </p>
-                                                                        </div>
+                                                                    <div class="col-sm-3 text-center">
+                                                                        <h4>Candidato</h4>
+                                                                        <img src="img/a1.jpg" class="col-lg-12 mt-3" alt="#">
+                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
+                                                                    </div>
                                                                         <div class="col-sm-4 b-r">
                                                                             <h3 class="m-t-none m-b">Informacion Principal
                                                                             </h3>
@@ -1031,7 +1028,7 @@
                                                                                         class="col-lg-4 col-form-label">Carrera:</label>
                                                                                     <div class="col-lg-8"><input
                                                                                             type="text"
-                                                                                            placeholder="Arquitectura"
+                                                                                            placeholder="Ingenieria de Software"
                                                                                             class="form-control"> <span
                                                                                             class="form-text m-b-none"></span>
                                                                                     </div>
@@ -1047,7 +1044,7 @@
                                                                                 </div>
                                                                                 <div class="form-group">
                                                                                     <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch_3" checked />     
+                                                                                    <input type="checkbox" class="js-switch_2" checked />     
                                                                                 </div>
                                                                                 <div>
                                                                                     <button
@@ -1100,7 +1097,7 @@
                                             <dl class="row mb-0">
                                                 <div class="col-sm-6 text-sm-left">
                                                     <dt>Carrera:</dt>
-                                                    <dd class="sm-2">Android</dd>
+                                                    <dd class="sm-2">Desarrollo De Software</dd>
                                                 </div>
                                             </dl>
                                             <dl class="row mb-0">
@@ -1240,7 +1237,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Android
+                                                                                            Desarrollo De Software
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -1278,15 +1275,10 @@
                                                             </style>
                                                             <div class="modal-body">
                                                                 <div class="row">
-                                                                    <div class="col-sm-3 text-center">
-                                                                        <p>
+                                                                <div class="col-sm-3 text-center">
                                                                         <h4>Candidato</h4>
-                                                                        <i
-                                                                            class="fa fa-cloud-download big-icon"></i><br>
-                                                                        <button class="btn btn-success btn-sm m-t-n-xs"
-                                                                            type="submit">?</button>
-
-                                                                        </p>
+                                                                        <img src="img/a4.jpg" class="col-lg-12 mt-3" alt="#">
+                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
                                                                     </div>
                                                                     <div class="col-sm-4 b-r">
                                                                         <h3 class="m-t-none m-b">Informacion Principal
@@ -1384,7 +1376,7 @@
                                                                                     class="col-lg-4 col-form-label">Carrera:</label>
                                                                                 <div class="col-lg-8"><input
                                                                                         type="text"
-                                                                                        placeholder="Android"
+                                                                                        placeholder="Desarrollo De Software"
                                                                                         class="form-control"> <span
                                                                                         class="form-text m-b-none"></span>
                                                                                 </div>
@@ -1400,7 +1392,7 @@
                                                                             </div>
                                                                             <div class="form-group">
                                                                                     <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch" checked />     
+                                                                                    <input type="checkbox" class="js-switch_3" checked />     
                                                                                 </div>
                                                                             <div>
                                                                                 <button
@@ -1420,7 +1412,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                               
+                                            
 
 
                                             </div>
@@ -1453,7 +1445,7 @@
                                             <dl class="row mb-0">
                                                 <div class="col-sm-6 text-sm-left">
                                                     <dt>Carrera:</dt>
-                                                    <dd class="sm-2">Analisis</dd>
+                                                    <dd class="sm-2">Analisis de Datos</dd>
                                                 </div>
                                             </dl>
                                             <dl class="row mb-0">
@@ -1519,7 +1511,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Lopez
+                                                                                            Lopez Velazques
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -1593,7 +1585,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Analisis
+                                                                                            Analisis de Datos
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -1616,13 +1608,157 @@
                                                     </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
-                                                    <button class="btn btn-info float-right mx-2" type="button"
-                                                        href="#modal-form" data-toggle="modal"><i
-                                                            class="fa fa-paste"></i></button>
-                                                </div>
-
-
-
+                                                            <button class="btn btn-info float-right mx-2" type="button"
+                                                            href="#modal-form4" data-toggle="modal"><i
+                                                                class="fa fa-paste"></i></button>
+                                                    </div>
+                                                    <div id="modal-form4" class="modal fade" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content" id="modal-tamaño">
+                                                                <style>
+                                                                    #pagina-unico .modal-content {
+    
+                                                                        width: 1000px !important;
+                                                                    }
+                                                                </style>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                    <div class="col-sm-3 text-center">
+                                                                            <h4>Candidato</h4>
+                                                                            <img src="img/a3.jpg" class="col-lg-12 mt-3" alt="#">
+                                                                            <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
+                                                                        </div>
+                                                                        <div class="col-sm-4 b-r">
+                                                                            <h3 class="m-t-none m-b">Informacion Principal
+                                                                            </h3>
+    
+                                                                            <!--
+                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
+                                                                -->
+    
+                                                                            <form role="form">
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Karla Andrea"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Lopez Velazques"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Urb. Emilio Lt.24 Mz.E"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="SENATI"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="5to ciclo"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                        <div class="col-sm-4">
+                                                                            <h3 class="m-t-none m-b"></h3>
+    
+                                                                            <!--
+                                                                    <p>Sign in today for more expirience.</p>
+                                                                -->
+    
+                                                                            <form role="form">
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Fecha
+                                                                                        Nac:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="06/10/2005"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">DNI:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="32284626"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Celular:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="941285161"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Analisis de Datos"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Correo:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="karla@gmail.com"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group">
+                                                                                    <label >Estado: </label>
+                                                                                    <input type="checkbox" class="js-switch_4" checked />     
+                                                                                </div>
+                                                                                <div>
+                                                                                    <button
+                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
+                                                                                        type="submit">Descartar</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
+                                                                                        type="submit"><i
+                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </form>
                                     </div>
@@ -1654,7 +1790,7 @@
                                             <dl class="row mb-0">
                                                 <div class="col-sm-6 text-sm-left">
                                                     <dt>Carrera:</dt>
-                                                    <dd class="sm-2">Programacion</dd>
+                                                    <dd class="sm-2">Desarrollo de Videojuegos</dd>
                                                 </div>
                                             </dl>
                                             <dl class="row mb-0">
@@ -1720,7 +1856,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Roman
+                                                                                            Roman Castillo
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -1794,7 +1930,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Programacion
+                                                                                            Desarrollo de Videojuegos
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -1817,10 +1953,156 @@
                                                     </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
-                                                    <button class="btn btn-info float-right mx-2" type="button"
-                                                        href="#modal-form" data-toggle="modal"><i
-                                                            class="fa fa-paste"></i></button>
-                                                </div>
+                                                            <button class="btn btn-info float-right mx-2" type="button"
+                                                            href="#modal-form5" data-toggle="modal"><i
+                                                                class="fa fa-paste"></i></button>
+                                                    </div>
+                                                    <div id="modal-form5" class="modal fade" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content" id="modal-tamaño">
+                                                                <style>
+                                                                    #pagina-unico .modal-content {
+    
+                                                                        width: 1000px !important;
+                                                                    }
+                                                                </style>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                    <div class="col-sm-3 text-center">
+                                                                        <h4>Candidato</h4>
+                                                                        <img src="img/a2.jpg" class="col-lg-12 mt-3" alt="#">
+                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
+                                                                    </div>
+                                                                        <div class="col-sm-4 b-r">
+                                                                            <h3 class="m-t-none m-b">Informacion Principal
+                                                                            </h3>
+    
+                                                                            <!--
+                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
+                                                                -->
+    
+                                                                            <form role="form">
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Daniel"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Roman Castillo"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Urb. Emilio Lt.11 Mz.B"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="SENATI"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="6to ciclo"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                        <div class="col-sm-4">
+                                                                            <h3 class="m-t-none m-b"></h3>
+    
+                                                                            <!--
+                                                                    <p>Sign in today for more expirience.</p>
+                                                                -->
+    
+                                                                            <form role="form">
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Fecha
+                                                                                        Nac:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="06/10/2005"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">DNI:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="34626422"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Celular:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="932893242"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Desarrollo de Videojuegos"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Correo:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="daniel@gmail.com"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group">
+                                                                                    <label >Estado: </label>
+                                                                                    <input type="checkbox" class="js-switch_5" checked />     
+                                                                                </div>
+                                                                                <div>
+                                                                                    <button
+                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
+                                                                                        type="submit">Descartar</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
+                                                                                        type="submit"><i
+                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>   
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
 
                                             </div>
@@ -1838,7 +2120,7 @@
                                 <div class="row">
                                     <div class="col-sm-6 b-r">
                                         <p class="text-center">
-                                            <img src="img/a8.jpg" class="rounded-circle h-150">
+                                            <img src="img/a6.jpg" class="rounded-circle h-150">
                                         </p>
                                         <p class="text-center">
                                             Ana Cristina
@@ -1853,7 +2135,7 @@
                                             <dl class="row mb-0">
                                                 <div class="col-sm-6 text-sm-left">
                                                     <dt>Carrera:</dt>
-                                                    <dd class="sm-2">Android</dd>
+                                                    <dd class="sm-2">Administracion de Empresas</dd>
                                                 </div>
                                             </dl>
                                             <dl class="row mb-0">
@@ -1894,7 +2176,7 @@
                                                                             <p>
                                                                             <h4>Candidato</h4>
                                                                             <p>ID: 00006</p>
-                                                                            <img src="img/a8.jpg" alt="#"
+                                                                            <img src="img/a6.jpg" alt="#"
                                                                                 class="border"><br>
                                                                             </p>
                                                                         </div>
@@ -1993,7 +2275,7 @@
                                                                                     <div class="col-sm-8">
                                                                                         <p class="form-control m-b"
                                                                                             name="account">
-                                                                                            Android
+                                                                                            Administracion de Empresas
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -2016,13 +2298,158 @@
                                                     </div>
                                                     <button class="btn btn-danger float-right mx-2"
                                                         type="button"><i class="fa fa-trash-o"></i></button>
-                                                    <button class="btn btn-info float-right mx-2" type="button"
-                                                        href="#modal-form" data-toggle="modal"><i
-                                                            class="fa fa-paste"></i></button>
-                                                </div>
-
-
-
+                                                        <button class="btn btn-info float-right mx-2" type="button"
+                                                            href="#modal-form6" data-toggle="modal"><i
+                                                                class="fa fa-paste"></i></button>
+                                                    </div>
+                                                    <div id="modal-form6" class="modal fade" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content" id="modal-tamaño">
+                                                                <style>
+                                                                    #pagina-unico .modal-content {
+    
+                                                                        width: 1000px !important;
+                                                                    }
+                                                                </style>
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                    <div class="col-sm-3 text-center">
+                                                                        <h4>Candidato</h4>
+                                                                        <img src="img/a6.jpg" class="col-lg-12 mt-3" alt="#">
+                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
+                                                                    </div>
+                                                                        <div class="col-sm-4 b-r">
+                                                                            <h3 class="m-t-none m-b">Informacion Principal
+                                                                            </h3>
+    
+                                                                            <!--
+                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
+                                                                -->
+    
+                                                                            <form role="form">
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Ana"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Cristina"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Urb. Emilio Lt.11 Mz.C"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="SENATI"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="5to ciclo"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                        <div class="col-sm-4">
+                                                                            <h3 class="m-t-none m-b"></h3>
+    
+                                                                            <!--
+                                                                    <p>Sign in today for more expirience.</p>
+                                                                -->
+    
+                                                                            <form role="form">
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Fecha
+                                                                                        Nac:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="13/12/2002"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">DNI:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="53332146"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Celular:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="932424822"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="Administracion de Empresas"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group row"><label
+                                                                                        class="col-lg-4 col-form-label">Correo:</label>
+                                                                                    <div class="col-lg-8"><input
+                                                                                            type="text"
+                                                                                            placeholder="cristina@gmail.com
+"
+                                                                                            class="form-control"> <span
+                                                                                            class="form-text m-b-none"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group">
+                                                                                    <label >Estado: </label>
+                                                                                    <input type="checkbox" class="js-switch_6" checked />     
+                                                                                </div>
+                                                                                <div>
+                                                                                    <button
+                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
+                                                                                        type="submit">Descartar</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
+                                                                                        type="submit"><i
+                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </form>
                                     </div>
@@ -2035,7 +2462,7 @@
             </div>
             <div>
             <div class="wrapper wrapper-content">
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-8">
                     </div>
                     <div class="footer">
@@ -2047,7 +2474,7 @@
                         </div>
                     </div>
                 </div>
-        </div>
+        </div>-->
                 <div id="right-sidebar">
                     <div class="sidebar-container">
 
@@ -2369,6 +2796,7 @@
 
                 </div>
             </div>
+<<<<<<< HEAD
 
             <script>
         var elem = document.querySelector('.js-switch');
@@ -2396,6 +2824,10 @@
             </script>
 
 
+=======
+            <script src="js/plugins/switchery/switchery.js"></script>                                                            
+           
+>>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
             <!--- Cambiar Imagen-->
             <script>
                 document.getElementById('inputGroupFile').addEventListener('change', function() {
@@ -2411,12 +2843,14 @@
                 });
             </script>
 
+
             <!-- Mainly scripts -->
             <script src="js/jquery-3.1.1.min.js"></script>
             <script src="js/popper.min.js"></script>
             <script src="js/bootstrap.js"></script>
             <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
             <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+            
 
             <!-- Flot -->
             <script src="js/plugins/flot/jquery.flot.js"></script>
@@ -2450,216 +2884,36 @@
 
             <!-- Sparkline demo data  -->
             <script src="js/demo/sparkline-demo.js"></script>
+<<<<<<< HEAD
             <script src="js/plugins/switchery/switchery.js"></script>
             <script>
+=======
+ 
+            
+<script> 
 
+    var elem = document.querySelector('.js-switch');
+    var switchery = new Switchery(elem, { color: '#1AB394' });
+>>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
 
-                $(document).ready(function() {
-                    $('.chart').easyPieChart({
-                        barColor: '#f8ac59',
-                        //                scaleColor: false,
-                        scaleLength: 5,
-                        lineWidth: 4,
-                        size: 80
-                    });
+    var elem_2 = document.querySelector('.js-switch_2');
+    var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
 
-                    $('.chart2').easyPieChart({
-                        barColor: '#1c84c6',
-                        //                scaleColor: false,
-                        scaleLength: 5,
-                        lineWidth: 4,
-                        size: 80
-                    });
+    var elem_3 = document.querySelector('.js-switch_3');
+    var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
 
-                    var data2 = [
-                        [gd(2012, 1, 1), 7],
-                        [gd(2012, 1, 2), 6],
-                        [gd(2012, 1, 3), 4],
-                        [gd(2012, 1, 4), 8],
-                        [gd(2012, 1, 5), 9],
-                        [gd(2012, 1, 6), 7],
-                        [gd(2012, 1, 7), 5],
-                        [gd(2012, 1, 8), 4],
-                        [gd(2012, 1, 9), 7],
-                        [gd(2012, 1, 10), 8],
-                        [gd(2012, 1, 11), 9],
-                        [gd(2012, 1, 12), 6],
-                        [gd(2012, 1, 13), 4],
-                        [gd(2012, 1, 14), 5],
-                        [gd(2012, 1, 15), 11],
-                        [gd(2012, 1, 16), 8],
-                        [gd(2012, 1, 17), 8],
-                        [gd(2012, 1, 18), 11],
-                        [gd(2012, 1, 19), 11],
-                        [gd(2012, 1, 20), 6],
-                        [gd(2012, 1, 21), 6],
-                        [gd(2012, 1, 22), 8],
-                        [gd(2012, 1, 23), 11],
-                        [gd(2012, 1, 24), 13],
-                        [gd(2012, 1, 25), 7],
-                        [gd(2012, 1, 26), 9],
-                        [gd(2012, 1, 27), 9],
-                        [gd(2012, 1, 28), 8],
-                        [gd(2012, 1, 29), 5],
-                        [gd(2012, 1, 30), 8],
-                        [gd(2012, 1, 31), 25]
-                    ];
+    var elem_4 = document.querySelector('.js-switch_4');
+    var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
 
-                    var data3 = [
-                        [gd(2012, 1, 1), 800],
-                        [gd(2012, 1, 2), 500],
-                        [gd(2012, 1, 3), 600],
-                        [gd(2012, 1, 4), 700],
-                        [gd(2012, 1, 5), 500],
-                        [gd(2012, 1, 6), 456],
-                        [gd(2012, 1, 7), 800],
-                        [gd(2012, 1, 8), 589],
-                        [gd(2012, 1, 9), 467],
-                        [gd(2012, 1, 10), 876],
-                        [gd(2012, 1, 11), 689],
-                        [gd(2012, 1, 12), 700],
-                        [gd(2012, 1, 13), 500],
-                        [gd(2012, 1, 14), 600],
-                        [gd(2012, 1, 15), 700],
-                        [gd(2012, 1, 16), 786],
-                        [gd(2012, 1, 17), 345],
-                        [gd(2012, 1, 18), 888],
-                        [gd(2012, 1, 19), 888],
-                        [gd(2012, 1, 20), 888],
-                        [gd(2012, 1, 21), 987],
-                        [gd(2012, 1, 22), 444],
-                        [gd(2012, 1, 23), 999],
-                        [gd(2012, 1, 24), 567],
-                        [gd(2012, 1, 25), 786],
-                        [gd(2012, 1, 26), 666],
-                        [gd(2012, 1, 27), 888],
-                        [gd(2012, 1, 28), 900],
-                        [gd(2012, 1, 29), 178],
-                        [gd(2012, 1, 30), 555],
-                        [gd(2012, 1, 31), 993]
-                    ];
+    var elem_5 = document.querySelector('.js-switch_5');
+    var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
 
+    var elem_6 = document.querySelector('.js-switch_6');
+    var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
 
-                    var dataset = [{
-                        label: "Number of orders",
-                        data: data3,
-                        color: "#1ab394",
-                        bars: {
-                            show: true,
-                            align: "center",
-                            barWidth: 24 * 60 * 60 * 600,
-                            lineWidth: 0
-                        }
-
-                    }, {
-                        label: "Payments",
-                        data: data2,
-                        yaxis: 2,
-                        color: "#1C84C6",
-                        lines: {
-                            lineWidth: 1,
-                            show: true,
-                            fill: true,
-                            fillColor: {
-                                colors: [{
-                                    opacity: 0.2
-                                }, {
-                                    opacity: 0.4
-                                }]
-                            }
-                        },
-                        splines: {
-                            show: false,
-                            tension: 0.6,
-                            lineWidth: 1,
-                            fill: 0.1
-                        },
-                    }];
-
-
-                    var options = {
-                        xaxis: {
-                            mode: "time",
-                            tickSize: [3, "day"],
-                            tickLength: 0,
-                            axisLabel: "Date",
-                            axisLabelUseCanvas: true,
-                            axisLabelFontSizePixels: 12,
-                            axisLabelFontFamily: 'Arial',
-                            axisLabelPadding: 10,
-                            color: "#d5d5d5"
-                        },
-                        yaxes: [{
-                            position: "left",
-                            max: 1070,
-                            color: "#d5d5d5",
-                            axisLabelUseCanvas: true,
-                            axisLabelFontSizePixels: 12,
-                            axisLabelFontFamily: 'Arial',
-                            axisLabelPadding: 3
-                        }, {
-                            position: "right",
-                            clolor: "#d5d5d5",
-                            axisLabelUseCanvas: true,
-                            axisLabelFontSizePixels: 12,
-                            axisLabelFontFamily: ' Arial',
-                            axisLabelPadding: 67
-                        }],
-                        legend: {
-                            noColumns: 1,
-                            labelBoxBorderColor: "#000000",
-                            position: "nw"
-                        },
-                        grid: {
-                            hoverable: false,
-                            borderWidth: 0
-                        }
-                    };
-
-                    function gd(year, month, day) {
-                        return new Date(year, month - 1, day).getTime();
-                    }
-
-                    var previousPoint = null,
-                        previousLabel = null;
-
-                    $.plot($("#flot-dashboard-chart"), dataset, options);
-
-                    var mapData = {
-                        "US": 298,
-                        "SA": 200,
-                        "DE": 220,
-                        "FR": 540,
-                        "CN": 120,
-                        "AU": 760,
-                        "BR": 550,
-                        "IN": 200,
-                        "GB": 120,
-                    };
-
-                    $('#world-map').vectorMap({
-                        map: 'world_mill_en',
-                        backgroundColor: "transparent",
-                        regionStyle: {
-                            initial: {
-                                fill: '#e4e4e4',
-                                "fill-opacity": 0.9,
-                                stroke: 'none',
-                                "stroke-width": 0,
-                                "stroke-opacity": 0
-                            }
-                        },
-
-                        series: {
-                            regions: [{
-                                values: mapData,
-                                scale: ["#1ab394", "#22d6b1"],
-                                normalizeFunction: 'polynomial'
-                            }]
-                        },
-                    });
-                });
-            </script>
+    </script>
+                                                           
+        
 </body>
 
 </html>
