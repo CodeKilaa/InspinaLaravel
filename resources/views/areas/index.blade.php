@@ -16,8 +16,7 @@
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('font-awesome/css/font-awesome.css')}}" rel="stylesheet">
-    <link href="{{asset('css/plugins/switchery/switchery.css')}}" rel="stylesheet">
-
+    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
     <!-- Toastr style -->
     <link href="{{asset('css/plugins/toastr/toastr.min.css')}}" rel="stylesheet">
 
@@ -176,11 +175,14 @@
                                 <img src="svg/001.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <!---<span class="product-price">
                                     ON
                                 </span>
                                 -->
-                                <button class="btn btn-outline btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                                
                                 <small class="text-muted">001</small>
                                 <a href="#" class="product-name"> Programacion</a>
                                 <div class="small m-t-xs">
@@ -188,8 +190,10 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit1" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit1" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -201,9 +205,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Programacion" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="001" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -216,11 +223,14 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -233,7 +243,10 @@
                                 <img id="previewImage" src="svg/002.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price bg-danger">
+                                    Inactivo
+                                </span>
+                                
                                 <small class="text-muted">002</small>
                                 <a href="#" class="product-name"> Analisis</a>
                                 <div class="small m-t-xs">
@@ -241,22 +254,26 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form-edit" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form-edit" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit2" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit2" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
                                                     <div class="row">
-                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar los Datos</h3>
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
         
                                                             <!--
                                                                 <p>Sign in today for more expirience.</p> 
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Analisis" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="002" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch2" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -265,20 +282,17 @@
                                                         </div>
                                                         <div class="col-sm-6"><h4>Cambiar Icono</h4>
                                                             <p class="text-center">
-                                                                <!---<a href=""><i class="fa fa-cloud-download big-icon"></i></a>-->
-                                                                <div class="input-group">
-                                                                    <div class="custom-file">
-                                                                        <input type="file" class="custom-file-input" id="inputGroupFile" accept="image/*">
-                                                                        <label class="custom-file-label" for="inputGroupFile"></label>
-                                                                    </div>
-                                                                </div>
+                                                                <a href=""><i class="fa fa-cloud-download big-icon"></i></a>
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -292,7 +306,10 @@
                                 <img src="svg/003.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
+                                
                                 <small class="text-muted">003</small>
                                 <a href="#" class="product-name"> Planeacion</a>
                                 <div class="small m-t-xs">
@@ -300,8 +317,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit3" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit3" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -313,9 +331,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Planeacion" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="003" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch3" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -328,10 +349,12 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
                             </div>
                         </div>
@@ -346,7 +369,9 @@
                                 <img src="svg/004.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <small class="text-muted">004</small>
                                 <a href="#" class="product-name"> Diseño</a>
                                 <div class="small m-t-xs">
@@ -354,8 +379,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit4" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit4" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -367,9 +393,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Diseño" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="004" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch4" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -382,10 +411,12 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
                             </div>
                         </div>
@@ -405,7 +436,9 @@
                                 <img src="svg/005.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <small class="text-muted">005</small>
                                 <a href="#" class="product-name"> Arquitectura</a>
                                 <div class="small m-t-xs">
@@ -413,8 +446,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit5" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit5" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -426,9 +460,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Arquitectura" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="005" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch5" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -441,10 +478,13 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
+                                
                                 </div>
                             </div>
                         </div>
@@ -458,7 +498,9 @@
                                 <img src="svg/006.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <small class="text-muted">006</small>
                                 <a href="#" class="product-name"> Android</a>
 
@@ -469,8 +511,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit6" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit6" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -482,9 +525,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Android" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="006" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch6" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -497,10 +543,12 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
                             </div>
                         </div>
@@ -514,7 +562,9 @@
                                 <img src="svg/007.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <small class="text-muted">007</small>
                                 <a href="#" class="product-name"> Inteligencia Artificial</a>
 
@@ -525,8 +575,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit7" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit7" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -538,9 +589,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Inteligencia Artificial" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="007" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch7" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -553,10 +607,12 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
                             </div>
                         </div>
@@ -570,7 +626,9 @@
                                 <img src="svg/008.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline-success btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <small class="text-muted">008</small>
                                 <a href="#" class="product-name"> Programacion Web</a>
                                 <div class="small m-t-xs">
@@ -578,8 +636,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit8" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit8" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -591,9 +650,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Programacion Web" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="008" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch8" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -606,10 +668,12 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
                             </div>
                         </div>
@@ -623,7 +687,9 @@
                                 <img src="svg/009.svg" alt="" class="img-lg">
                             </div>
                             <div class="product-desc">
-                                <button class="btn btn-outline btn-primary dim float-right" type="button"><span>ON</span></i></button>
+                            <span class="product-price">
+                                    Activo
+                                </span>
                                 <small class="text-muted">009</small>
                                 <a href="#" class="product-name"> Videojuegos</a>
                                 <div class="small m-t-xs">
@@ -631,8 +697,9 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button>
-                                    <button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
-                                    <div id="modal-form" class="modal fade" aria-hidden="true">
+                                    <button class="btn btn-info" type="button" href="#modal-edit9" data-toggle="modal"><i class="fa fa-paste"></i> Edit</button>
+                                    <!--- MODAL EDIT--->
+                                    <div id="modal-edit9" class="modal fade" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
@@ -644,9 +711,12 @@
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>
-                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="....." class="form-control"></div>
-                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="....." class="form-control"></div>
+                                                                <div class="form-group"><label>Nombre</label> <input type="text" placeholder="Videojuegos" class="form-control"></div>
+                                                                <div class="form-group"><label>Descripcion</label> <input type="text" placeholder="Many desktop publishing packages and web page editors now. " class="form-control"></div>
+                                                                <div class="form-group"><label>Codigo</label> <input type="text" placeholder="009" class="form-control"></div>
+                                                                <div class="form-group"><label>Estado:  </label>
+                                                                    <input type="checkbox" class="js-switch9" checked/>       
+                                                                </div>
                                                                 <div>
                                                                     <button class="btn btn-white btn-sm m-t-n-xs float-left" type="submit">Cancelar</button>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
@@ -659,10 +729,12 @@
                                                             </p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             </div>
                                         </div>
                                 </div>
+                                <!--- FINAL MODAL--->
                                 </div>
                             </div>
                         </div>
@@ -1039,6 +1111,36 @@
 
     <!-- Sparkline demo data  -->
     <script src="js/demo/sparkline-demo.js"></script>
+    
+    <script src="js/plugins/switchery/switchery.js"></script>
+
+
+
+
+<script>
+        var elem = document.querySelector('.js-switch');
+        var switchery = new Switchery(elem, { color: '#1AB394' });
+
+        var elem_2 = document.querySelector('.js-switch2');
+        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
+
+        var elem_3 = document.querySelector('.js-switch3');
+        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
+
+        var elem_4 = document.querySelector('.js-switch4');
+        var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
+        var elem_5 = document.querySelector('.js-switch5');
+        var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
+        var elem_6 = document.querySelector('.js-switch6');
+        var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
+        var elem_7 = document.querySelector('.js-switch7');
+        var switchery_7 = new Switchery(elem_7, { color: '#1AB394' });
+
+        var elem_8 = document.querySelector('.js-switch8');
+        var switchery_8 = new Switchery(elem_8, { color: '#1AB394' });
+        var elem_9 = document.querySelector('.js-switch9');
+        var switchery_9 = new Switchery(elem_9, { color: '#1AB394' });
+</script>
 
     <script>
         $(document).ready(function() {
