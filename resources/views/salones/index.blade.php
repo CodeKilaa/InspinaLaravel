@@ -329,7 +329,35 @@
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
                                             <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;"  href="#modal-edit" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-view1" ></a>
+                                            <!---MODAL DE VISTA --->
+                                            
+                                            <div id="modal-view1" class="modal fade" aria-hidden="true">
+                                                    <div class="modal-dialog modal-custom">
+                                                        <div class="modal-content">
+                                                            <div class="modal-body">
+                                                                <div class="row text-center">
+                                                                    <a class="product-name col-sm-4"><h3>ID: 001</h3></a>
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 1 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                </div>
+                                                                <hr>         
+                                                                <div class="row">        
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>    
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--- FIN DE MODAL--->
                                         </div>
                                         <div id="modal-edit" class="modal fade" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -426,7 +454,162 @@
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
                                             <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit2" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-view2" ></a>
+
+                                            <!---MODAL DE VISTA --->
+                                            
+                                            <div id="modal-view2" class="modal fade" aria-hidden="true">
+                                                    <div class="modal-dialog modal-custom">
+                                                        <div class="modal-content">
+                                                            <div class="modal-body">
+                                                                <div class="row text-center">
+                                                                    <a class="product-name col-sm-4"><h3>ID: 002</h3></a>
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 2 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                </div>
+                                                                <hr>         
+                                                                <div class="row">        
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 4   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch_4" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">4</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">004</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 2</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 7   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch_5" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">7</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">007</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 2</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                        </div> 
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 6   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch_6" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">006</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">006</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 2</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--- FIN DE MODAL--->
                                         </div>
                                     </div>
                                     
@@ -526,7 +709,82 @@
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
                                             <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit3" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-view3" ></a>
+                                            
+                                            
+                                            <!---MODAL DE VISTA --->
+                                            
+                                            <div id="modal-view3" class="modal fade" aria-hidden="true">
+                                                    <div class="modal-dialog modal-custom">
+                                                        <div class="modal-content">
+                                                            <div class="modal-body">
+                                                                <div class="row text-center">
+                                                                    <a class="product-name col-sm-4"><h3>ID: 003</h3></a>
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 3 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                </div>
+                                                                <hr>         
+                                                                <div class="row">        
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">                                                   
+                                                                         </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 7   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch4" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">7</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">007</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 3</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">                                                         
+                                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--- FIN DE MODAL--->
                                         </div>
                                     </div>
                                 </div>
@@ -628,7 +886,80 @@
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
                                             <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit4" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-view4" ></a>
+                                            <!---MODAL DE VISTA --->
+                                            
+                                            <div id="modal-view4" class="modal fade" aria-hidden="true">
+                                                    <div class="modal-dialog modal-custom">
+                                                        <div class="modal-content">
+                                                            <div class="modal-body">
+                                                                <div class="row text-center">
+                                                                    <a class="product-name col-sm-4"><h3>ID: 004</h3></a>
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 4 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                </div>
+                                                                <hr>         
+                                                                <div class="row">        
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">                                                   
+                                                                         </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 7   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch7" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">7</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">007</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 4</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="ibox">                                                         
+                                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--- FIN DE MODAL--->
                                         </div>
                                     </div>
                                 </div>
@@ -739,26 +1070,21 @@
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
                                             <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit5" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
-                                            
-                                            
-                                            
-                                            
-                                            
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-view5" ></a>
                                             <!---MODAL DE VISTA --->
                                             
-                                                <div id="modal-form2" class="modal fade" aria-hidden="true">
+                                            <div id="modal-view5" class="modal fade" aria-hidden="true">
                                                     <div class="modal-dialog modal-custom">
                                                         <div class="modal-content">
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
-                                                                    <a class="product-name col-sm-4"><h3>ID: 1</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 1 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>ID: 002</h3></a>
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 2 </strong></h1></a>  
                                                                     <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>         
-                                                                <div class="row">        
-                                                                    <div class="col-md-4">
+                                                                <div class="row">
+                                                                <div class="col-md-3">
                                                                         <div class="ibox">
                                                                             <div class="ibox-content product-box">
                                                                                 <div class="row">
@@ -794,7 +1120,52 @@
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 1</dd>
+                                                                                                    <dd class="sm-2">Salon 5</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                    </div>        
+                                                                    <div class="col-md-3">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 2   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch_4" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">002</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">002</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -803,13 +1174,13 @@
                                                                                 </div>    
                                                                             </div>
                                                                     </div>
-                                                                    <div class="col-md-4">
+                                                                    <div class="col-md-3">
                                                                         <div class="ibox">
                                                                             <div class="ibox-content product-box">
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 7   
+                                                                                            Maquina 1   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -824,7 +1195,7 @@
                                                                                         <form role="form">
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
-                                                                                                    <dd class="sm-2">7</dd>
+                                                                                                    <dd class="sm-2">001</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
@@ -834,12 +1205,12 @@
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
-                                                                                                    <dd class="sm-2">007</dd>
+                                                                                                    <dd class="sm-2">001</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 1</dd>
+                                                                                                    <dd class="sm-2">Salon 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -848,13 +1219,13 @@
                                                                                 </div>    
                                                                             </div>
                                                                         </div> 
-                                                                    <div class="col-md-4">
+                                                                    <div class="col-md-3">
                                                                         <div class="ibox">
                                                                             <div class="ibox-content product-box">
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 6   
+                                                                                            Maquina 8   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -869,7 +1240,7 @@
                                                                                         <form role="form">
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
-                                                                                                    <dd class="sm-2">006</dd>
+                                                                                                    <dd class="sm-2">008</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
@@ -879,12 +1250,12 @@
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
-                                                                                                    <dd class="sm-2">006</dd>
+                                                                                                    <dd class="sm-2">008</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
                                                                                                 <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 1</dd>
+                                                                                                    <dd class="sm-2">Salon 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -898,6 +1269,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <!--- FIN DE MODAL--->
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
                                                 
                                             
                                         </div>
@@ -1007,7 +1385,124 @@
                                         <div class="text-right">
                                             <a data-toggle="modal" class="btn btn-primary btn-danger fa fa-trash" style="font-size: 20px;" href="" ></a>
                                             <a data-toggle="modal" class="btn btn-primary fa fa-edit" style="font-size: 20px;" href="#modal-edit6" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-form2" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-eye " style="font-size: 20px;" href="#modal-view6" ></a>
+
+                                            <!---MODAL DE VISTA --->
+                                            
+                                            <div id="modal-view6" class="modal fade" aria-hidden="true">
+                                                    <div class="modal-dialog modal-custom">
+                                                        <div class="modal-content">
+                                                            <div class="modal-body">
+                                                                <div class="row text-center">
+                                                                    <a class="product-name col-sm-4"><h3>ID: 006</h3></a>
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 6 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                </div>
+                                                                <hr>
+                                                                <div class="container">
+                                                                <div class="row justify-content-center">
+                                                                <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 6   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch8" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">006</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">006</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 6</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                    </div>
+                                                                <div class="col-md-4">
+                                                                        <div class="ibox">
+                                                                            <div class="ibox-content product-box">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-6 b-r">
+                                                                                        <h2 class="text-center">
+                                                                                            Maquina 7   
+                                                                                        </h2>
+                                                                                        <p class="text-center">
+                                                                                            <img src="img/pc.jpg" class="rounded-circle h-150">
+                                                                                        </p>
+                                                                                        
+                                                                                        <p class="text-center">
+                                                                                            <input type="checkbox" class="js-switch9" checked />
+                                                                                            <a style="color: black;">Activo</a>       
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="col-sm-6">
+                                                                                        <form role="form">
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>ID:</dt>
+                                                                                                    <dd class="sm-2">7</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                    <dd class="sm-2">007</dd>
+                                                                                                </div>
+                                                                                            </dl>
+                                                                                            <dl class="row mb-2">
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
+                                                                                                    <dd class="sm-2">Salon 6</dd>
+                                                                                                </div>
+                                                                                            </dl>                                                      
+                                                                                            </div>
+                                                                                        </form>
+                                                                                    </div>
+                                                                                </div>    
+                                                                            </div>
+                                                                        </div> 
+                                                                </div> 
+                                                                </div>   
+                                                                       
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--- FIN DE MODAL--->
                                         </div>                                    
                                     
                                 </div>
@@ -1142,6 +1637,15 @@
         var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
         var elem_6 = document.querySelector('.js-switch6');
         var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
+        var elem_7 = document.querySelector('.js-switch7');
+        var switchery_7 = new Switchery(elem_7, { color: '#1AB394' });
+
+        var elem_8 = document.querySelector('.js-switch8');
+        var switchery_8 = new Switchery(elem_8, { color: '#1AB394' });
+        var elem_9 = document.querySelector('.js-switch9');
+        var switchery_9 = new Switchery(elem_9, { color: '#1AB394' });
+        var elem_10 = document.querySelector('.js-switch10');
+        var switchery_10 = new Switchery(elem_10, { color: '#1AB394' });
 
 
         var eleme_4 = document.querySelector('.js-switch_4');
