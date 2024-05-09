@@ -700,7 +700,6 @@
                                                                                     class="btn btn-primary btn-sm m-t-n-xs float-right"
                                                                                     type="submit"><i
                                                                                         class="fa fa-check"></i>&nbsp;Guardar</button>
-
                                                                             </div>
                                                                         </form>
                                                                     </div>
