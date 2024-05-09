@@ -693,13 +693,6 @@
                                                                                 <div class="form-group">
                                                                                     <label >Estado:     </label>
                                                                                     <input type="checkbox" class="js-switch" checked />     
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 083c1b1e26b2867a17ed70241398aa325b0d958e
->>>>>>> 12c5caff080f1a0ae89474c5f99c1261f5ad1b56
-=======
->>>>>>> 2e6000b5904e09f801cd58993453f2e2cb3de0d0
                                                                                 </div>
                                                                             <div>
                                                                                 <button
@@ -2854,23 +2847,19 @@
 
             <!-- Sparkline demo data  -->
             <script src="js/demo/sparkline-demo.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             
 
-<script>
+
     
-=======
-<<<<<<< HEAD
+
+
             <script src="js/plugins/switchery/switchery.js"></script>
-            <script>
-=======
-=======
->>>>>>> 2e6000b5904e09f801cd58993453f2e2cb3de0d0
- 
+
+
+
             
 <script> 
->>>>>>> 12c5caff080f1a0ae89474c5f99c1261f5ad1b56
 
     var elem = document.querySelector('.js-switch');
     var switchery = new Switchery(elem, { color: '#1AB394' });
@@ -2890,16 +2879,14 @@
     var elem_6 = document.querySelector('.js-switch_6');
     var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
 
-<<<<<<< HEAD
     
 
 
 </script>                                                    
             
-=======
-    </script>
+
                                                            
->>>>>>> 12c5caff080f1a0ae89474c5f99c1261f5ad1b56
+
         
 </body>
 
