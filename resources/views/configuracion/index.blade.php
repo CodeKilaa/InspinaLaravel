@@ -396,7 +396,7 @@
                         <div class="show-grid container-fluid">
                             <div class="row">
                                 <div class="col-sm-3">
-                                     <!---<img src="img/herramienta.png" class="width=62 height=49 ">-->
+                                <img src="svg/herramienta.svg" class="img-md">
                                 </div>
                                 <div class="col-sm">
                                     <h4><strong>Tipo de Configuración</strong></h4>

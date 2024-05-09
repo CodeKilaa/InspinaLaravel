@@ -53,7 +53,8 @@
                         <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span> <span class="fa arrow"></span></a>
                     </li>
                     <li>
-                        <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
+                        <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span
+                                class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="horarioPresencial">Presencial</a></li>
                             <li><a href="horarioGeneral">Horario General</a></li>
@@ -62,88 +63,44 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
+                        <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios
+                                G.Virtual</span></a>
                     </li>
-                    <li class="active">
-                        <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
+                    <li>
+                        <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span
+                                class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
-                            <li>
-                                <a href="#">Candidatos<span class="fa arrow"></span></a>
-                                <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="candidatos">Candidatos</a>
-                                    </li>
-                                    <li>
-                                        <a href="form-candidatos-colab.html">Formulario</a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="active">
-                                <a href="#">Colaboradores<span class="fa arrow"></span></a>
-                                <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="colaboradores">Colaboradores</a>
-                                    </li>
-                                    <li>
-                                        <a href="form-candidatos-colab.html">Candidato a Colab</a>
-                                    </li>
-                                    <li class="active">
-                                        <a href="form-horario-clase.html">Horario Clase</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="horario-clase-semanal.html">Horario Semanal</a>
-                                    </li>
-                                </ul>
+                                <a href="candidatos">Candidatos</a>
                             </li>
                             <li>
-                                <a href="#">Capacitacion-Horario<span class="fa arrow"></span></a>
-                                <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="capacitacion-colab.html">Informacion</a>
-                                    </li>
-                                    <li>
-                                        <a href="capacitacion-horario.html">Horario</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        
-                    </li>
-                    <li class="active">
-                        <a href="dashboard_areas.html"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
-                    </li>
-                    <li>
-                        <a href="Maquinas.html"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="responsabilidades_areas.html">Areas</a></li>
-                            <li><a href="responsabilidades-semanas.html">Semanas</a></li>
-                            <li><a href="responsabilidades-asis.html">Asistencia</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Maquinas.html"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level collapse">
-    
+                                <a href="colaboradores">Colaboradores</a>
                             <li>
-                                <a href="Maquinas.html"><span class="nav-label">Maquinas</span></a>
-                                
+                                <a href="HorarioCapacitacion">Capacitacion-Horario</a>
                             </li>
-    
-                            <li><a href="Computadora.html">Computadoras</a></li>
-                            
                         </ul>
-                        
+
                     </li>
                     <li>
-                        <a href="salones.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
+                        <a href="areas"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
+                    </li>
+                    <li>
+                        <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span
+                                class="nav-label">Responsabilidades</span></a>
+                    </li>
+                    <li>
+                        <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                    </li>
+                    <li>
+                        <a href="salones"><i class="fa fa-address-card-o"></i> <span
+                                class="nav-label">Salones</span></a>
                     </li>
                     <li>
                         <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                     </li>
                     <li>
-                        <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>
+                        <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar
+                                Sesion</span></a>
                     </li>
                 </ul>
     
