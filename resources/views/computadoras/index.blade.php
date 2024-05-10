@@ -102,18 +102,7 @@
                         <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar
                                 Sesion</span></a>
                     </li>
-                    </ul>
-                    
-                </li>
-                <li>
-                    <a href="salones.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
-                </li>
-                <li>
-                    <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
-                </li>
-                <li>
-                    <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>
-                </li>
+               
             </ul>
 
         </div>

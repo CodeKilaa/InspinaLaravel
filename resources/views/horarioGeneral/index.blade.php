@@ -477,56 +477,72 @@
                 },
                 {
                     id: 999,
-                    title: 'Marlo Estrucutra Salon 1 Maquina 1',
+                    title: `Marlo Samaniego
+                    Estructura - Salón 1 
+                    Máquina 1`,
                     start: new Date(y, m, d-2, 8,30),
                     end: new Date(y, m, d-2, 12,30),
                     allDay: false,
                     color: '#19CB29'
                 },
                 {
-                    title: 'Mateoo Analisis Salon 1 Maquina 1',
+                title: `Mateo Rodriguez
+                Analisis - Salón1
+                Máquina 1`,
                     start: new Date(y, m, d-1, 8,30),
                     end: new Date(y, m, d-1, 12,30),
                     allDay: false,
                     color:'#1F76F8'
                 },
                 {
-                    title: 'Isabel Analisis Salon 1 Maquina 6',
+                    title: `Isabel 
+                    Análisis - Salón 1 
+                    Máquina 6 `,
                     start: new Date(y, m, d, 14),
                     end: new Date(y, m, d, 18,30),
                     allDay: false,
                     color:'#1F76F8'
                 },
                 {
-                    title: 'Marlo Estructura Salon 1 Maquina 2',
+                    title: `Marlo Samaniego
+                    Estructura - Salón 1 
+                    Máquina 2`,
                     start: new Date(y, m, d+1, 14),
                     end: new Date(y, m, d+1, 18,30),
                     allDay: false,
                     color: '#19CB29'
                 },
                 {
-                    title: 'Gustavo Android Salon 2 Maquina 2',
+                    title: `Gustavo Messi
+                    Android - Salón 2 
+                    Máquina 2`,
                     start: new Date(y, m, d+2, 9),
                     end: new Date(y, m, d+2, 12,30),
                     allDay: false,
                     color:'#E5835A'
                 },
                 {
-                    title: 'Xiomara Android Salon 2 Maquina 5',
+                    title: `Xiomara Rodriguez
+                    Android - Salón 2 
+                    Máquina 5`,
                     start: new Date(y, m, d+2, 14),
                     end: new Date(y, m, d+2, 18,30),
                     allDay: false,
                     color:'#E5835A'
                 },
                 {
-                    title: 'Daniel Programacion Salon 2 Maquina 3',
+                    title: `Daniel Roman
+                    Programación - Salón 2 
+                    Máquina 3`,
                     start: new Date(y, m, d+3, 8,30),
                     end: new Date(y, m, d+3, 12,30),
                     allDay: false,
                     color:'#9629F1'
                 },
                 {
-                    title: 'Daniel Programacion Salon 2 Maquina 4',
+                    title: `Daniel Roman
+                    Programación - Salón 2 
+                    Máquina 4`,
                     start: new Date(y, m, d+3, 14),
                     end: new Date(y, m, d+3, 18,30),
                     allDay: false,
