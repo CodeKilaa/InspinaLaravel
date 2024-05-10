@@ -241,6 +241,46 @@
                     </li>
                 </ol>
             </div>
+
+            <div class="col-lg-2">
+                <div class="ibox-content">
+                    <div class="text-center">
+                    <a data-toggle="modal"  class="btn btn-success"  href="#modal-form-add" > Agregar <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                    <div id="modal-form-add" class="modal fade" aria-hidden="true">
+                        <div class="modal-dialog modal-custom">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="row d-flex justify-content-center">
+                                                        
+                                        <div class="col-sm-6">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label>Herramienta</label>
+                                                    <input type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label>Fecha de Inscripcion</label>
+                                                    <input type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </form>  
+                                        </div><br>
+                                        <div class="col-sm-12 text-center">
+                                            <button class="btn btn-success btn-sm m-t-n-xs" type="submit"><i class="fa fa-check"></i>&nbsp;Agregar</button>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+            </div>
             
         </div>
         

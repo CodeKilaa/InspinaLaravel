@@ -394,7 +394,7 @@
                                     <div class="modal-content">
                                         <div class="modal-body">
                                             <div class="row">
-                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editars</h3>
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
 
                                                     <!--
                                                         <p>Sign in today for more expirience.</p> 
@@ -470,7 +470,7 @@
                                     <div class="modal-content">
                                         <div class="modal-body">
                                             <div class="row">
-                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editaradsad</h3>
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
 
                                                     <!--
                                                         <p>Sign in today for more expirience.</p> 
@@ -547,7 +547,7 @@
                                     <div class="modal-content">
                                         <div class="modal-body">
                                             <div class="row">
-                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editaradsad</h3>
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
 
                                                     <!--
                                                         <p>Sign in today for more expirience.</p> 
@@ -624,7 +624,7 @@
                                     <div class="modal-content">
                                         <div class="modal-body">
                                             <div class="row">
-                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editaradsad</h3>
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
 
                                                     <!--
                                                         <p>Sign in today for more expirience.</p> 

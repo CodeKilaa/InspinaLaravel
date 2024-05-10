@@ -344,8 +344,8 @@
                                                         <div class="form-group row">
                                                             <div class="col-sm-10"><select class="form-control m-b" name="account">
                                                                 <option>3 semanas</option>
-                                                                <option>SENATI</option>
-                                                                <option>UPC</option>
+                                                                <option>2 semanas</option>
+                                                                <option>1 semana</option>
                                                             </select>                
                                                             </div>
                                                         </div>
@@ -363,8 +363,8 @@
                                                         <div class="form-group row">
                                                             <div class="col-sm-10"><select class="form-control m-b" name="account">
                                                                 <option>Diseño Grafico</option>
-                                                                <option>SENATI</option>
-                                                                <option>UPC</option>
+                                                                <option>Programacion</option>
+                                                                <option>Analisis</option>
                                                             </select>                
                                                             </div>
                                                         </div>
@@ -446,7 +446,7 @@
                             <div id="modal2-form" class="modal fade" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-body">
+                                        
                                             <div class="modal-body">
                                                 <div class="row">
                                                     <div class="col-sm-6 b-r">
@@ -493,7 +493,7 @@
                                                         
                                                 </div>
                                     </div>
-                                    </div>
+                                    
                                 </div>
                         </div>
                         <td><button class="btn btn-success" type="button" href="#modaleye2-form" data-toggle="modal"><i class="fa fa-eye"></i></button></td>
@@ -564,7 +564,7 @@
                             <div id="modal3-form" class="modal fade" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-body">
+                                        
                                             <div class="modal-body">
                                                 <div class="row">
                                                     <div class="col-sm-6 b-r">
@@ -611,7 +611,7 @@
                                                         
                                                 </div>
                                     </div>
-                                    </div>
+                                    
                                 </div>
                         </div>
                         <td><button class="btn btn-success" type="button" href="#modaleye3-form" data-toggle="modal"><i class="fa fa-eye"></i></button></td>
