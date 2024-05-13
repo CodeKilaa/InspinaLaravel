@@ -57,7 +57,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="horario-general-virtual.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
+                        <a href="horarioVirtual"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Virtual</span></a>
                     </li>
                     <li>
                         <a href="layouts.html"><i class="fa fa-group"></i> <span class="nav-label">Personal</span><span class="fa arrow"></span></a>
@@ -80,10 +80,10 @@
                         <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                     </li>
                     <li>
-                        <a href="Maquinas.html"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                        <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
                     </li>
                     <li>
-                        <a href="salones.html"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
+                        <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
                     <li>
                         <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
@@ -207,7 +207,7 @@
 
 
                 <li>
-                    <a href="login.html">
+                    <a href="/">
                         <i class="fa fa-sign-out"></i> Log out
                     </a>
                 </li>

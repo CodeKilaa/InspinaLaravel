@@ -84,13 +84,13 @@
                     <li>
                         <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
                     </li>
                     <li>
                         <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                     </li>
                     <li>
@@ -212,7 +212,7 @@
 
 
                 <li>
-                    <a href="login.html">
+                    <a href="/">
                         <i class="fa fa-sign-out"></i> Log out
                     </a>
                 </li>
