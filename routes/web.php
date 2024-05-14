@@ -123,3 +123,11 @@ Route::get('/horario-dia', function () {
 Route::get('/horario-dia2', function () {
     return view('colaboradores.horario-dia2');
 });
+
+
+Route::get('/config-carrera', function () {
+    return view('configuracion.config-carrera');
+});
+Route::get('/config-curso', function () {
+    return view('configuracion.config-curso');
+});

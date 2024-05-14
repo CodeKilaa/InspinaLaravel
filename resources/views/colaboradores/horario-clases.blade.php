@@ -229,7 +229,7 @@
         </div>
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-10">
-                    <h2>Tabs</h2>
+                    <h2>Horario de Clases</h2>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="index.html">Home</a>
@@ -677,7 +677,7 @@
                     color: '#9C27B0'
                 },
                 {
-                title: 'Clase Presencial',s
+                title: 'Clase Presencial',
                     start: new Date(y, m, d+1,8,0),
                     end: new Date(y, m, d+1,12,0),
                     allDay: false

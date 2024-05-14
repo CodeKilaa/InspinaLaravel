@@ -345,7 +345,7 @@
                                     <p>Carrera</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-carrera"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-carrera"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +365,7 @@
                                     <p>Curso</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-curso"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-curso"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>
