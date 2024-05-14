@@ -66,7 +66,7 @@
                         <li><a href="horarioPresencial">Presencial</a></li>
                         <li><a href="horarioGeneral">Horario General</a></li>
                         <li><a href="horarioArea">Areas</a></li>
-                        <li><a href="horarioSalon">Salon</a></li>
+                        <li><a href="horarioSalon">Salón</a></li>
                     </ul>
                 </li>
                 <li>
@@ -94,7 +94,7 @@
                     <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
                 </li>
                 <li class="active">
-                    <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                    <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Máquinas</span></a>
                 </li>
                 <li>
                     <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
@@ -233,16 +233,13 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
-                <h2>Maquinas</h2>
+                <h2>Máquinas</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="breadcrumb-item">
-                        <a>Dashboard</a>
-                    </li>
                     <li class="breadcrumb-item active">
-                        <strong>Maquinas</strong>
+                        <strong>Máquinas</strong>
                     </li>
                 </ol>
             </div>
@@ -258,7 +255,7 @@
                                     <div class="modal-body">
                                         <div class="row">
                                         
-                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                            <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                 <select class="form-control m-b" name="account">
                                                     <option> 1</option>
                                                     <option> 2</option>
@@ -270,8 +267,8 @@
                                                 <p></p>
 
                                                 <form role="form">
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="email" placeholder="Enter Description" class="form-control"></div>
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="email" placeholder="Enter Description" class="form-control"></div>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                         <select class="form-control m-b" name="account">
                                                             <option> 001</option>
                                                             <option> 002</option>
@@ -282,12 +279,12 @@
                                                         </select>
                                                         
                                                     </div>
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                         <select class="form-control m-b" name="account">
-                                                            <option> Salon 1</option>
-                                                            <option> Salon 2</option>
-                                                            <option> Salon 3</option>
-                                                            <option> Salon 4</option>
+                                                            <option> Salón 1</option>
+                                                            <option> Salón 2</option>
+                                                            <option> Salón 3</option>
+                                                            <option> Salón 4</option>
                                                             
                                                         </select>
                                                     </div> 
@@ -331,19 +328,19 @@
                                     Inactive
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Maquina 1</h2></a>
+                                <a href="#" class="product-name"><h2> Máquina 1</h2></a>
 
 
 
-                                <small class="text-muted text-center"><h3>Detalles Tecnicos</h3></small>
+                                <small class="text-muted text-center"><h3>Detalles Técnicos</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>60 Dias</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
+                                <small class="text-muted text-center"><h3>Número Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>001</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
+                                <small class="text-muted text-center"><h3>Salón Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>Sin Asignar</h5>
                                 </div>
@@ -360,7 +357,7 @@
                                                                 <div class="modal-body">
                                                                     <div class="row">
                                                                     
-                                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                                             <select class="form-control m-b" name="account">
                                                                                 <option> 1</option>
                                                                                 <option> 2</option>
@@ -373,7 +370,7 @@
                             
                                                                             <form role="form">
                                                                                 
-                                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                                                     <select class="form-control m-b" name="account">
                                                                                         <option> 001</option>
                                                                                         <option> 002</option>
@@ -384,13 +381,13 @@
                                                                                     </select>
                                                                                     
                                                                                 </div>
-                                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                                                     <select class="form-control m-b" name="account">
                                                                                         <option> Sin Asignar</option>
-                                                                                        <option> Salon 1</option>
-                                                                                        <option> Salon 2</option>
-                                                                                        <option> Salon 3</option>
-                                                                                        <option> Salon 4</option>
+                                                                                        <option> Salón 1</option>
+                                                                                        <option> Salón 2</option>
+                                                                                        <option> Salón 3</option>
+                                                                                        <option> Salón 4</option>
                                                                                         
                                                                                     </select>
                                                                                 </div> 
@@ -404,7 +401,7 @@
                                                                             </form>
                                                                         </div>
                                                                         <div class="col-sm-6">
-                                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
                                                                             <h4> Cambiar Icono </h4>
                                                                             <div class="custom-file">
                                                                                 <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
@@ -437,21 +434,21 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Maquina 2</h2></a>
+                                <a href="#" class="product-name"><h2> Máquina 2</h2></a>
 
 
 
-                                <small class="text-muted text-center"><h3>Detalles Tecnicos</h3></small>
+                                <small class="text-muted text-center"><h3>Detalles Técnicos</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>60 Dias</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
+                                <small class="text-muted text-center"><h3>Número Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>002</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
+                                <small class="text-muted text-center"><h3>Salón Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Salon 2</h5>
+                                    <h5>Salón 2</h5>
                                 </div>
                                 <div class="m-t text-righ">
 
@@ -465,7 +462,7 @@
                                                         <div class="modal-body">
                                                             <div class="row">
                                                             
-                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                                     <select class="form-control m-b" name="account">
                                                                         <option> 2</option>
                                                                         <option> 1</option>
@@ -478,7 +475,7 @@
                     
                                                                     <form role="form">
                                                                         
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                                             <select class="form-control m-b" name="account">
                                                                                 <option> 002</option>
                                                                                 <option> 001</option>
@@ -490,14 +487,14 @@
                                                                             </select>
                                                                             
                                                                         </div>
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                                             <select class="form-control m-b" name="account">
-                                                                                <option> Salon 2</option>
+                                                                                <option> Salón 2</option>
                                                                                 <option> Sin Asignar</option>
-                                                                                <option> Salon 1</option>
+                                                                                <option> Salón 1</option>
                                                                                 
-                                                                                <option> Salon 3</option>
-                                                                                <option> Salon 4</option>
+                                                                                <option> Salón 3</option>
+                                                                                <option> Salón 4</option>
                                                                                 
                                                                             </select>
                                                                         </div> 
@@ -511,7 +508,7 @@
                                                                     </form>
                                                                 </div>
                                                                 <div class="col-sm-6">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
                                                                     <h4> Cambiar Icono </h4>
                                                                     <div class="custom-file">
                                                                         <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
@@ -544,21 +541,21 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Maquinas 3</h2></a>
+                                <a href="#" class="product-name"><h2> Máquinas 3</h2></a>
 
 
 
-                                <small class="text-muted text-center"><h3>Detalles Tecnicos</h3></small>
+                                <small class="text-muted text-center"><h3>Detalles Técnicos</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>60 Dias</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
+                                <small class="text-muted text-center"><h3>Número Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>003</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
+                                <small class="text-muted text-center"><h3>Salón Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Salon 1</h5>
+                                    <h5>Salón 1</h5>
                                 </div>
                                 <div class="m-t text-righ">
 
@@ -573,7 +570,7 @@
                                                         <div class="modal-body">
                                                             <div class="row">
                                                             
-                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                                     <select class="form-control m-b" name="account">
                                                                         <option> 3</option>
                                                                         <option> 1</option>
@@ -586,7 +583,7 @@
                     
                                                                     <form role="form">
                                                                         
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                                             <select class="form-control m-b" name="account">
                                                                                 <option> 003</option>
                                                                                 <option> 001</option>
@@ -600,13 +597,13 @@
                                                                             </select>
                                                                             
                                                                         </div>
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                                             <select class="form-control m-b" name="account">
-                                                                                <option> Salon 1</option>
+                                                                                <option> Salón 1</option>
                                                                                 <option> Sin Asignar</option>
-                                                                                <option> Salon 2</option>
-                                                                                <option> Salon 3</option>
-                                                                                <option> Salon 4</option>
+                                                                                <option> Salón 2</option>
+                                                                                <option> Salón 3</option>
+                                                                                <option> Salón 4</option>
                                                                                 
                                                                             </select>
                                                                         </div> 
@@ -620,7 +617,7 @@
                                                                     </form>
                                                                 </div>
                                                                 <div class="col-sm-6">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
                                                                     <h4> Cambiar Icono </h4>
                                                                     <div class="custom-file">
                                                                         <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
@@ -654,20 +651,20 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Maquina 4 </h2></a>
+                                <a href="#" class="product-name"><h2> Máquina 4 </h2></a>
 
 
-                                <small class="text-muted text-center"><h3>Detalles Tecnicos</h3></small>
+                                <small class="text-muted text-center"><h3>Detalles Técnicos</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>60 Dias</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
+                                <small class="text-muted text-center"><h3>Número Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>004</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
+                                <small class="text-muted text-center"><h3>Salón Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Salon3</h5>
+                                    <h5>Salón 3</h5>
                                 </div>
                                 
 
@@ -682,7 +679,7 @@
                                                         <div class="modal-body">
                                                             <div class="row">
                                                             
-                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                                     <select class="form-control m-b" name="account">
                                                                         <option> 4</option>
                                                                         
@@ -697,7 +694,7 @@
                     
                                                                     <form role="form">
                                                                         
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                                             <select class="form-control m-b" name="account">
                                                                                 <option> 004</option>
                                                                                 
@@ -710,13 +707,13 @@
                                                                             </select>
                                                                             
                                                                         </div>
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                                             <select class="form-control m-b" name="account">
-                                                                                <option> Salon 3</option>
+                                                                                <option> Salón 3</option>
                                                                                 <option> Sin Asignar</option>
-                                                                                <option> Salon 1</option>
-                                                                                <option> Salon 2</option>
-                                                                                <option> Salon 4</option>
+                                                                                <option> Salón 1</option>
+                                                                                <option> Salón 2</option>
+                                                                                <option> Salón 4</option>
                                                                                 
                                                                             </select>
                                                                         </div> 
@@ -730,7 +727,7 @@
                                                                     </form>
                                                                 </div>
                                                                 <div class="col-sm-6">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
                                                                     <h4> Cambiar Icono </h4>
                                                                     <div class="custom-file">
                                                                         <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
@@ -764,20 +761,20 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Maquina 5</h2></a>
+                                <a href="#" class="product-name"><h2> Máquina 5</h2></a>
 
 
-                                <small class="text-muted text-center"><h3>Detalles Tecnicos</h3></small>
+                                <small class="text-muted text-center"><h3>Detalles Técnicos</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>60 Dias</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
+                                <small class="text-muted text-center"><h3>Número Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>005</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
+                                <small class="text-muted text-center"><h3>Salón Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Salon 4</h5>
+                                    <h5>Salón 4</h5>
                                 </div>
                                 <div class="m-t text-righ">
 
@@ -792,7 +789,7 @@
                                                         <div class="modal-body">
                                                             <div class="row">
                                                             
-                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                                     <select class="form-control m-b" name="account">
                                                                         <option> 5</option>
                                                                         
@@ -808,7 +805,7 @@
                     
                                                                     <form role="form">
                                                                         
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                                             <select class="form-control m-b" name="account">
                                                                                 <option> 005</option>
                                                                                 
@@ -822,14 +819,14 @@
                                                                             </select>
                                                                             
                                                                         </div>
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                                             <select class="form-control m-b" name="account">
-                                                                                <option> Salon 4</option>
+                                                                                <option> Salón 4</option>
                                                                                 
                                                                                 <option> Sin Asignar</option>
-                                                                                <option> Salon 1</option>
-                                                                                <option> Salon 2</option>
-                                                                                <option> Salon 3</option>
+                                                                                <option> Salón 1</option>
+                                                                                <option> Salón 2</option>
+                                                                                <option> Salón 3</option>
                                                                                 
                                                                                 
                                                                             </select>
@@ -844,7 +841,7 @@
                                                                     </form>
                                                                 </div>
                                                                 <div class="col-sm-6">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
                                                                     <h4> Cambiar Icono </h4>
                                                                     <div class="custom-file">
                                                                         <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
@@ -877,20 +874,20 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2>Maquina 6</h2></a>
+                                <a href="#" class="product-name"><h2>Máquina 6</h2></a>
 
 
-                                <small class="text-muted text-center"><h3>Detalles Tecnicos</h3></small>
+                                <small class="text-muted text-center"><h3>Detalles Técnicos</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>60 Dias</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Numero Identificador</h3></small>
+                                <small class="text-muted text-center"><h3>Número Identificador</h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>006</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3>Salon Asignado</h3></small>
+                                <small class="text-muted text-center"><h3>Salón Asignado</h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Salon 3</h5>
+                                    <h5>Salón 3</h5>
                                 </div>
                                 <div class="m-t text-righ">
 
@@ -905,7 +902,7 @@
                                                         <div class="modal-body">
                                                             <div class="row">
                                                             
-                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Maquina</h3>
+                                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Máquina</h3>
                                                                     <select class="form-control m-b" name="account">
                                                                         <option> 6</option>
                                                                         
@@ -921,7 +918,7 @@
                     
                                                                     <form role="form">
                                                                         
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Numero Identificador</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Número Identificador</h3></label>
                                                                             <select class="form-control m-b" name="account">
                                                                                 <option> 006</option>
                                                                                 
@@ -935,15 +932,15 @@
                                                                             </select>
                                                                             
                                                                         </div>
-                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salon Asignado</h3></label>
+                                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Salón Asignado</h3></label>
                                                                             <select class="form-control m-b" name="account">
-                                                                                <option> Salon 3</option>
+                                                                                <option> Salón 3</option>
                                                                                 
                                                                                 
                                                                                 <option> Sin Asignar</option>
-                                                                                <option> Salon 1</option>
-                                                                                <option> Salon 2</option>
-                                                                                <option> Salon 4</option>
+                                                                                <option> Salón 1</option>
+                                                                                <option> Salón 2</option>
+                                                                                <option> Salón 4</option>
                                                                                 
                                                                                 
                                                                             </select>
@@ -958,7 +955,7 @@
                                                                     </form>
                                                                 </div>
                                                                 <div class="col-sm-6">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Tecnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Detalles Técnicos</h3></label><input type="text" placeholder="60 dias" class="form-control"></div>
                                                                     <h4> Cambiar Icono </h4>
                                                                     <div class="custom-file">
                                                                         <input type="file" class="custon-file-imput" id="imputGroupFile" accept="image/*">
