@@ -6,11 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Configuración</title>
-
+    <title>Configuración-Institución</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
 
+     <!-- Toastr style -->
+     <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -70,8 +72,8 @@
                                 <a href="candidatos">Candidatos</a>
                             </li>
                             <li>
-                                <a href="colaboradores">Colaboradores</a>
-    
+                                <a href="colaboradores">Colaboradores</a>           
+                            </li>
                             <li>
                                 <a href="HorarioCapacitacion">Capacitacion-Horario</a>
                             </li>
@@ -90,12 +92,14 @@
                     <li>
                         <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="configuracion"><i class="fa fa-cog"></i> <span class="nav-label">Ajustes</span></a>
                     </li>
                     <li>
                         <a href="layouts.html"><i class="fa fa-sign-out"></i> <span class="nav-label">Cerrar Sesion</span></a>
                     </li>
+                </ul>
+    
             </div>
         </nav>
 
@@ -233,8 +237,11 @@
                     <li class="breadcrumb-item">
                         <a href="index.html">Home</a>
                     </li>
+                    <li class="breadcrumb-item">
+                        <a href="configuracion.html">Ajustes</a>
+                    </li>
                     <li class="breadcrumb-item active">
-                        <a href="configuracion.html"><strong>Ajustes</strong></a>
+                        <strong>Institucion</strong>
                     </li>
                 </ol>
             </div>
@@ -245,24 +252,19 @@
                                             <div class="modal-content">
                                                 <div class="modal-body">
                                                     <div class="row">
-                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Ingrese los Datos</h3>
+                                                        <div class="col-sm-6"><h3 class="m-t-none m-b">Ingrese los Datos</h3>
         
                                                             <!--
                                                                 <p>Sign in today for more expirience.</p> 
                                                             -->
         
                                                             <form role="form">
-                                                                <div class="form-group"><label>Tipo de Configuración</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>                                                              
+                                                                <div class="form-group"><label>Institucion</label> <input type="text" placeholder="Ingrese un nombre" class="form-control"></div>                                                              
                                                                 <div>
                                                                     <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
                                                                 </div>
                                                             </form>
                                                         </div>
-                                                        <div class="col-sm-6"><h4>Subir Icono</h4>
-                                                            <p class="text-center">
-                                                                <a href=""><i class="fa fa-cloud-download big-icon"></i></a>
-                                                            </p>
-                                                    </div>
                                                 </div>
                                             </div>
                                             </div>
@@ -273,157 +275,290 @@
         </div>
         
         <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="svg/apariencia.svg" class="">
-                                </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Apariencias</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-institucion.html"><i class="fa fa-cog"></i></a>
-                                </div>
-                            </div>
-                        </div>
+
+
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Border Table </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
                     </div>
                 </div>
+                <div class="ibox-content col-lg-12">
 
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="svg/usuarios.svg" class="">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="col-lg-1">ID</th>
+                            <th class="col-lg-5">Institución</th>
+                            <th class="col-lg-1">Estado</th>
+                            <th class="col-lg-1">Editar</th>
+                            <th class="col-lg-1">Ver</th>
+                            <th class="col-lg-1">Borrar</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SENATI</td>
+                            <td><button class="btn btn-outline-success btn-primary dim" type="button"><span>Activo</span></i></button></td>
+                            <td><button class="btn btn-info" type="button" href="#modal-form" data-toggle="modal"><i class="fa fa-paste"></i></button></td>
+                            <div id="modal-form" class="modal fade" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
+
+                                                    <!--
+                                                        <p>Sign in today for more expirience.</p> 
+                                                    -->
+
+                                                    <form role="form">
+                                                        <label class="col-form-label">Institucion</label>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-10"><select class="form-control m-b" name="account">
+                                                                <option>SENATI</option>
+                                                                <option>UNI</option>
+                                                                <option>UPC</option>
+                                                            </select>                
+                                                            </div>
+                                                        </div>
+                                                        <label class="col-form-label">Estado</label>
+                                                        <input type="checkbox" class="js-switch" checked/>
+                                                        <div>
+                                                            <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Usuarios</p>
+                        </div>
+                        <td><button class="btn btn-success" type="button" href="#modaleye1-form" data-toggle="modal"><i class="fa fa-eye"></i></button></td>
+                        <div id="modaleye1-form" class="modal fade" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-sm-12"><h3 class="m-t-none m-b">Ver</h3>
+
+                                                <!--
+                                                    <p>Sign in today for more expirience.</p> 
+                                                -->
+                                                <form role="form">
+                                                    <label class="col-form-label">Institucion</label>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-10"><p class="form-control m-b" name="account">
+                                                            <option>SENATI</option>
+                                                        <p/>                
+                                                        </div>
+                                                    </div>
+                                                    <label class="col-form-label">Estado</label>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-10"><p class="form-control m-b" name="account">
+                                                            <option>Activo</option>
+                                                        <p/>                
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                            
+                                    </div>
                                 </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-institucion.html"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
-                        </div>
                     </div>
-                </div>
+                            <td><button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>UPC</td>
+                            <td><button class="btn btn-outline-success btn-primary dim" type="button"><span>Activo</span></i></button></td>
+                            <td><button class="btn btn-info" type="button" href="#modal2-form" data-toggle="modal"><i class="fa fa-paste"></i></button></td>
+                            <div id="modal2-form" class="modal fade" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
 
+                                                    <!--
+                                                        <p>Sign in today for more expirience.</p> 
+                                                    -->
+                                                    <form role="form">
+                                                        <label class="col-form-label">Institucion</label>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-10"><select class="form-control m-b" name="account">
+                                                                <option>UPC</option>
+                                                                <option>UNI</option>
+                                                                <option>SENATI</option>
+                                                            </select>                
+                                                            </div>
+                                                        </div>
+                                                        <label class="col-form-label">Estado</label>
+                                                        <input type="checkbox" class="js-switch_2" checked/>
+                                                        <div>
+                                                            <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
+                                                        </div>
+                                                    </form>
+
+                                                </div>
+                                                
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                            <td><button class="btn btn-success" type="button" href="#modaleye-form" data-toggle="modal"><i class="fa fa-eye"></i></button></td>
+                            <div id="modaleye-form" class="modal fade" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-12"><h3 class="m-t-none m-b">Ver</h3>
+
+                                                    <!--
+                                                        <p>Sign in today for more expirience.</p> 
+                                                    -->
+                                                    <form role="form">
+                                                        <label class="col-form-label">Institucion</label>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-10"><p class="form-control m-b" name="account">
+                                                                <option>UPC</option>
+                                                            <p/>                
+                                                            </div>
+                                                        </div>
+                                                        <label class="col-form-label">Estado</label>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-10"><p class="form-control m-b" name="account">
+                                                                <option>Activo</option>
+                                                            <p/>                
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                </div>
+                                                
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                            <td><button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>UNI</td>
+                            <td><button class="btn btn-outline-success btn-primary dim" type="button"><span>Activo</span></i></button></td>
+                            <td><button class="btn btn-info" type="button" href="#modal3-form" data-toggle="modal"><i class="fa fa-paste"></i></button></td>
+                            <div id="modal3-form" class="modal fade" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Editar</h3>
+
+                                                    <!--
+                                                        <p>Sign in today for more expirience.</p> 
+                                                    -->
+                                                    <form role="form">
+                                                        <label class="col-form-label">Institucion</label>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-10"><select class="form-control m-b" name="account">
+                                                                <option>UNI</option>
+                                                                <option>SENATI</option>
+                                                                <option>UPC</option>
+                                                            </select>                
+                                                            </div>
+                                                        </div>
+                                                        <label class="col-form-label">Estado</label>
+                                                        <input type="checkbox" class="js-switch_3" checked/>
+                                                        <div>
+                                                            <button class="btn btn-primary btn-sm m-t-n-xs float-right" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
+                                                        </div>
+                                                    </form>
+
+                                                    
+                                                </div>
+                                                
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <td><button class="btn btn-success" type="button" href="#modaleye2-form" data-toggle="modal"><i class="fa fa-eye"></i></button></td>
+                        <div id="modaleye2-form" class="modal fade" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-sm-12"><h3 class="m-t-none m-b">Ver</h3>
+
+                                                <!--
+                                                    <p>Sign in today for more expirience.</p> 
+                                                -->
+                                                <form role="form">
+                                                    <label class="col-form-label">Institucion</label>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-10"><p class="form-control m-b" name="account">
+                                                            <option>UNI</option>
+                                                        <p/>                
+                                                        </div>
+                                                    </div>
+                                                    <label class="col-form-label">Estado</label>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-10"><p class="form-control m-b" name="account">
+                                                            <option>Activo</option>
+                                                        <p/>                
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                            
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                            <td><button class="btn btn-danger" type="button"><i class="fa fa-trash-o"></i></button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="svg/institucion.svg" class="">
-                                </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Institución</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-institucion"><i class="fa fa-cog"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
 
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="svg/carrera.svg" class="">
-                                </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Carrera</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-carrera"><i class="fa fa-cog"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="svg/curso.svg" class="">
-                                </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Curso</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-curso"><i class="fa fa-cog"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="svg/programa.svg" class="">
-                                </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Programas</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-programa"><i class="fa fa-cog"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-5">
-                    <div class="ibox ">    
-                        <div class="show-grid container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                <img src="svg/herramienta.svg" class="img-md">
-                                </div>
-                                <div class="col-sm">
-                                    <h4><strong>Tipo de Configuración</strong></h4>
-                                    <p>Herramientas</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a class="btn btn-success" href="config-herramienta"><i class="fa fa-cog"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-            </div>
+
+
+
+
         </div>
             <div class="wrapper wrapper-content">
                 <div class="row">
                     <div class="col-lg-8">
                 </div>
-        <div class="footer">
-            <div class="float-right">
-                10GB of <strong>250GB</strong> Free.
-            </div>
-            <div>
-                <strong>Copyright</strong> Example Company &copy; 2014-2018
-            </div>
-        </div>
         </div>
         <div id="right-sidebar">
             <div class="sidebar-container">
@@ -748,6 +883,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="js/plugins/switchery/switchery.js"></script>
 
     <!-- Flot -->
     <script src="js/plugins/flot/jquery.flot.js"></script>
@@ -781,6 +917,30 @@
 
     <!-- Sparkline demo data  -->
     <script src="js/demo/sparkline-demo.js"></script>
+
+    <script>
+    
+
+        var elem = document.querySelector('.js-switch');
+        var switchery = new Switchery(elem, { color: '#1AB394' });
+
+        var elem_2 = document.querySelector('.js-switch_2');
+        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
+
+        var elem_3 = document.querySelector('.js-switch_3');
+        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
+
+        var elem_4 = document.querySelector('.js-switch_4');
+        var switchery_4 = new Switchery(elem_4, { color: '#f8ac59' });
+            switchery_4.disable();
+        var elem_5 = document.querySelector('.js-switch_5');
+        var switchery_5 = new Switchery(elem_5, { color: '#f8ac59' });
+            switchery_5.disable();
+
+        
+
+
+</script>
 
     <script>
         $(document).ready(function() {
