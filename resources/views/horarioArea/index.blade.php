@@ -251,7 +251,8 @@
             <div class="ibox-content">
                 <h1 class="titulo">Horario General Presencial - Area</h1>
                 <br>
-                <div class="container">    
+                <div class="container" id="scrollableContainer">
+                <div id="scrollableDiv">  
                   <table>
                       <thead>
                           <tr class="m1">
@@ -332,6 +333,7 @@
                     </tbody>
                   </table>
                 </div>
+                </div>
                 <style>
                   .container {
                   width: 1400px;
@@ -407,6 +409,27 @@
                     
                     height: 40px;
                   }
+                  #scrollableDiv table {
+                    width: 100%;
+                  }
+                  #scrollableContainer {
+                    width: 100%; /* Ajusta el ancho según sea necesario */
+                    overflow-x: auto; /* Agrega un scroll horizontal si el contenido es más ancho que el contenedor */
+                    position: relative;
+                    
+                    
+                    
+                  }
+                  
+                  #scrollableDiv th:first-child {
+                    
+                    position:sticky;
+                    
+                    z-index: 2; /* Asegura que la columna esté sobre las demás celdas */
+                    
+                    
+                  }
+                  
                 
                 </style>
           </div>      
