@@ -18,7 +18,7 @@
 
 </head>
 
-<body id="pagina-unico">
+<body>
     <div id="wrapper">
         <nav class="navbar-default navbar-static-side" role="navigation">
             <div class="sidebar-collapse">
@@ -423,141 +423,108 @@
                                                     <button class="btn btn-success float-right mx-2" type="button"><i
                                                             class="fa fa-eye" href="#modal-eye"
                                                             data-toggle="modal"></i></button>
-                                                    <div id="modal-eye" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <p>ID: 00001</p>
-                                                                            <img src="img/a5.jpg" alt="#"
-                                                                                class="border"><br>
+                                                            <div id="modal-eye" class="modal fade" aria-hidden="true">
+                                                                <div class="modal-dialog">                     
+                                                                    <div class="modal-content modal-lg">
+                                                                        <div class="modal-body">
+                                                                            <p class="text-center">
+                                                                                <img src="img/a5.jpg" class="rounded-circle h-150">
                                                                             </p>
+                                                                            <h4 class="text-center">Candidato</h4>
+                                                                            <p class="text-center">ID: 00001</p>
+                                                                            <p class="text-center">
+                                                                                Martha Lopez
+                                                                            </p>
+                                                                            <p class="text-center">
+                                                                                <a class="btn btn-primary" href="form-candidatos-colab">Agregar
+                                                                                    Colaborador</a>
+                                                                            </p>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group">
+                                                                                            <label>Nombres:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Karla
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label">Apellidos:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Flores Huaman
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Direccion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Urb. Las Palmas Lt.14 Mz.A
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Institucion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    SENATI
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Ciclo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    4to ciclo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group"><label>Fecha
+                                                                                                Nac:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01/04/2001
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>DNI:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01234567
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Celular:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    987654321
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Carrera:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Desarrollo De Software
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Correo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01234567@gmail.com
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="col-sm-4 b-r">
-
-                                                                            <!--
-                                                                        Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Nombres:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Karla
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Flores Huaman
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Direccion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Urb. Las Palmas Lt.14 Mz.A
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Institucion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            SENATI
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            4to ciclo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-
-                                                                            <!--
-                                                                        <p>Sign in today for more expirience.</p>
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            01/04/2001
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">DNI:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            01234567
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Celular:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            987654321
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Carrera:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Desarrollo De Software
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Correo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            01234567@gmail.com
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
                                                     <button class="btn btn-info float-right mx-2" type="button"
@@ -565,147 +532,71 @@
                                                             class="fa fa-paste"></i></button>
                                                 </div>
                                                 <div id="modal-form" class="modal fade" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content" id="modal-tamaño">
-                                                            <style>
-                                                                #pagina-unico .modal-content {
-
-                                                                    width: 1000px !important;
-                                                                }
-                                                            </style>
+                                                    <div class="modal-dialog">                     
+                                                        <div class="modal-content modal-lg">
                                                             <div class="modal-body">
+                                                                <p class="text-center">
+                                                                    <img src="img/a5.jpg" class="rounded-circle h-150">
+                                                                </p>
+                                                                <h4 class="text-center">Candidato</h4>
+                                                                <p class="text-center">ID: 00001</p>
+                                                                <p class="text-center">
+                                                                    <button class="btn btn-success btn-sm m-t-n-xs" type="submit">Subir Imagen</button>
+                                                                </p>
                                                                 <div class="row">
-                                                                <div class="col-sm-3 text-center">
-                                                                    <h4>Candidato</h4>
-                                                                    <img src="img/a5.jpg" class="col-lg-12 mt-3" alt="#">
-                                                                    <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
-                                                                </div>
-                                                                    <div class="col-sm-4 b-r">
-                                                                        <h3 class="m-t-none m-b">Informacion Principal
-                                                                        </h3>
-
-                                                                        <!--
-                                                                Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                            -->
-
+                                                                    <div class="col-md-6">
                                                                         <form role="form">
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Nombres:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Martha "
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group">
+                                                                                <label>Nombres:</label>
+                                                                                <input type="text" placeholder="Marta" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                                    
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Lopez Huaman"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group">
+                                                                                <label>Apellidos:</label>
+                                                                                <input type="text" placeholder="Lopez" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Direccion:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Urb. Las Palmas Lt.14 Mz.A"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group">
+                                                                                <label>Direccion:</label>
+                                                                                <input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Institucion:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Senati"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group"><label>Institucion:</label>
+                                                                                <input type="text" placeholder="SENATI" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="3er ciclo"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group"><label>Ciclo:</label>
+                                                                                <input type="text" placeholder="4to ciclo " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
                                                                         </form>
                                                                     </div>
-                                                                    <div class="col-sm-4">
-                                                                        <h3 class="m-t-none m-b"></h3>
-
-                                                                        <!--
-                                                                <p>Sign in today for more expirience.</p>
-                                                            -->
-
+                                                                    <div class="col-md-6">
                                                                         <form role="form">
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Fecha
+                                                                            <div class="form-group"><label>Fecha
                                                                                     Nac:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="01/04/2001"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                                    <input type="text" placeholder="01/04/2001 " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">DNI:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="01234567"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group"><label>DNI:</label>
+                                                                                <input type="text" placeholder="01234567 " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Celular:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="987654321"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group"><label>Celular:</label>
+                                                                                <input type="text" placeholder="987654321 " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Carrera:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Desarrollo De Software"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group"><label>Carrera:</label>
+                                                                                <input type="text" placeholder="Desarrollo De Software " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Correo:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="01234567@gmail.com"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                                <div class="form-group">
-                                                                                    <label >Estado:     </label>
-                                                                                    <input type="checkbox" class="js-switch" checked />     
-                                                                                </div>
-                                                                            <div>
-                                                                                <button
-                                                                                    class="btn btn-white btn-sm m-t-n-xs float-left"
-                                                                                    type="submit">Descartar</button>
-                                                                                <button
-                                                                                    class="btn btn-primary btn-sm m-t-n-xs float-right"
-                                                                                    type="submit"><i
-                                                                                        class="fa fa-check"></i>&nbsp;Guardar</button>
+                                                                            <div class="form-group"><label>Correo:</label>
+                                                                                <input type="text" placeholder="01234567@gmail.com " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
                                                                         </form>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -768,141 +659,105 @@
                                                     <button class="btn btn-success float-right mx-2" type="button"><i
                                                             class="fa fa-eye" href="#modal-eye2"
                                                             data-toggle="modal"></i></button>
-                                                    <div id="modal-eye2" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <p>ID: 00002</p>
-                                                                            <img src="img/a1.jpg" alt="#"
-                                                                                class="border"><br>
+                                                            <div id="modal-eye2" class="modal fade" aria-hidden="true">
+                                                                <div class="modal-dialog">                     
+                                                                    <div class="modal-content modal-lg">
+                                                                        <div class="modal-body">
+                                                                            <p class="text-center">
+                                                                                <img src="img/a1.jpg" class="rounded-circle h-150">
                                                                             </p>
+                                                                            <h4 class="text-center">Candidato</h4>
+                                                                            <p class="text-center">ID: 00002</p>
+                                                                            <p class="text-center">
+                                                                                <a class="btn btn-primary" href="form-candidatos-colab">Agregar
+                                                                                    Colaborador</a>
+                                                                            </p>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group">
+                                                                                            <label>Nombres:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Marlo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label">Apellidos:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Zamaniego
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Direccion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Urb. Las Palmas Lt.14 Mz.A
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Institucion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    SENATI
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Ciclo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    4to ciclo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group"><label>Fecha
+                                                                                                Nac:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01/04/2001
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>DNI:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    73452363
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Celular:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    982342649
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Carrera:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Ingenieria de Software
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Correo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    marlo@gmail.com
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="col-sm-4 b-r">
-
-                                                                            <!--
-                                                                        Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Nombres:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Marlo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Zamaniego
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Direccion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Urb. Emilio Lt.14 Mz.A
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Institucion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            SENATI
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            5to ciclo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-
-                                                                            <!--
-                                                                        <p>Sign in today for more expirience.</p>
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            14/08/2004
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">DNI:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            73452363
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Celular:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            982342649
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Carrera:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Ingenieria de Software
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Correo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            marlo@gmail.com
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
                                                             <button class="btn btn-info float-right mx-2" type="button"
@@ -910,148 +765,71 @@
                                                                 class="fa fa-paste"></i></button>
                                                     </div>
                                                     <div id="modal-form2" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-    
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
+                                                        <div class="modal-dialog">                     
+                                                            <div class="modal-content modal-lg">
                                                                 <div class="modal-body">
+                                                                    <p class="text-center">
+                                                                        <img src="img/a1.jpg" class="rounded-circle h-150">
+                                                                    </p>
+                                                                    <h4 class="text-center">Candidato</h4>
+                                                                    <p class="text-center">ID: 00002</p>
+                                                                    <p class="text-center">
+                                                                        <button class="btn btn-success btn-sm m-t-n-xs" type="submit">Subir Imagen</button>
+                                                                    </p>
                                                                     <div class="row">
-                                                                    <div class="col-sm-3 text-center">
-                                                                        <h4>Candidato</h4>
-                                                                        <img src="img/a1.jpg" class="col-lg-12 mt-3" alt="#">
-                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
-                                                                    </div>
-                                                                        <div class="col-sm-4 b-r">
-                                                                            <h3 class="m-t-none m-b">Informacion Principal
-                                                                            </h3>
-    
-                                                                            <!--
-                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                -->
-    
+                                                                        <div class="col-md-6">
                                                                             <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Marlo"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Zamaniego Calderon"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Urb. Emilio Lt.14 Mz.A"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="SENATI"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="5to ciclo"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-                                                                            <h3 class="m-t-none m-b"></h3>
-    
-                                                                            <!--
-                                                                    <p>Sign in today for more expirience.</p>
-                                                                -->
-    
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="14/08/2004"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">DNI:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="73452363"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Celular:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="982342649"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Ingenieria de Software"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Correo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="marlo@gmail.com"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
+                                                                                <div class="form-group">
+                                                                                    <label>Nombres:</label>
+                                                                                    <input type="text" placeholder="Marlo" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                        
                                                                                 </div>
                                                                                 <div class="form-group">
-                                                                                    <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch_2" checked />     
+                                                                                    <label>Apellidos:</label>
+                                                                                    <input type="text" placeholder="Zamaniego" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
-                                                                                <div>
-                                                                                    <button
-                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
-                                                                                        type="submit">Descartar</button>
-                                                                                    <button
-                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
-                                                                                        type="submit"><i
-                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>
-    
+                                                                                <div class="form-group">
+                                                                                    <label>Direccion:</label>
+                                                                                    <input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Institucion:</label>
+                                                                                    <input type="text" placeholder="SENATI" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Ciclo:</label>
+                                                                                    <input type="text" placeholder="4to ciclo " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
                                                                             </form>
                                                                         </div>
-    
+                                                                        <div class="col-md-6">
+                                                                            <form role="form">
+                                                                                <div class="form-group"><label>Fecha
+                                                                                        Nac:</label>
+                                                                                        <input type="text" placeholder="01/04/2001 " class="form-control">
+                                                                                        <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>DNI:</label>
+                                                                                    <input type="text" placeholder="73452363" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Celular:</label>
+                                                                                    <input type="text" placeholder="982342649" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Carrera:</label>
+                                                                                    <input type="text" placeholder="Ingenieria De Software " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Correo:</label>
+                                                                                    <input type="text" placeholder="marlo@gmail.com" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1116,141 +894,105 @@
                                                     <button class="btn btn-success float-right mx-2" type="button"><i
                                                             class="fa fa-eye" href="#modal-eye3"
                                                             data-toggle="modal"></i></button>
-                                                    <div id="modal-eye3" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <p>ID: 00003</p>
-                                                                            <img src="img/a4.jpg" alt="#"
-                                                                                class="border"><br>
+                                                            <div id="modal-eye3" class="modal fade" aria-hidden="true">
+                                                                <div class="modal-dialog">                     
+                                                                    <div class="modal-content modal-lg">
+                                                                        <div class="modal-body">
+                                                                            <p class="text-center">
+                                                                                <img src="img/a4.jpg" class="rounded-circle h-150">
                                                                             </p>
+                                                                            <h4 class="text-center">Candidato</h4>
+                                                                            <p class="text-center">ID: 00003</p>
+                                                                            <p class="text-center">
+                                                                                <a class="btn btn-primary" href="form-candidatos-colab">Agregar
+                                                                                    Colaborador</a>
+                                                                            </p>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group">
+                                                                                            <label>Nombres:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Jorge
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label">Apellidos:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Gomez 
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Direccion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Urb. Las Palmas Lt.14 Mz.A
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Institucion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    SENATI
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Ciclo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    4to ciclo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group"><label>Fecha
+                                                                                                Nac:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01/04/2001
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>DNI:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    04296422
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Celular:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    932541352
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Carrera:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Desarrollo De Software
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Correo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    jorge@gmail.com
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="col-sm-4 b-r">
-
-                                                                            <!--
-                                                                        Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Nombres:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Jorge
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Gomez
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Direccion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Urb. Emilio Lt.14 Mz.A
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Institucion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            SENATI
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            5to ciclo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-
-                                                                            <!--
-                                                                        <p>Sign in today for more expirience.</p>
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            06/10/2005
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">DNI:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            04296422
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Celular:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            932541352
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Carrera:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Desarrollo De Software
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Correo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            jorge@gmail.com
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
                                                             <button class="btn btn-info float-right mx-2" type="button"
@@ -1258,148 +1000,71 @@
                                                             class="fa fa-paste"></i></button>
                                                 </div>
                                                 <div id="modal-form3" class="modal fade" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content" id="modal-tamaño">
-                                                            <style>
-                                                                #pagina-unico .modal-content {
-
-                                                                    width: 1000px !important;
-                                                                }
-                                                            </style>
+                                                    <div class="modal-dialog">                     
+                                                        <div class="modal-content modal-lg">
                                                             <div class="modal-body">
+                                                                <p class="text-center">
+                                                                    <img src="img/a4.jpg" class="rounded-circle h-150">
+                                                                </p>
+                                                                <h4 class="text-center">Candidato</h4>
+                                                                <p class="text-center">ID: 00003</p>
+                                                                <p class="text-center">
+                                                                    <button class="btn btn-success btn-sm m-t-n-xs" type="submit">Subir Imagen</button>
+                                                                </p>
                                                                 <div class="row">
-                                                                <div class="col-sm-3 text-center">
-                                                                        <h4>Candidato</h4>
-                                                                        <img src="img/a4.jpg" class="col-lg-12 mt-3" alt="#">
-                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
-                                                                    </div>
-                                                                    <div class="col-sm-4 b-r">
-                                                                        <h3 class="m-t-none m-b">Informacion Principal
-                                                                        </h3>
-
-                                                                        <!--
-                                                                Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                            -->
-
+                                                                    <div class="col-md-6">
                                                                         <form role="form">
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Nombres:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Jorge "
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Gomez Gomez"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Direccion:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Urb. Emilio Lt.14 Mz.A"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Institucion:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Senati"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="5to ciclo"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </form>
-                                                                    </div>
-                                                                    <div class="col-sm-4">
-                                                                        <h3 class="m-t-none m-b"></h3>
-
-                                                                        <!--
-                                                                <p>Sign in today for more expirience.</p>
-                                                            -->
-
-                                                                        <form role="form">
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Fecha
-                                                                                    Nac:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="06/10/2005"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">DNI:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="04296422"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Celular:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="932541352"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Carrera:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="Desarrollo De Software"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group row"><label
-                                                                                    class="col-lg-4 col-form-label">Correo:</label>
-                                                                                <div class="col-lg-8"><input
-                                                                                        type="text"
-                                                                                        placeholder="jorge@gmail.com"
-                                                                                        class="form-control"> <span
-                                                                                        class="form-text m-b-none"></span>
-                                                                                </div>
+                                                                            <div class="form-group">
+                                                                                <label>Nombres:</label>
+                                                                                <input type="text" placeholder="Jorge" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                                    
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                    <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch_3" checked />     
-                                                                                </div>
-                                                                            <div>
-                                                                                <button
-                                                                                    class="btn btn-white btn-sm m-t-n-xs float-left"
-                                                                                    type="submit">Descartar</button>
-                                                                                <button
-                                                                                    class="btn btn-primary btn-sm m-t-n-xs float-right"
-                                                                                    type="submit"><i
-                                                                                        class="fa fa-check"></i>&nbsp;Guardar</button>
-
+                                                                                <label>Apellidos:</label>
+                                                                                <input type="text" placeholder="Gomez " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Direccion:</label>
+                                                                                <input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group"><label>Institucion:</label>
+                                                                                <input type="text" placeholder="SENATI" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group"><label>Ciclo:</label>
+                                                                                <input type="text" placeholder="4to ciclo " class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
                                                                             </div>
                                                                         </form>
                                                                     </div>
-
+                                                                    <div class="col-md-6">
+                                                                        <form role="form">
+                                                                            <div class="form-group"><label>Fecha
+                                                                                    Nac:</label>
+                                                                                    <input type="text" placeholder="01/04/2001 " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group"><label>DNI:</label>
+                                                                                <input type="text" placeholder="04296422" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group"><label>Celular:</label>
+                                                                                <input type="text" placeholder="932541352" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group"><label>Carrera:</label>
+                                                                                <input type="text" placeholder="Desarrollo De Software" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                            <div class="form-group"><label>Correo:</label>
+                                                                                <input type="text" placeholder="jorge@gmail.com" class="form-control">
+                                                                                <span class="form-text m-b-none"></span>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1464,141 +1129,105 @@
                                                     <button class="btn btn-success float-right mx-2" type="button"><i
                                                             class="fa fa-eye" href="#modal-eye4"
                                                             data-toggle="modal"></i></button>
-                                                    <div id="modal-eye4" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <p>ID: 00004</p>
-                                                                            <img src="img/a3.jpg" alt="#"
-                                                                                class="border"><br>
+                                                            <div id="modal-eye4" class="modal fade" aria-hidden="true">
+                                                                <div class="modal-dialog">                     
+                                                                    <div class="modal-content modal-lg">
+                                                                        <div class="modal-body">
+                                                                            <p class="text-center">
+                                                                                <img src="img/a3.jpg" class="rounded-circle h-150">
                                                                             </p>
+                                                                            <h4 class="text-center">Candidato</h4>
+                                                                            <p class="text-center">ID: 00004</p>
+                                                                            <p class="text-center">
+                                                                                <a class="btn btn-primary" href="form-candidatos-colab">Agregar
+                                                                                    Colaborador</a>
+                                                                            </p>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group">
+                                                                                            <label>Nombres:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Karla
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label">Apellidos:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Lopez 
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Direccion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Urb. Las Palmas Lt.14 Mz.A
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Institucion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    SENATI
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Ciclo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    4to ciclo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group"><label>Fecha
+                                                                                                Nac:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01/04/2001
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>DNI:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    32284626
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Celular:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    941285161
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Carrera:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Analisis de Datos
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Correo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    karla@gmail.com
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="col-sm-4 b-r">
-
-                                                                            <!--
-                                                                        Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Nombres:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Karla
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Lopez Velazques
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Direccion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Urb. Emilio Lt.24 Mz.E
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Institucion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            SENATI
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            5to ciclo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-
-                                                                            <!--
-                                                                        <p>Sign in today for more expirience.</p>
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            06/10/2005
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">DNI:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            32284626
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Celular:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            941285161
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Carrera:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Analisis de Datos
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Correo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            karla@gmail.com
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
                                                             <button class="btn btn-info float-right mx-2" type="button"
@@ -1606,147 +1235,71 @@
                                                                 class="fa fa-paste"></i></button>
                                                     </div>
                                                     <div id="modal-form4" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-    
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
+                                                        <div class="modal-dialog">                     
+                                                            <div class="modal-content modal-lg">
                                                                 <div class="modal-body">
+                                                                    <p class="text-center">
+                                                                        <img src="img/a3.jpg" class="rounded-circle h-150">
+                                                                    </p>
+                                                                    <h4 class="text-center">Candidato</h4>
+                                                                    <p class="text-center">ID: 00004</p>
+                                                                    <p class="text-center">
+                                                                        <button class="btn btn-success btn-sm m-t-n-xs" type="submit">Subir Imagen</button>
+                                                                    </p>
                                                                     <div class="row">
-                                                                    <div class="col-sm-3 text-center">
-                                                                            <h4>Candidato</h4>
-                                                                            <img src="img/a3.jpg" class="col-lg-12 mt-3" alt="#">
-                                                                            <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
-                                                                        </div>
-                                                                        <div class="col-sm-4 b-r">
-                                                                            <h3 class="m-t-none m-b">Informacion Principal
-                                                                            </h3>
-    
-                                                                            <!--
-                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                -->
-    
+                                                                        <div class="col-md-6">
                                                                             <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Karla Andrea"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Lopez Velazques"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Urb. Emilio Lt.24 Mz.E"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="SENATI"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="5to ciclo"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-                                                                            <h3 class="m-t-none m-b"></h3>
-    
-                                                                            <!--
-                                                                    <p>Sign in today for more expirience.</p>
-                                                                -->
-    
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="06/10/2005"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">DNI:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="32284626"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Celular:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="941285161"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Analisis de Datos"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Correo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="karla@gmail.com"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
+                                                                                <div class="form-group">
+                                                                                    <label>Nombres:</label>
+                                                                                    <input type="text" placeholder="Karla" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                        
                                                                                 </div>
                                                                                 <div class="form-group">
-                                                                                    <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch_4" checked />     
+                                                                                    <label>Apellidos:</label>
+                                                                                    <input type="text" placeholder="Lopez" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
-                                                                                <div>
-                                                                                    <button
-                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
-                                                                                        type="submit">Descartar</button>
-                                                                                    <button
-                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
-                                                                                        type="submit"><i
-                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>
+                                                                                <div class="form-group">
+                                                                                    <label>Direccion:</label>
+                                                                                    <input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Institucion:</label>
+                                                                                    <input type="text" placeholder="SENATI" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Ciclo:</label>
+                                                                                    <input type="text" placeholder="4to ciclo " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
                                                                             </form>
                                                                         </div>
-    
+                                                                        <div class="col-md-6">
+                                                                            <form role="form">
+                                                                                <div class="form-group"><label>Fecha
+                                                                                        Nac:</label>
+                                                                                        <input type="text" placeholder="01/04/2001 " class="form-control">
+                                                                                        <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>DNI:</label>
+                                                                                    <input type="text" placeholder="32284626" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Celular:</label>
+                                                                                    <input type="text" placeholder="941285161" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Carrera:</label>
+                                                                                    <input type="text" placeholder="Analisis de Datos" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Correo:</label>
+                                                                                    <input type="text" placeholder="karla@gmail.com" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1809,141 +1362,105 @@
                                                     <button class="btn btn-success float-right mx-2" type="button"><i
                                                             class="fa fa-eye" href="#modal-eye5"
                                                             data-toggle="modal"></i></button>
-                                                    <div id="modal-eye5" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-
-                                                                        max-width: 1000px !important;
-                                                                    }
-                                                                </style>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <p>ID: 00005</p>
-                                                                            <img src="img/a2.jpg" alt="#"
-                                                                                class="border"><br>
+                                                            <div id="modal-eye5" class="modal fade" aria-hidden="true">
+                                                                <div class="modal-dialog">                     
+                                                                    <div class="modal-content modal-lg">
+                                                                        <div class="modal-body">
+                                                                            <p class="text-center">
+                                                                                <img src="img/a2.jpg" class="rounded-circle h-150">
                                                                             </p>
+                                                                            <h4 class="text-center">Candidato</h4>
+                                                                            <p class="text-center">ID: 00005</p>
+                                                                            <p class="text-center">
+                                                                                <a class="btn btn-primary" href="form-candidatos-colab">Agregar
+                                                                                    Colaborador</a>
+                                                                            </p>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group">
+                                                                                            <label>Nombres:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Daniel
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label">Apellidos:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Roman
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Direccion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Urb. Las Palmas Lt.14 Mz.A
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Institucion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    SENATI
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Ciclo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    4to ciclo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group"><label>Fecha
+                                                                                                Nac:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01/04/2001
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>DNI:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    34626422
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Celular:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    932893242
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Carrera:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Desarrollo de Videojuegos
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Correo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    daniel@gmail.com
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="col-sm-4 b-r">
-
-                                                                            <!--
-                                                                        Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Nombres:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Daniel
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Roman Castillo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Direccion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Urb. Emilio Lt.11 Mz.B
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Institucion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            SENATI
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            6to ciclo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-
-                                                                            <!--
-                                                                        <p>Sign in today for more expirience.</p>
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            06/10/2005
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">DNI:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            34626422
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Celular:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            932893242
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Carrera:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Desarrollo de Videojuegos
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Correo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            daniel@gmail.com
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
                                                     <button class="btn btn-danger float-right mx-2" type="button"><i
                                                             class="fa fa-trash-o"></i></button>
                                                             <button class="btn btn-info float-right mx-2" type="button"
@@ -1951,147 +1468,72 @@
                                                                 class="fa fa-paste"></i></button>
                                                     </div>
                                                     <div id="modal-form5" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-    
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
+                                                        <div class="modal-dialog">                     
+                                                            <div class="modal-content modal-lg">
                                                                 <div class="modal-body">
+                                                                    <p class="text-center">
+                                                                        <img src="img/a2.jpg" class="rounded-circle h-150">
+                                                                    </p>
+                                                                    <h4 class="text-center">Candidato</h4>
+                                                                    <p class="text-center">ID: 00005</p>
+                                                                    <p class="text-center">
+                                                                        <button class="btn btn-success btn-sm m-t-n-xs" type="submit">Subir Imagen</button>
+                                                                    </p>
                                                                     <div class="row">
-                                                                    <div class="col-sm-3 text-center">
-                                                                        <h4>Candidato</h4>
-                                                                        <img src="img/a2.jpg" class="col-lg-12 mt-3" alt="#">
-                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
-                                                                    </div>
-                                                                        <div class="col-sm-4 b-r">
-                                                                            <h3 class="m-t-none m-b">Informacion Principal
-                                                                            </h3>
-    
-                                                                            <!--
-                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                -->
-    
+                                                                        <div class="col-md-6">
                                                                             <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Daniel"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Roman Castillo"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Urb. Emilio Lt.11 Mz.B"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="SENATI"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="6to ciclo"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-                                                                            <h3 class="m-t-none m-b"></h3>
-    
-                                                                            <!--
-                                                                    <p>Sign in today for more expirience.</p>
-                                                                -->
-    
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="06/10/2005"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">DNI:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="34626422"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Celular:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="932893242"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Desarrollo de Videojuegos"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Correo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="daniel@gmail.com"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
+                                                                                <div class="form-group">
+                                                                                    <label>Nombres:</label>
+                                                                                    <input type="text" placeholder="Daniel" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                        
                                                                                 </div>
                                                                                 <div class="form-group">
-                                                                                    <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch_5" checked />     
+                                                                                    <label>Apellidos:</label>
+                                                                                    <input type="text" placeholder="Roman" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
-                                                                                <div>
-                                                                                    <button
-                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
-                                                                                        type="submit">Descartar</button>
-                                                                                    <button
-                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
-                                                                                        type="submit"><i
-                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>   
+                                                                                <div class="form-group">
+                                                                                    <label>Direccion:</label>
+                                                                                    <input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Institucion:</label>
+                                                                                    <input type="text" placeholder="SENATI" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Ciclo:</label>
+                                                                                    <input type="text" placeholder="4to ciclo " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
                                                                             </form>
                                                                         </div>
+                                                                        <div class="col-md-6">
+                                                                            <form role="form">
+                                                                                <div class="form-group"><label>Fecha
+                                                                                        Nac:</label>
+                                                                                        <input type="text" placeholder="01/04/2001 " class="form-control">
+                                                                                        <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>DNI:</label>
+                                                                                    <input type="text" placeholder="34626422" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Celular:</label>
+                                                                                    <input type="text" placeholder="932893242" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Carrera:</label>
+                                                                                    <input type="text" placeholder="Desarrollo de Videojuegos" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Correo:</label>
+                                                                                    <input type="text" placeholder="daniel@gmail.com" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                            </form>
                                                                         </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2154,141 +1596,105 @@
                                                     <button class="btn btn-success float-right mx-2" type="button"><i
                                                             class="fa fa-eye" href="#modal-eye6"
                                                             data-toggle="modal"></i></button>
-                                                    <div id="modal-eye6" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 text-center">
-                                                                            <p>
-                                                                            <h4>Candidato</h4>
-                                                                            <p>ID: 00006</p>
-                                                                            <img src="img/a6.jpg" alt="#"
-                                                                                class="border"><br>
+                                                            <div id="modal-eye6" class="modal fade" aria-hidden="true">
+                                                                <div class="modal-dialog">                     
+                                                                    <div class="modal-content modal-lg">
+                                                                        <div class="modal-body">
+                                                                            <p class="text-center">
+                                                                                <img src="img/a6.jpg" class="rounded-circle h-150">
                                                                             </p>
+                                                                            <h4 class="text-center">Candidato</h4>
+                                                                            <p class="text-center">ID: 00006</p>
+                                                                            <p class="text-center">
+                                                                                <a class="btn btn-primary" href="form-candidatos-colab">Agregar
+                                                                                    Colaborador</a>
+                                                                            </p>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group">
+                                                                                            <label>Nombres:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Ana
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label">Apellidos:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Cristina
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Direccion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Urb. Las Palmas Lt.14 Mz.A
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Institucion:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    SENATI
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Ciclo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    4to ciclo
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <form role="form">
+                                                                                        <div class="form-group"><label>Fecha
+                                                                                                Nac:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    01/04/2001
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>DNI:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    53332146
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Celular:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    932424822
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Carrera:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    Administracion de Empresas
+                                                                                                </p>
+                                                                                        </div>
+                                                                                        <div class="form-group"><label>Correo:</label>
+                                                                                            
+                                                                                                <p class="form-control m-b"
+                                                                                                    name="account">
+                                                                                                    cristina@gmail.com
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="col-sm-4 b-r">
-
-                                                                            <!--
-                                                                        Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Nombres:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Ana
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Cristina
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Direccion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Urb. Emilio Lt.11 Mz.C
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Institucion:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            SENATI
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            5to ciclo
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-
-                                                                            <!--
-                                                                        <p>Sign in today for more expirience.</p>
-                                                                    -->
-
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            13/12/2002
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">DNI:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            53332146
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Celular:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            932424822
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Carrera:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            Administracion de Empresas
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-3 col-form-label">Correo:</label>
-                                                                                    <div class="col-sm-8">
-                                                                                        <p class="form-control m-b"
-                                                                                            name="account">
-                                                                                            cristina@gmail.com
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
                                                     <button class="btn btn-danger float-right mx-2"
                                                         type="button"><i class="fa fa-trash-o"></i></button>
                                                         <button class="btn btn-info float-right mx-2" type="button"
@@ -2296,148 +1702,71 @@
                                                                 class="fa fa-paste"></i></button>
                                                     </div>
                                                     <div id="modal-form6" class="modal fade" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content" id="modal-tamaño">
-                                                                <style>
-                                                                    #pagina-unico .modal-content {
-    
-                                                                        width: 1000px !important;
-                                                                    }
-                                                                </style>
+                                                        <div class="modal-dialog">                     
+                                                            <div class="modal-content modal-lg">
                                                                 <div class="modal-body">
+                                                                    <p class="text-center">
+                                                                        <img src="img/a6.jpg" class="rounded-circle h-150">
+                                                                    </p>
+                                                                    <h4 class="text-center">Candidato</h4>
+                                                                    <p class="text-center">ID: 00006</p>
+                                                                    <p class="text-center">
+                                                                        <button class="btn btn-success btn-sm m-t-n-xs" type="submit">Subir Imagen</button>
+                                                                    </p>
                                                                     <div class="row">
-                                                                    <div class="col-sm-3 text-center">
-                                                                        <h4>Candidato</h4>
-                                                                        <img src="img/a6.jpg" class="col-lg-12 mt-3" alt="#">
-                                                                        <button class="btn btn-success btn-sm mt-3" type="submit">Cambiar Imagen</button>
-                                                                    </div>
-                                                                        <div class="col-sm-4 b-r">
-                                                                            <h3 class="m-t-none m-b">Informacion Principal
-                                                                            </h3>
-    
-                                                                            <!--
-                                                                    Para colocar la posicion del Figma, modificar el modal-content personalizado para esta pagina
-                                                                -->
-    
+                                                                        <div class="col-md-6">
                                                                             <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Nombres:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Ana"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Apellidos:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Cristina"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Direccion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Urb. Emilio Lt.11 Mz.C"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Institucion:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="SENATI"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Ciclo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="5to ciclo"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </form>
-                                                                        </div>
-                                                                        <div class="col-sm-4">
-                                                                            <h3 class="m-t-none m-b"></h3>
-    
-                                                                            <!--
-                                                                    <p>Sign in today for more expirience.</p>
-                                                                -->
-    
-                                                                            <form role="form">
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Fecha
-                                                                                        Nac:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="13/12/2002"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">DNI:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="53332146"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Celular:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="932424822"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Carrera:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="Administracion de Empresas"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group row"><label
-                                                                                        class="col-lg-4 col-form-label">Correo:</label>
-                                                                                    <div class="col-lg-8"><input
-                                                                                            type="text"
-                                                                                            placeholder="cristina@gmail.com
-"
-                                                                                            class="form-control"> <span
-                                                                                            class="form-text m-b-none"></span>
-                                                                                    </div>
+                                                                                <div class="form-group">
+                                                                                    <label>Nombres:</label>
+                                                                                    <input type="text" placeholder="Ana" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                        
                                                                                 </div>
                                                                                 <div class="form-group">
-                                                                                    <label >Estado: </label>
-                                                                                    <input type="checkbox" class="js-switch_6" checked />     
+                                                                                    <label>Apellidos:</label>
+                                                                                    <input type="text" placeholder="Cristina" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
-                                                                                <div>
-                                                                                    <button
-                                                                                        class="btn btn-white btn-sm m-t-n-xs float-left"
-                                                                                        type="submit">Descartar</button>
-                                                                                    <button
-                                                                                        class="btn btn-primary btn-sm m-t-n-xs float-right"
-                                                                                        type="submit"><i
-                                                                                            class="fa fa-check"></i>&nbsp;Guardar</button>
+                                                                                <div class="form-group">
+                                                                                    <label>Direccion:</label>
+                                                                                    <input type="text" placeholder="Urb. Las Palmas Lt.14 Mz.A" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Institucion:</label>
+                                                                                    <input type="text" placeholder="SENATI" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Ciclo:</label>
+                                                                                    <input type="text" placeholder="4to ciclo " class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
                                                                                 </div>
                                                                             </form>
                                                                         </div>
-    
+                                                                        <div class="col-md-6">
+                                                                            <form role="form">
+                                                                                <div class="form-group"><label>Fecha
+                                                                                        Nac:</label>
+                                                                                        <input type="text" placeholder="01/04/2001 " class="form-control">
+                                                                                        <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>DNI:</label>
+                                                                                    <input type="text" placeholder="53332146" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Celular:</label>
+                                                                                    <input type="text" placeholder="953332146" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Carrera:</label>
+                                                                                    <input type="text" placeholder="Administracion de Empresas" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                                <div class="form-group"><label>Correo:</label>
+                                                                                    <input type="text" placeholder="cristina@gmail.com" class="form-control">
+                                                                                    <span class="form-text m-b-none"></span>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
