@@ -545,14 +545,7 @@
                 locale: 'es',
                 defaultView: 'agendaWeek',
                 weekNumbers: false,
-                weekNumbersWithinDays: 7,
-                viewRender: function(view, element) {
-                    var startDate = moment('2024-05-06');             
-                    var endDate = moment(startDate).add(6, 'weeks');     
-                    if (view.end.isAfter(endDate)) {
-                        $('#calendar').fullCalendar('gotoDate', startDate);
-                    }
-                },
+                
                 header: {
                     left: 'prev,next today',
                     center: 'title',
@@ -568,7 +561,7 @@
                 contentHeight: 'auto',      
                 eventOverlap: true, 
                 slotEventOverlap: false,
-                editable: false,
+                editable: true,
                 droppable: true, 
                 allDaySlot: true, 
                 
@@ -578,14 +571,14 @@
                         // if so, remove the element from the "Draggable Events" list
                         $(this).remove();
                     }
-                },
+                },  
                 
                 events: [
                     {
                         title: 'Lunes',
                         id:'lunes',
-                        start: new Date(y, m, d-1, 9, 0),
-                        end: new Date(y, m, d-1, 13, 30),
+                        start: new Date(y, m, d-3, 9, 0),
+                        end: new Date(y, m, d-3, 13, 30),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -594,8 +587,8 @@
                     {
                         title: 'Martes',
                         id:'martes',
-                        start: new Date(y, m, d, 9, 0),
-                        end: new Date(y, m, d, 13, 30),
+                        start: new Date(y, m, d-2, 9, 0),
+                        end: new Date(y, m, d-2, 13, 30),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -604,8 +597,8 @@
                     {
                         title: 'Miercoles',
                         id:'miercoles',
-                        start: new Date(y, m, d+1, 9, 0),
-                        end: new Date(y, m, d+1, 13, 30),
+                        start: new Date(y, m, d-1, 9, 0),
+                        end: new Date(y, m, d-1, 13, 30),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -615,8 +608,8 @@
                     {
                         title: 'Jueves',
                         id:'jueves',
-                        start: new Date(y, m, d+2, 9, 0),
-                        end: new Date(y, m, d+2, 13, 30),
+                        start: new Date(y, m, d, 9, 0),
+                        end: new Date(y, m, d, 13, 30),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -626,8 +619,8 @@
                     {
                         title: 'Viernes',
                         id:'viernes',
-                        start: new Date(y, m, d+2, 24),
-                        end: new Date(y, m, d+2, 24),
+                        start: new Date(y, m, d, 24),
+                        end: new Date(y, m, d, 24),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -636,8 +629,8 @@
                     {
                         title: 'Sabado',
                         id:'sabado',
-                        start: new Date(y, m, d+3, 24),
-                        end: new Date(y, m, d+3, 24),
+                        start: new Date(y, m, d+1, 24),
+                        end: new Date(y, m, d+1, 24),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -646,8 +639,8 @@
                     {
                         title: 'Domingo',
                         id:'domingo',
-                        start: new Date(y, m, d+4, 24),
-                        end: new Date(y, m, d+4, 24),
+                        start: new Date(y, m, d+2, 24),
+                        end: new Date(y, m, d+2, 24),
                         allDay: true,
                         color: '#a0d6f4',
                         editable: false
@@ -659,71 +652,71 @@
                 },
                 {
                     title: 'Clase Presencial',
-                    start: new Date(y, m, d-1,16,0),
-                    end: new Date(y, m, d-1,18,0),
+                    start: new Date(y, m, d-3,16,0),
+                    end: new Date(y, m, d-3,18,0),
                     allDay: false
                 },
                 {
                     title: 'Clase Presencial',
-                    start: new Date(y, m, d-1,19,0),
-                    end: new Date(y, m, d-1,21,0),
+                    start: new Date(y, m, d-3,19,0),
+                    end: new Date(y, m, d-3,21,0),
                     allDay: false
                 },
                 {
                     title: 'Clase Virtual',
-                    start: new Date(y, m, d,8,0),
-                    end: new Date(y, m, d,12,0),
+                    start: new Date(y, m, d-2,8,0),
+                    end: new Date(y, m, d-2,12,0),
                     allDay: false,
                     color: '#9C27B0'
                 },
                 {
                 title: 'Clase Presencial',
-                    start: new Date(y, m, d+1,8,0),
-                    end: new Date(y, m, d+1,12,0),
+                    start: new Date(y, m, d-1,8,0),
+                    end: new Date(y, m, d-1,12,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d+1,14,0),
+                    end: new Date(y, m, d+1,18,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d,19,0),
+                    end: new Date(y, m, d,21,0),
+                    allDay: false
+                },
+                {
+                title: 'Clase Virtual',
+                    start: new Date(y, m, d+1,12,0),
+                    end: new Date(y, m, d+1,14,0),
+                    allDay: false,
+                    color: '#9C27B0'
+                },
+                {
+                title: 'Clase Virtual',
+                    start: new Date(y, m, d+2,16,0),
+                    end: new Date(y, m, d+2,19,0),
+                    allDay: false,
+                    color: '#9C27B0'
+                },
+                {
+                title: 'Clase Presencial',
+                    start: new Date(y, m, d+3,8,0),
+                    end: new Date(y, m, d+3,12,0),
                     allDay: false
                 },
                 {
                 title: 'Clase Presencial',
                     start: new Date(y, m, d+3,14,0),
-                    end: new Date(y, m, d+3,18,0),
+                    end: new Date(y, m, d+3,17,0),
                     allDay: false
                 },
                 {
                 title: 'Clase Presencial',
-                    start: new Date(y, m, d+2,19,0),
-                    end: new Date(y, m, d+2,21,0),
-                    allDay: false
-                },
-                {
-                title: 'Clase Virtual',
-                    start: new Date(y, m, d+3,12,0),
-                    end: new Date(y, m, d+3,14,0),
-                    allDay: false,
-                    color: '#9C27B0'
-                },
-                {
-                title: 'Clase Virtual',
-                    start: new Date(y, m, d+4,16,0),
-                    end: new Date(y, m, d+4,19,0),
-                    allDay: false,
-                    color: '#9C27B0'
-                },
-                {
-                title: 'Clase Presencial',
-                    start: new Date(y, m, d+5,8,0),
-                    end: new Date(y, m, d+5,12,0),
-                    allDay: false
-                },
-                {
-                title: 'Clase Presencial',
-                    start: new Date(y, m, d+5,14,0),
-                    end: new Date(y, m, d+5,17,0),
-                    allDay: false
-                },
-                {
-                title: 'Clase Presencial',
-                    start: new Date(y, m, d+5,18,0),
-                    end: new Date(y, m, d+5,21,0),
+                    start: new Date(y, m, d+3,18,0),
+                    end: new Date(y, m, d+3,21,0),
                     allDay: false
                 }
                     
