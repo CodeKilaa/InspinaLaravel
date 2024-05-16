@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>responsabilidades-Asistencia</title>
+    <title>Responsabilidades-Asistencia</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -415,7 +415,9 @@
             </table>
             </div>
             </div>
-            <table id="semana2">
+        <div class="container" id="scrollableContainer">
+        <div id="scrollableDiv"> 
+            <table id="semana2" >
                 <thead>          
                     <tr>
                         <th> Colaboradores / Responsabilidades </th>
@@ -533,7 +535,8 @@
                 }        
 
             </script>
-
+        </div>
+        </div>
     </div>
 
 <!-- Mainly scripts -->
