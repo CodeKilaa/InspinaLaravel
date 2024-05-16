@@ -296,6 +296,7 @@
                     </div>
                 </div>
                 <div class="ibox-content col-lg-12">
+                    <div class ="table-responsive">
 
                     <table class="table table-bordered">
                         <thead>
@@ -693,7 +694,7 @@
                         </tr>
                         </tbody>
                     </table>
-
+                    </div>
                 </div>
             </div>
         </div>
