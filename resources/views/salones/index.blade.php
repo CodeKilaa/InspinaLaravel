@@ -479,7 +479,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_4" checked />
+                                                                                            <input type="checkbox" class="js-switch7" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -524,7 +524,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_5" checked />
+                                                                                            <input type="checkbox" class="js-switch8" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -569,7 +569,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_6" checked />
+                                                                                            <input type="checkbox" class="js-switch9" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -739,7 +739,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch4" checked />
+                                                                                            <input type="checkbox" class="js-switch10" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -914,7 +914,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch7" checked />
+                                                                                            <input type="checkbox" class="js-switch11" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1094,7 +1094,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_4" checked />
+                                                                                            <input type="checkbox" class="js-switch12" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1139,7 +1139,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_4" checked />
+                                                                                            <input type="checkbox" class="js-switch13" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1184,7 +1184,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_5" checked />
+                                                                                            <input type="checkbox" class="js-switch14" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1229,7 +1229,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch_6" checked />
+                                                                                            <input type="checkbox" class="js-switch15" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1411,7 +1411,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch8" checked />
+                                                                                            <input type="checkbox" class="js-switch16" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1456,7 +1456,7 @@
                                                                                         </p>
                                                                                         
                                                                                         <p class="text-center">
-                                                                                            <input type="checkbox" class="js-switch9" checked />
+                                                                                            <input type="checkbox" class="js-switch17" checked />
                                                                                             <a style="color: black;">Activo</a>       
                                                                                         </p>
                                                                                     </div>
@@ -1623,43 +1623,57 @@
         var switchery = new Switchery(elem, { color: '#1AB394' });
 
         var elem_2 = document.querySelector('.js-switch2');
-        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
+        var switchery_2 = new Switchery(elem_2, { color: '#1AB394' });
+        
 
         var elem_3 = document.querySelector('.js-switch3');
         var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
 
         var elem_4 = document.querySelector('.js-switch4');
         var switchery_4 = new Switchery(elem_4, { color: '#1AB394' });
+
         var elem_5 = document.querySelector('.js-switch5');
         var switchery_5 = new Switchery(elem_5, { color: '#1AB394' });
+
         var elem_6 = document.querySelector('.js-switch6');
         var switchery_6 = new Switchery(elem_6, { color: '#1AB394' });
+        
         var elem_7 = document.querySelector('.js-switch7');
         var switchery_7 = new Switchery(elem_7, { color: '#1AB394' });
-
+        switchery_7.disable();
         var elem_8 = document.querySelector('.js-switch8');
         var switchery_8 = new Switchery(elem_8, { color: '#1AB394' });
+        switchery_8.disable();
         var elem_9 = document.querySelector('.js-switch9');
         var switchery_9 = new Switchery(elem_9, { color: '#1AB394' });
+        switchery_9.disable();
+
         var elem_10 = document.querySelector('.js-switch10');
         var switchery_10 = new Switchery(elem_10, { color: '#1AB394' });
-
-
-        var eleme_4 = document.querySelector('.js-switch_4');
-        var switcheryy_4 = new Switchery(eleme_4, { color: '#1AB394' });
-        var eleme_5 = document.querySelector('.js-switch_5');
-        var switcheryy_5 = new Switchery(eleme_5, { color: '#1AB394' });
-        var eleme_6 = document.querySelector('.js-switch_6');
-        var switcheryy_6 = new Switchery(eleme_6, { color: '#1AB394' });
-
-            
-
-
+        switchery_10.disable();
+        var elem_11 = document.querySelector('.js-switch11');
+        var switchery_11 = new Switchery(elem_11, { color: '#1AB394' });
+        switchery_11.disable();
+        var elem_12 = document.querySelector('.js-switch12');
+        var switchery_12 = new Switchery(elem_12, { color: '#1AB394' });
+        switchery_12.disable();
+        var elem_13 = document.querySelector('.js-switch13');
+        var switchery_13 = new Switchery(elem_13, { color: '#1AB394' });
+        switchery_13.disable();
+        var elem_14 = document.querySelector('.js-switch14');
+        var switchery_14 = new Switchery(elem_14, { color: '#1AB394' });
+        switchery_14.disable();
+        var elem_15 = document.querySelector('.js-switch15');
+        var switchery_15 = new Switchery(elem_15, { color: '#1AB394' });
+        switchery_15.disable();
+        var elem_16 = document.querySelector('.js-switch16');
+        var switchery_16 = new Switchery(elem_16, { color: '#1AB394' });
+        switchery_16.disable();
+        var elem_17 = document.querySelector('.js-switch17');
+        var switchery_17 = new Switchery(elem_17, { color: '#1AB394' });
+        switchery_17.disable();
 
         
-
-        
-
 
 </script>
 

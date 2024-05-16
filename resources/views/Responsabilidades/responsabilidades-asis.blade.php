@@ -311,9 +311,34 @@
                 left: 10px;
                 background-color: antiquewhite;
             }
+            #scrollableDiv table {
+                                width: 100%;
+                            }
+                            #scrollableContainer {
+                                width: 100%; /* Ajusta el ancho según sea necesario */
+                                overflow-x: auto; /* Agrega un scroll horizontal si el contenido es más ancho que el contenedor */
+                                position: relative;
+                                
+                                
+                                
+                            }
+                            
+                            #scrollableDiv th:first-child {
+                                
+                                position:sticky;
+                                
+                                z-index: 2; /* Asegura que la columna esté sobre las demás celdas */
+                                
+                                
+                            } 
         </style>
-    <div><table class="juntar">
-            <tr>
+    <div>
+        <br>
+        <div class="container" id="scrollableContainer">
+        <div id="scrollableDiv">  
+        <table id="semana1">
+                <thead>
+                <tr>
                 <th> Marzo </th>
                 <th class="semana" colspan="8">Semana: 1
                     <button onclick="avanzarSemana()">-></button>
@@ -323,9 +348,7 @@
             <tr>
                 <th> Área </th>
                 <th class="area" colspan="8">Estructura</th>
-            </tr>
-        </table><table id="semana1">
-                <thead>         
+            </tr>         
                     <tr>
                         <th> Colaboradores / Responsabilidades </th>
                         <td class="respon">Asistencia diaria</td>
@@ -390,6 +413,8 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
+            </div>
             <table id="semana2">
                 <thead>          
                     <tr>
