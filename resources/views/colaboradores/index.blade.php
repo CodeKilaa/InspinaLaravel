@@ -49,7 +49,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span> <span class="fa arrow"></span></a>
+                    <a href=""><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span></a>
                 </li>
                 <li>
                     <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
@@ -257,14 +257,14 @@
                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Marlo</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Zamaniego Calderon</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Dirección:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institución:</h5></label><label for="">Senati</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Marlo@gmail.com</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
-                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Analisis</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">marlo@gmail.com</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">72802334</label></div>
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">924561234</label></div>    
+                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Área:</h5></label><label for="">Estructura</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Ingeniero de Software</label></div>
                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
                                                 <div>
@@ -288,6 +288,7 @@
                             </div>
                         </div>
                 </div>
+
                 <div id="modal-form5" class="modal fade" aria-hidden="true">
                                             <div class="modal-dialog modal-custom">
                                                 <div class="modal-content">
@@ -301,9 +302,9 @@
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option> 1</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                        <option> Senati</option>
+                                                                        <option> UPC</option>
+                                                                        <option> UNI</option>
                                                                     </select></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Ciclo:</h5></label><select class="form-control m-b" name="account">
                                                                         <option> 1</option>
@@ -320,18 +321,18 @@
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>                                                                 
                                                                     
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control"></input></div>    
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option> 1</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option> Programación</option>
+                                                                        <option> Diseño</option>
+                                                                        <option> Arquitectura</option>
                                                                     </select></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option> 1</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                        <option> Ingenieria de Software</option>
+                                                                        <option> Desarollo de Software</option>
+                                                                        <option> Diseño Gráfico</option>
                                                                     </select></div>
                                                                         
                                                                     
@@ -370,13 +371,34 @@
                                             </div>
                                     </div>
                 </div>
-
+                
             </div>
         </div>
         
         
 
         <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="wrapper-content mb-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ibox-content">
+                            <div class="d-flex align-items-center">
+                                <p class="mr-2"><strong>Filtro de Colaboradores:</strong></p>
+                                <div class="form-check form-check-inline mr-2">
+                                    <input class="form-check-input" type="checkbox" id="activoCheckbox">
+                                    <label class="form-check-label" for="activoCheckbox">Activo</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="desactivoCheckbox">
+                                    <label class="form-check-label" for="desactivoCheckbox">Desactivo</label>
+                                </div>
+                                <button type="button" class="btn btn-primary ml-2">Filtrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="row">
                 <div class="col-md-3">
                     <div class="ibox">
@@ -395,11 +417,11 @@
 
 
 
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <small class="text-muted text-left"><h3>Área:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>Estructura</h5>
                                 </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <small class="text-muted text-left"><h3>DNI:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>72802334</h5>
                                 </div>
@@ -425,14 +447,14 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Marlo"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Zamaniego Calderon"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Dirección:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institución:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Senati</option>
                                                                         <option> UTP</option>
                                                                         <option> UCH</option>
@@ -450,18 +472,18 @@
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account" >
                                                                         <option selected>Estructura</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                        <option> Diseño</option>
+                                                                        <option> Programación</option>
                                                                     </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> Salon 1</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salón:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salón 1</option>
+                                                                        <option>Salón 2</option>
+                                                                        <option> Salón 3</option>
                                                                     </select></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Desarrollo de Software</option>
@@ -498,9 +520,9 @@
                                                 <img src="img/a2.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 120px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 120px; font-size: 12px;" href="" >Cambiar Imagen</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 120px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                     
@@ -532,11 +554,11 @@
 
 
 
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <small class="text-muted text-left"><h3>Área:</h3></small>
                                 <div class="small m-t-xs text-left">
-                                    <h5>Programacion</h5>
+                                    <h5>Programación</h5>
                                 </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <small class="text-muted text-left"><h3>DNI:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>77892239</h5>
                                 </div>
@@ -570,20 +592,20 @@
                                                 <div class="modal-body">
                                                     <div class="row">
                                                         
-                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                             
 
                                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Juan</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Flores Ortega</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Dirección:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institución:</h5></label><label for="">Senati</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Juan@gmail.com</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Programacion</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Área:</h5></label><label for="">Programación</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Ingeniero de Software</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
                                                                 <div>
@@ -614,14 +636,14 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Juan"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Flores Ortega"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Dirección:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institución:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Senati</option>
                                                                         <option> UTP</option>
                                                                         <option> UCH</option>
@@ -639,18 +661,18 @@
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected>Programacion</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected>Programación</option>
+                                                                        <option> Diseño</option>
+                                                                        <option> Programación</option>
                                                                     </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> Salon 1</option>
-                                                                        <option> 2</option>
-                                                                        <option> 3</option>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salón:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salón 1</option>
+                                                                        <option>Salón 2</option>
+                                                                        <option> Salón 3</option>
                                                                     </select></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
                                                                         <option > Desarrollo de Software</option>
@@ -687,9 +709,9 @@
                                                 <img src="img/a1.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 120px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 120px; font-size: 12px;" href="" >Cambiar Imagen</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 120px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                     
@@ -722,11 +744,11 @@
 
 
 
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <small class="text-muted text-left"><h3>Área:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>Analisis</h5>
                                 </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <small class="text-muted text-left"><h3>DNI:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>78912364</h5>
                                 </div>
@@ -760,15 +782,15 @@
                                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Paolo</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Guerrero Carrillo</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Dirección:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institución:</h5></label><label for="">Senati</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">paolo@gmail.com</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Analisis</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Ingeniero de Software</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Área:</h5></label><label for="">Analisis</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Ingenieria de Software</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
                                                                 <div>
                                                                     <a data-toggle="modal" class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit btn-success" onclick="hideModal('modal-formVer2'); showModal('modal-formjuan');" style="font-size: 20px; width: 60px;"  href="#modal-form7"></a>
@@ -798,14 +820,14 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Paolo"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Gerrero Carrillo"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Dirección:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institución:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Senati</option>
                                                                         <option> UTP</option>
                                                                         <option> UCH</option>
@@ -823,15 +845,15 @@
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected>Analisis</option>
                                                                         <option> 2</option>
                                                                         <option> 3</option>
                                                                     </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salón:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Salon 1</option>
                                                                         <option> 2</option>
                                                                         <option> 3</option>
@@ -871,9 +893,9 @@
                                                 <img src="img/a7.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 120px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 120px; font-size: 12px;" href="" >Cambiar Imagen</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 120px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                     
@@ -914,11 +936,11 @@
                                 <a href="#" class="product-name"><h2> Juan Calderon Torres</h2></a>
 
 
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <small class="text-muted text-left"><h3>Área:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>Programacion</h5>
                                 </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <small class="text-muted text-left"><h3>DNI:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>76211803</h5>
                                 </div>
@@ -946,20 +968,20 @@
                                                 <div class="modal-body">
                                                     <div class="row">
                                                         
-                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                             
 
                                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Juan</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Calderon Torres</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Dirección:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institución:</h5></label><label for="">Senati</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">juanCal@gmail.com</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Programacion</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Área:</h5></label><label for="">Programacion</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Diseño Grafico</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
                                                                 <div>
@@ -990,14 +1012,14 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Juan"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Calderon Torres"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Dirección:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institución:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Senati</option>
                                                                         <option> UTP</option>
                                                                         <option> UCH</option>
@@ -1015,18 +1037,18 @@
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected>Programacion</option>
                                                                         <option> Analisis</option>
                                                                         <option> Estructura</option>
                                                                     </select></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Salon:</h5></label><select class="form-control m-b" name="account">
-                                                                        <option selected> Salon 2</option>
-                                                                        <option> Salon 1</option>
-                                                                        <option> Salon 3</option>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Salón:</h5></label><select class="form-control m-b" name="account">
+                                                                        <option selected> Salón 2</option>
+                                                                        <option> Salón 1</option>
+                                                                        <option> Salón3</option>
                                                                     </select></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Carrera:</h5></label><select class="form-control m-b" name="account">
                                                                         <option > Desarrollo de Software</option>
@@ -1063,9 +1085,9 @@
                                                 <img src="img/a4.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 120px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 120px; font-size: 12px;" href="" >Cambiar Imagen</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 120px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                     
@@ -1096,11 +1118,11 @@
                                 <a href="#" class="product-name"><h2> Ana Zapata Condo</h2></a>
 
 
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <small class="text-muted text-left"><h3>Área:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>Android</h5>
                                 </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <small class="text-muted text-left"><h3>DNI:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>79601203</h5>
                                 </div>
@@ -1128,20 +1150,20 @@
                                                 <div class="modal-body">
                                                     <div class="row">
                                                         
-                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                             
 
                                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Ana</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Zapata Condo</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Dirección:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institución:</h5></label><label for="">Senati</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">ana@gmail.com</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Android</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Área:</h5></label><label for="">Android</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Diseño Grafico</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
                                                                 <div>
@@ -1172,14 +1194,14 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Ana"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Zapata Condo"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Dirección:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institución:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Senati</option>
                                                                         <option> UTP</option>
                                                                         <option> UCH</option>
@@ -1197,10 +1219,10 @@
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account">
                                                                         <option>Programacion</option>
                                                                         <option> Analisis</option>
                                                                         <option selected>Android</option>
@@ -1246,9 +1268,9 @@
                                                 <img src="img/a3.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 120px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 120px; font-size: 12px;" href="" >Cambiar Imagen</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 120px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                     
@@ -1279,11 +1301,11 @@
                                 <a href="#" class="product-name"><h2>Isabel Aguilera Fano</h2></a>
 
 
-                                <small class="text-muted text-left"><h3>Area:</h3></small>
+                                <small class="text-muted text-left"><h3>Área:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>Analisis</h5>
                                 </div>
-                                <small class="text-muted text-left"><h3>DN1:</h3></small>
+                                <small class="text-muted text-left"><h3>DNI:</h3></small>
                                 <div class="small m-t-xs text-left">
                                     <h5>72802034</h5>
                                 </div>
@@ -1311,20 +1333,20 @@
                                                 <div class="modal-body">
                                                     <div class="row">
                                                         
-                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                             
 
                                                             <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Nombres:</h5></label><label for="">Isabel</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Apellidos:</h5></label><label for="">Aguilera Fano</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Direccion:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institucion:</h5></label><label for="">Senati</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Dirección:</h5></label><label for="">Urb. Emilio Fernandez lt.13 Mz. H</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Institución:</h5></label><label for="">Senati</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Ciclo:</h5></label><label for="">4to</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Correo:</h5></label><label for="">Isabel@gmail.com</label></div>
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Fecha de Nacimiento:</h5></label><label for="">O2/05/2000</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">DNI:</h5></label><label for="">75123445</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Celular:</h5></label><label for="">923456123</label></div>    
-                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Area:</h5></label><label for="">Analisis</label></div>
+                                                                <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Área:</h5></label><label for="">Analisis</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Carrera:</h5></label><label for="">Diseño Grafico</label></div>
                                                                 <div class="form-group"><label><h5 class="m-t-none m-b mx-2">Estado:</h5></label><label for="">Activo</label></div>     
                                                                 <div>
@@ -1355,14 +1377,14 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="row">
-                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Informacion Personal </h3>
+                                                            <div class="col-sm-4 b-r"><h3 class="m-t-none m-b">Información Personal </h3>
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Nombres:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Isabel"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Apellidos:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Aguilera Fano"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Direccion:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Institucion:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Dirección:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="Urb. Emilio Fernandez lt.13 Mz. H"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Institución:</h5></label><select class="form-control m-b" name="account">
                                                                         <option selected> Senati</option>
                                                                         <option> UTP</option>
                                                                         <option> UCH</option>
@@ -1380,10 +1402,10 @@
                                                                 
 
                                                                 <form role="form"><style>.form-group{margin-bottom: 0rem;}</style>
-                                                                    <div class="form-group"><label><h5 class="m-t-none">fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Fecha de Nacimiento:</h5></label><input style="padding: 1px 8px;" type="date" class="form-control" value="02/05/2000"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">DNI:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="75123445"></input></div>
                                                                     <div class="form-group"><label><h5 class="m-t-none">Celular:</h5></label><input style="padding: 1px 8px;" type="text" class="form-control" value="923456123"></input></div>      
-                                                                    <div class="form-group"><label><h5 class="m-t-none">Area:</h5></label><select class="form-control m-b" name="account">
+                                                                    <div class="form-group"><label><h5 class="m-t-none">Área:</h5></label><select class="form-control m-b" name="account">
                                                                         <option>Programacion</option>
                                                                         <option selected> Analisis</option>
                                                                         <option>Android</option>
@@ -1429,9 +1451,9 @@
                                                 <img src="img/a6.jpg" class="img-lg w-200 h-200" >
                                                 
                                             </div>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 100px; font-size: 18px;" href="" ></a>
-                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 100px; font-size: 12px;" href="" >?</a>
-                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 100px; font-size: 18px;" href="prestamos" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success fa fa-desktop mb-4" style="width: 120px; font-size: 18px;" href="" ></a>
+                                            <a data-toggle="modal" class="btn btn-primary btn-success mb-4" style="width: 120px; font-size: 12px;" href="" >Cambiar Imagen</a>
+                                            <a class="btn btn-primary btn-success fa fa-dropbox" style="width: 120px; font-size: 18px;" href="prestamos" ></a>
                                             
                                     </div>
                                     

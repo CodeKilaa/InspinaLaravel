@@ -403,7 +403,7 @@
                     background-color: white; /* Para que la columna no se vea afectada por otros estilos */
                     
                   }
-
+                  
                 
                 </style>
           </div>      

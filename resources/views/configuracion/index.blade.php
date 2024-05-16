@@ -326,7 +326,7 @@
                                     <p>Institución</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-institucion"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-institucion"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -345,7 +345,7 @@
                                     <p>Carrera</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-carrera"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-carrera"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +365,7 @@
                                     <p>Curso</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-curso"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-curso"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -384,7 +384,7 @@
                                     <p>Programas</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-programa"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-programa"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -403,7 +403,7 @@
                                     <p>Herramientas</p>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a class="btn btn-success" href="configuracion-herramienta"><i class="fa fa-cog"></i></a>
+                                    <a class="btn btn-success" href="config-herramienta"><i class="fa fa-cog"></i></a>
                                 </div>
                             </div>
                         </div>

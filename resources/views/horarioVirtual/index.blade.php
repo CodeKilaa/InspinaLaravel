@@ -57,15 +57,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span> <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="index.html">Dashboard v.1</a></li>
-                        <li><a href="dashboard_2.html">Dashboard v.2</a></li>
-                        <li><a href="dashboard_3.html">Dashboard v.3</a></li>
-                        <li><a href="dashboard_4_1.html">Dashboard v.4</a></li>
-                        <li><a href="dashboard_5.html">Dashboard v.5 </a></li>
-                        <li><a href="dashboard_areas.html">Áreas</a></li>
-                    </ul>
+                    <a href=""><i class="fa fa-th-large"></i> <span class="nav-label">Inicio</span></a>
                 </li>
                 <li>
                     <a href="horario-general-presencial.html"><i class="fa fa-clock-o"></i> <span class="nav-label">Horarios G.Presencial</span><span class="fa arrow"></span></a>
@@ -261,7 +253,8 @@
             <div class="ibox-content">
                 <h1 class="titulo">Horario General Virtual - Area</h1>
                 <br>
-                <div class="container">    
+                <div class="container" id="scrollableContainer">
+                <div id="scrollableDiv">    
                   <table>
                       <thead>
                           <tr class="m1">
@@ -278,7 +271,7 @@
                     </thead>
                     <tbody>
                       <tr class="celdas">
-                        <th id="hour" rowspan="1" >9:00 am</th>
+                        <th id="hour" style="background-color: #c9f6fc" rowspan="1" >9:00 am</th>
                         <td id="event" rowspan="9">Marlo Samaniego</td>
                         <td></td>
                         <td></td>
@@ -371,6 +364,7 @@
                     </tbody>
                   </table>
                 </div>
+                </div>
                 <style>
                   .container {
                   width: 1400px;
@@ -399,12 +393,16 @@
                     padding: 5px;
                     color: black;
                     height: 10px;
-                    width: 200px;
+                    
+                  }
+
+                  td{
+                    min-width: 100px;
                   }
                   
                   th {
                     text-align: center;
-                    min-width: 100px;
+                    
                     
                     
                   }
@@ -446,6 +444,27 @@
                   #hour{
                     background-color: #c9f6fc;
                   }
+                  #scrollableDiv table {
+                    width: 100%;
+                  }
+                  #scrollableContainer {
+                    width: 100%; /* Ajusta el ancho según sea necesario */
+                    overflow-x: auto; /* Agrega un scroll horizontal si el contenido es más ancho que el contenedor */
+                    position: relative;
+                    
+                    
+                    
+                  }
+                  
+                  #scrollableDiv th:first-child {
+                    
+                    position:sticky;
+                    
+                    z-index: 2; /* Asegura que la columna esté sobre las demás celdas */
+                    
+                    
+                  }
+                  
                 
                 </style>
           </div>      

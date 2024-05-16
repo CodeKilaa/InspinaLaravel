@@ -44,28 +44,29 @@ Route::get('/horarioVirtual', function () {
     return view('horarioVirtual.index');
 });
 
+//CONFIGURACION
 Route::get('/configuracion', function () {
     return view('configuracion.index');
 });
 
-Route::get('/configuracion-institucion', function () {
-    return view('configuracion-institucion.index');
+Route::get('/config-carrera', function () {
+    return view('configuracion.config-carrera');
 });
 
-Route::get('/configuracion-carrera', function () {
-    return view('configuracion-carrera.index');
+Route::get('/config-curso', function () {
+    return view('configuracion.config-curso');
 });
 
-Route::get('/configuracion-curso', function () {
-    return view('configuracion-curso.index');
+Route::get('/config-herramienta', function () {
+    return view('configuracion.config-herramienta');
 });
 
-Route::get('/configuracion-programa', function () {
-    return view('configuracion-programa.index');
+Route::get('/config-institucion', function () {
+    return view('configuracion.config-institucion');
 });
 
-Route::get('/configuracion-herramienta', function () {
-    return view('configuracion-herramienta.index');
+Route::get('/config-programa', function () {
+    return view('configuracion.config-programa');
 });
 
 Route::get('/salones', function () {

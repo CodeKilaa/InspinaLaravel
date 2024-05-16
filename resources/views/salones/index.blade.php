@@ -56,7 +56,7 @@
                         <li><a href="horarioPresencial">Presencial</a></li>
                         <li><a href="horarioGeneral">Horario General</a></li>
                         <li><a href="horarioArea">Areas</a></li>
-                        <li><a href="horarioSalon">Salon</a></li>
+                        <li><a href="horarioSalon">Salón</a></li>
                     </ul>
                 </li>
                 <li>
@@ -85,7 +85,7 @@
 
                 </li>
                 <li>
-                    <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                    <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Máquinas</span></a>
                 </li>
                 <li class="active"> 
                     <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
@@ -229,9 +229,6 @@
                     <li class="breadcrumb-item">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="breadcrumb-item">
-                        <a>Dashboard</a>
-                    </li>
                     <li class="breadcrumb-item active">
                         <strong>Salones</strong>
                     </li>
@@ -265,7 +262,7 @@
                                                         </select>
                                                         
                                                     </div>
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Codigo</h3></label><input type="text" placeholder="Enter code" class="form-control"></div>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label><input type="text" placeholder="Enter code" class="form-control"></div>
                                                     <div>
                                                         <button class="btn btn-sm btn-primary float-right m-t-n-xs fa fa-edit" type="submit"><strong>ADD</strong></button>
                                                         
@@ -306,17 +303,17 @@
                                     Inactive
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Salon 1</h2></a>
+                                <a href="#" class="product-name"><h2> Salón 1</h2></a>
 
 
 
-                                <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Código</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>001</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Ambiente para la elaboracion para el trabajo.</h5>
+                                    <h5>Ambiente para la elaboración para el trabajo.</h5>
                                 </div>
                                 <small class="text-muted text-center"><h3><strong>Cantidad De Máquinas</strong></h3></small>
                                 <div class="small m-t-xs text-center">
@@ -338,8 +335,8 @@
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
                                                                     <a class="product-name col-sm-4"><h3>ID: 001</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 1 </strong></h1></a>  
-                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salón 1 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Descripción: Ambiente para la elaboración para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>         
                                                                 <div class="row">        
@@ -365,10 +362,10 @@
                                                     <div class="modal-body">
                                                         <div class="row">
                                                             <div class="col-sm-6 b-r">
-                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 1" class="form-control"></div>
+                                                                <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salón 1" class="form-control"></div>
                                                                 <p></p>
                                                                 <form role="form">
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboración para el trabajo." class="form-control"></div>
                                                                     <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                         <select class="form-control m-b" name="account">
                                                                             <option> 001</option>
@@ -381,7 +378,7 @@
                                                                         </select>
                                                                         
                                                                     </div>
-                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                                         <select class="form-control m-b" name="account">
                                                                             <option> 0</option>
                                                                             <option> 1</option> 
@@ -432,18 +429,18 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Salon 2 </h2></a>
+                                <a href="#" class="product-name"><h2> Salón 2 </h2></a>
 
 
-                                <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Código</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>2</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <small class="small m-t-xs text-center">
-                                    <h5>Ambiente para la elaboracion para el trabajo.</h5>
+                                    <h5>Ambiente para la elaboración para el trabajo.</h5>
                                 </small>
-                                <small class="text-muted text-center"><h3><strong>Cantidad De Maquinas</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Cantidad De Máquinas</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>3</h5>
                                 </div>
@@ -464,8 +461,8 @@
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
                                                                     <a class="product-name col-sm-4"><h3>ID: 002</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 2 </strong></h1></a>  
-                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salón 2 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Descripción: Ambiente para la elaboración para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>         
                                                                 <div class="row">        
@@ -475,7 +472,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 4   
+                                                                                        Máquina 4   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -494,18 +491,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">004</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 2</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 2</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -520,7 +517,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 7   
+                                                                                        Máquina 7   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -539,18 +536,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">007</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 2</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 2</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -565,7 +562,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 6   
+                                                                                        Máquina 6   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -584,18 +581,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
-                                                                                                    <dd class="sm-2">60 Dias</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
+                                                                                                    <dd class="sm-2">60 Días</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">006</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 2</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 2</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -620,10 +617,10 @@
                                             <div class="modal-body">
                                                 <div class="row">
                                                     <div class="col-sm-6 b-r">
-                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 2" class="form-control"></div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salón 2" class="form-control"></div>
                                                         <p></p>
                                                         <form role="form">
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboración para el trabajo." class="form-control"></div>
                                                             <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 002</option>
@@ -637,7 +634,7 @@
                                                                 </select>
                                                                 
                                                             </div>
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 3</option>
                                                                     <option> 0</option>
@@ -687,18 +684,18 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Salon 3 </h2></a>
+                                <a href="#" class="product-name"><h2> Salón 3 </h2></a>
 
 
-                                <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Código</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>3</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <small class="small m-t-xs text-center">
-                                    <h5>Ambiente para la elaboracion para el trabajo.</h5>
+                                    <h5>Ambiente para la elaboración para el trabajo.</h5>
                                 </small>
-                                <small class="text-muted text-center"><h3><strong>Cantidad De Maquinas</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Cantidad De Máquinas</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>1</h5>
                                 </div>
@@ -720,8 +717,8 @@
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
                                                                     <a class="product-name col-sm-4"><h3>ID: 003</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 3 </strong></h1></a>  
-                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salón 3 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Descripción: Ambiente para la elaboración para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>         
                                                                 <div class="row">        
@@ -735,7 +732,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 7   
+                                                                                        Máquina 7   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -754,18 +751,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">007</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 3</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 3</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -794,10 +791,10 @@
                                             <div class="modal-body">
                                                 <div class="row">
                                                     <div class="col-sm-6 b-r">
-                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 2" class="form-control"></div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salón 2" class="form-control"></div>
                                                         <p></p>
                                                         <form role="form">
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboración para el trabajo." class="form-control"></div>
                                                             <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 003</option>
@@ -813,7 +810,7 @@
                                                                 </select>
                                                                 
                                                             </div>
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 1</option> 
                                                                     
@@ -864,18 +861,18 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Salon 4 </h2></a>
+                                <a href="#" class="product-name"><h2> Salón 4 </h2></a>
 
 
-                                <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Código</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>4</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <small class="small m-t-xs text-center">
-                                    <h5>Ambiente para la elaboracion para el trabajo.</h5>
+                                    <h5>Ambiente para la elaboración para el trabajo.</h5>
                                 </small>
-                                <small class="text-muted text-center"><h3><strong>Cantidad De Maquinas</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Cantidad De Máquinas</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>1</h5>
                                 </div>
@@ -895,8 +892,8 @@
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
                                                                     <a class="product-name col-sm-4"><h3>ID: 004</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 4 </strong></h1></a>  
-                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salón 4 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Descripción: Ambiente para la elaboración para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>         
                                                                 <div class="row">        
@@ -910,7 +907,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 7   
+                                                                                        Máquina 7   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -929,18 +926,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">007</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 4</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 4</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -969,10 +966,10 @@
                                             <div class="modal-body">
                                                 <div class="row">
                                                     <div class="col-sm-6 b-r">
-                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 4" class="form-control"></div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salón 4" class="form-control"></div>
                                                         <p></p>
                                                         <form role="form">
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboración para el trabajo." class="form-control"></div>
                                                             <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 004</option>
@@ -989,7 +986,7 @@
                                                                 </select>
                                                                 
                                                             </div>
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 1</option> 
                                                                     
@@ -1040,18 +1037,18 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2> Salon 5</h2></a>
+                                <a href="#" class="product-name"><h2> Salón 5</h2></a>
 
 
-                                <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Código</strong></h3></small>
                                 <div class="small m-t-xs text-center">
                                     <h5>005</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <div class="small m-t-xs text-center">
-                                    <h5>Ambiente para la elaboracion para el trabajo.</h5>
+                                    <h5>Ambiente para la elaboración para el trabajo.</h5>
                                 </div>
-                                <small class="text-muted text-center"><h3><strong>Cantidad de Maquinas</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Cantidad de Máquinas</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>4</h5>
                                 </small>
@@ -1079,8 +1076,8 @@
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
                                                                     <a class="product-name col-sm-4"><h3>ID: 002</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 2 </strong></h1></a>  
-                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salón 2 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Descripción: Ambiente para la elaboración para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>         
                                                                 <div class="row">
@@ -1090,7 +1087,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 4   
+                                                                                        Máquina 4   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -1109,18 +1106,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">004</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 5</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -1135,7 +1132,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 2   
+                                                                                        Máquina 2   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -1154,18 +1151,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">002</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 5</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -1180,7 +1177,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 1   
+                                                                                        Máquina 1   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -1199,18 +1196,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">001</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 5</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -1225,7 +1222,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 8   
+                                                                                        Máquina 8   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -1244,18 +1241,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">008</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 5</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 5</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -1291,10 +1288,10 @@
                                             <div class="modal-body">
                                                 <div class="row">
                                                     <div class="col-sm-6 b-r">
-                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 5" class="form-control"></div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salón 5" class="form-control"></div>
                                                         <p></p>
                                                         <form role="form">
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboración para el trabajo." class="form-control"></div>
                                                             <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 005</option>
@@ -1312,7 +1309,7 @@
                                                                 </select>
                                                                 
                                                             </div>
-                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                            <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                                 <select class="form-control m-b" name="account">
                                                                     <option> 4</option>
                                                                     
@@ -1363,18 +1360,18 @@
                                     Activo
                                 </span>
                                 
-                                <a href="#" class="product-name"><h2>Salon 6</h2></a>
+                                <a href="#" class="product-name"><h2>Salón 6</h2></a>
 
-                                <small class="text-muted text-center"><h3><strong>Codigo</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Código</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>006</h5>
                                 </small>
-                                <small class="text-muted text-center"><h3><strong>Descripcion</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Descripción</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>Ambiente para la elaboración de trabajo.</h5>
                                 </small>
                                 
-                                <small class="text-muted text-center"><h3><strong>Cantidad de Maquinas</strong></h3></small>
+                                <small class="text-muted text-center"><h3><strong>Cantidad de Máquinas</strong></h3></small>
                                 <small class="small m-t-xs text-center">
                                     <h5>2</h5>
                                 </small>
@@ -1395,8 +1392,8 @@
                                                             <div class="modal-body">
                                                                 <div class="row text-center">
                                                                     <a class="product-name col-sm-4"><h3>ID: 006</h3></a>
-                                                                    <a class="product-name col-sm-4"><h1><strong>Salon 6 </strong></h1></a>  
-                                                                    <a class="product-name col-sm-4"><h3>Description: Ambiente para la elaboracion para el trabajo.</h3></a> 
+                                                                    <a class="product-name col-sm-4"><h1><strong>Salón 6 </strong></h1></a>  
+                                                                    <a class="product-name col-sm-4"><h3>Descripción: Ambiente para la elaboración para el trabajo.</h3></a> 
                                                                 </div>
                                                                 <hr>
                                                                 <div class="container">
@@ -1407,7 +1404,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 6   
+                                                                                        Máquina 6   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -1426,18 +1423,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">006</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 6</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 6</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -1452,7 +1449,7 @@
                                                                                 <div class="row">
                                                                                     <div class="col-sm-6 b-r">
                                                                                         <h2 class="text-center">
-                                                                                            Maquina 7   
+                                                                                        Máquina 7   
                                                                                         </h2>
                                                                                         <p class="text-center">
                                                                                             <img src="img/pc.jpg" class="rounded-circle h-150">
@@ -1471,18 +1468,18 @@
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Tecnicos:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Detalles Técnicos:</dt>
                                                                                                     <dd class="sm-2">60 Dias</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Numero Identificador:</dt>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Número Identificador:</dt>
                                                                                                     <dd class="sm-2">007</dd>
                                                                                                 </div>
                                                                                             </dl>
                                                                                             <dl class="row mb-2">
-                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salon Asignado</dt>
-                                                                                                    <dd class="sm-2">Salon 6</dd>
+                                                                                                <div class="col-sm-12 text-sm-left"><dt>Salón Asignado</dt>
+                                                                                                    <dd class="sm-2">Salón 6</dd>
                                                                                                 </div>
                                                                                             </dl>                                                      
                                                                                             </div>
@@ -1516,10 +1513,10 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-sm-6 b-r">
-                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salon 6" class="form-control"></div>
+                                                    <div class="form-group"><label><h3 class="m-t-none m-b">Nombre</h3></label><input type="text" placeholder="Salón 6" class="form-control"></div>
                                                     <p></p>
                                                     <form role="form">
-                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboracion para el trabajo." class="form-control"></div>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Descripción</h3></label><input type="text" placeholder="Ambiente para la elaboración para el trabajo." class="form-control"></div>
                                                         <div class="form-group"><label><h3 class="m-t-none m-b">Código</h3></label>
                                                             <select class="form-control m-b" name="account">
                                                                 <option> 006</option>
@@ -1538,7 +1535,7 @@
                                                             </select>
                                                             
                                                         </div>
-                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Maquinas</h3></label>
+                                                        <div class="form-group"><label><h3 class="m-t-none m-b">Cantidad De Máquinas</h3></label>
                                                             <select class="form-control m-b" name="account">
                                                                 <option> 2</option>
                                                                 
