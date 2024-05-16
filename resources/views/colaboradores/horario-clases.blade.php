@@ -677,7 +677,7 @@
                     color: '#9C27B0'
                 },
                 {
-                title: 'Clase Presencial',s
+                title: 'Clase Presencial',
                     start: new Date(y, m, d+1,8,0),
                     end: new Date(y, m, d+1,12,0),
                     allDay: false
