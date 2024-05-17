@@ -311,11 +311,8 @@
                             </div>
                             <div role="tabpanel" id="tab-2" class="tab-pane">
                                 <div class="panel-body">
-                                    <div class="wrapper wrapper-content animated fadeInRight">
-                                        <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="ibox ">
-                                                    <div class="ibox-content">
                                                         <h2><strong>Informacion</strong></h2>
                                                         <div class="row">
                                                             <div class="col-sm-6">
@@ -328,136 +325,137 @@
                                                                 <div class="form-group"><label>Apellidos</label> <input type="text" placeholder="Ingrese sus Apellidos" class="form-control"></div>
                                                                 <div class="form-group"><label>Ciclo</label> <input type="text" placeholder="**" class="form-control"></div>
                                                             </div>
-                                                            
-                            
-                                                        
                                                         </div>
-                                                        <div class="col-lg-12">
-                                                            <div class="ibox">
-                                                                <div class="ibox-title">
-                                                                    <h5>Tabla</h5>
-                                                                    <div class="ibox-tools">
-                                                                        <button class="btn btn-primary" type="button" href="#modal-form-edit" data-toggle="modal"><i class="fa fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                </div>
+                                <div class="ibox">
+                                    <div class="ibox-content">  
+                                            <div class="col-lg-12">
+                                                <div class="ibox">
+                                                        <div class="table-responsive">
+                                                        <table class="table">
+                                                            <style>
+                                                                 /* Asegúrate de que la tabla se pueda desplazar horizontalmente en dispositivos móviles */
+                                                                .table-responsive {
+                                                                    overflow-x: auto;
+                                                                }
+            
+                                                                /* Mantén los tamaños de los inputs y selects */
+                                                                .table th,
+                                                                .table td {
+                                                                    white-space: nowrap; /* Evita que el contenido se ajuste y en su lugar permite el desplazamiento */
+                                                                }
+            
+                                                                .input-group.date input,
+                                                                .form-control.m-b,
+                                                                .input-group.date {
+                                                                    min-width: 150px; /* Establece un ancho mínimo para que no se encojan demasiado */
+                                                                }
+            
+                                                            </style>
+                                                            <thead>
+                                                            <tr>
+                                                                <th>Horario</th>
+                                                                <th>Descripcion</th>
+                                                                <th>Dia</th>
+                                                                <th>Hora Inicial</th>
+                                                                <th>Hora Final</th>
+                                                                <th>
+                                                                    <button class="btn btn-primary" type="button" href="#modal-form-edit" data-toggle="modal"><i class="fa fa-plus-circle"></i></button>
+                                                                </th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                        <select class="form-control m-b">
+                                                                            <option>Presencial</option>
+                                                                            <option>Virtual</option>
+                                                                            <option>Semi-Presencial</option>
+                                                                        </select>                
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" placeholder="******">
+                                                                </td>
+                                                                <td>
+                                                                            <select class="form-control m-b">
+                                                                            <option>Lunes</option>
+                                                                            <option>Martes</option>
+                                                                            <option>Miercoles</option>
+                                                                            <option>Jueves</option>
+                                                                            <option>Viernes</option>
+                                                                            <option>Sabado</option>
+                                                                        </select>                
+                                                                </td>
+                                                                <td>
+                                                                    <div class="input-group date">
+                                                                        <input type="text" class="form-control" value="8:30am">
                                                                     </div>
-                                                                </div>
-                                                                <div class="ibox-content">
-                                            
-                                                                    <table class="table">
-                                                                        <thead>
-                                                                        <tr>
-                                                                            <th>Horario</th>
-                                                                            <th>Descripcion</th>
-                                                                            <th>Dia</th>
-                                                                            <th>Hora Inicial</th>
-                                                                            <th>Hora Final</th>
-                                                                            <th></th>
-                                                                        </tr>
-                                                                        </thead>
-                                                                        <tbody>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="form-group row"><label class="col-form-label"></label>
-                            
-                                                                                    <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                                                                        <option>Presencial</option>
-                                                                                        <option>Virtual</option>
-                                                                                        <option>Semi-Presencial</option>
-                                                                                    </select>                
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <input type="text" class="form-control" placeholder="**">
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group row"><label class="col-form-label"></label>
-                            
-                                                                                    <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                                                                        <option>Lunes</option>
-                                                                                        <option>Martes</option>
-                                                                                        <option>Miercoles</option>
-                                                                                        <option>Jueves</option>
-                                                                                        <option>Viernes</option>
-                                                                                        <option>Sabado</option>
-                                                                                    </select>                
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="input-group date">
-                                                                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="8:30am">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="input-group date">
-                                                                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="12:30pm">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button class="btn btn-danger float-right" type="button"><i class="fa fa-trash-o"></i></button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <!---Div-->
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="form-group row"><label class="col-form-label"></label>
-                            
-                                                                                    <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                                                                        <option>Presencial</option>
-                                                                                        <option>Virtual</option>
-                                                                                        <option>Semi-Presencial</option>
-                                                                                    </select>                
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <input type="text" class="form-control" placeholder="**">
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group row"><label class="col-form-label"></label>
-                            
-                                                                                    <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                                                                        <option>Lunes</option>
-                                                                                        <option>Martes</option>
-                                                                                        <option>Miercoles</option>
-                                                                                        <option>Jueves</option>
-                                                                                        <option>Viernes</option>
-                                                                                        <option>Sabado</option>
-                                                                                    </select>                
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="input-group date">
-                                                                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="8:30am">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="input-group date">
-                                                                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="12:30pm">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button class="btn btn-danger float-right" type="button"><i class="fa fa-trash-o"></i></button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        </tbody>
-                                                                        
-                                                                    </table>
-                                                                    <div class="text-center">
-                                                                        <button class="ladda-button btn btn-primary mr-5"  data-style="expand-left">Guardar</button>
-                                                                        <button class="ladda-button btn btn-primary"  data-style="expand-left">Cancelar</button>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="input-group date">
+                                                                        <input type="text" class="form-control" value="12:30pm">
                                                                     </div>
-                                                                    
-                                            
-                                                                </div>
-                                                            </div>
+                                                                </td>
+                                                                <td>
+                                                                    <button class="btn btn-danger float-right" type="button"><i class="fa fa-trash-o"></i></button>
+                                                                </td>
+                                                            </tr>
+                                                            <!---Div-->
+                                                            <tr>
+                                                                <td>
+                                                                        <select class="form-control m-b">
+                                                                            <option>Presencial</option>
+                                                                            <option>Virtual</option>
+                                                                            <option>Semi-Presencial</option>
+                                                                        </select>                
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" placeholder="******">
+                                                                </td>
+                                                                <td>
+                                                                        <select class="form-control m-b" name="account">
+                                                                            <option>Lunes</option>
+                                                                            <option>Martes</option>
+                                                                            <option>Miercoles</option>
+                                                                            <option>Jueves</option>
+                                                                            <option>Viernes</option>
+                                                                            <option>Sabado</option>
+                                                                        </select>                
+                                                                </td>
+                                                                <td>
+                                                                    <div class="input-group date">
+                                                                        <input type="text" class="form-control" value="8:30am">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="input-group date">
+                                                                        <input type="text" class="form-control" value="12:30pm">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <button class="btn btn-danger float-right" type="button"><i class="fa fa-trash-o"></i></button>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                            
+                                                        </table>
+                                                        <div class="text-center">
+                                                            <button class="ladda-button btn btn-primary mr-5"  data-style="expand-left">Guardar</button>
+                                                            <button class="ladda-button btn btn-primary"  data-style="expand-left">Cancelar</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>    
+                                        
+            
+            
+            
+            
+            
+            
+                                    </div>
                                 </div>
                             </div>
                         </div>
