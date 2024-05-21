@@ -240,53 +240,98 @@
                     </li>
                 </ol>         
             </div>  
-        </div>   
+            <div class="col-lg-1 d-flex justify-content-end align-items-center">
+    <a href="#modal-promediar" class="btn btn-primary" data-toggle="modal">Sacar Promedio</a>
+    <div id="modal-promediar" class="modal fade" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="m-t-none m-b">Promedio del Área de Estructura:</h2>
+                    <form role="form">
+                        <table class="table">
+                            <tr>
+                                <td><label>Mes seleccionado:</label></td>
+                                <td><input type="text" placeholder="Enero - febrero - Marzo" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Semanas en total:</label></td>
+                                <td><input type="text" placeholder="12 semanas" class="form-control"></td>
+                            </tr>
+                            <tr> <td><label> Colaboradores:</label></td></tr>
+                            <tr>
+                                <td><label>Marlo Samaniego</label></td>
+                                <td><input type="text" placeholder="10" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Daniel Roman	</label></td>
+                                <td><input type="text" placeholder="10" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Isabel Torres</label></td>
+                                <td><input type="text" placeholder="10" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Paolo Guerrero</label></td>
+                                <td><input type="text" placeholder="10" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Julio Flores</label></td>
+                                <td><input type="text" placeholder="10" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-right">
+                                    <button class="btn btn-white btn-sm m-t-n-xs center" type="button" data-dismiss="modal">Descartar</button>
+                                    <button class="btn btn-primary btn-sm m-t-n-xs" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Enero</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 4
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 0
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-danger btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-terminado">Terminado</a>
-                                </div>
-                                
-                                </button>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-3">
+    <div class="ibox">
+        <div class="ibox-content product-box">
+            <div class="product-desc text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="#" class="product-name">Enero</a>
+                    <input type="checkbox" class="ml-2">
+                </div>
+                
+                <div class="text-lg m-t-xs">
+                    Semanas Evaluadas: 4
+                </div>
+                <div class="text-lg m-t-xs">
+                    Semanas sin Evaluar: 0
+                </div>
+                <div class="m-t text-righ">
+                    <button class="btn btn-danger btn-circle" type="button">
+                    </button>
+                    <a class="" href="responsabilidades-terminado">Terminado</a>
+                </div>
+                
+                <div class="m-t text-righ">
+                    <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 </div>
                 <div class="col-md-3">
                     <div class="ibox">
                         <div class="ibox-content product-box">
                             <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Febrero</a>
-                                
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#" class="product-name">Febrero</a>
+                                <input type="checkbox" class="ml-2">
+                            </div>
                                 <div class="text-lg m-t-xs">
                                     Semanas Evaluadas: 4
                                 </div>
@@ -310,14 +355,10 @@
                     <div class="ibox">
                         <div class="ibox-content product-box">
                             <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Marzo</a>
-                                
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#" class="product-name">Marzo</a>
+                                <input type="checkbox" class="ml-2">
+                            </div>
                                 <div class="text-lg m-t-xs">
                                     Semanas Evaluadas: 4
                                 </div>
@@ -336,6 +377,7 @@
                         </div>
                     </div>
                 </div>
+
 
                 <div class="col-md-3">
                     <div class="ibox">
