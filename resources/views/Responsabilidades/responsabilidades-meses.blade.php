@@ -238,10 +238,9 @@
                     <li class="breadcrumb-item active">
                         <strong>Meses</strong>
                     </li>
-                </ol>
-            </div>
-        </div>
-        
+                </ol>         
+            </div>  
+        </div>   
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
                 <div class="col-md-3">

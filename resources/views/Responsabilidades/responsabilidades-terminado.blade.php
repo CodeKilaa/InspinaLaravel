@@ -248,6 +248,11 @@
                     </li>
                 </ol>
             </div>
+            <div class="col-lg-2 text-center">
+                <div class="ibox-content">
+                    <a class="btn btn-primary" href="responsabilidades-asis"> Editar <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
         
         <div class="wrapper wrapper-content">
