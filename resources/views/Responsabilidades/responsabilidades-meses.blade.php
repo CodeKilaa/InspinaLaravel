@@ -349,6 +349,7 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>
+                                    <a class="btn btn-success" href="responsabilidades-promedio">Promedio</a>
                                 </div>
                             </div>
                         </div>
@@ -376,6 +377,7 @@
                                 </div>
                                 <div class="m-t text-righ">
                                     <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>
+                                    <a class="btn btn-success" href="responsabilidades-promedio">Promedio</a>
                                 </div>
                             </div>
                         </div>
