@@ -6,14 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>responsabilidades-Meses</title>
+    <title>responsabilidades-Asistencia</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -60,24 +59,30 @@
                         <ul class="nav nav-second-level collapse">
                             <li>
                                 <a href="candidatos">Candidatos</a>
+                             
                             </li>
                             <li>
-                                <a href="colaboradores">Colaboradores</a>                
+                                <a href="colaboradores">Colaboradores</a>
+                              
                             </li>
+    
                             <li>
                                 <a href="HorarioCapacitacion">Capacitacion-Horario</a>
+    
                             </li>
                         </ul>
                         
                     </li>
-                    <li >
+                    <li>
                         <a href="areas"><i class="fa fa-tags"></i> <span class="nav-label">Áreas</span></a>
                     </li>
-                    <li class="active">
-                        <a href="responsabilidades_areas.html"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
+                    <li>
+                        <a href="Responsabilidades"><i class="fa fa-list-alt"></i> <span class="nav-label">Responsabilidades</span></a>
+                      
                     </li>
                     <li>
                         <a href="maquinas"><i class="fa fa-desktop"></i> <span class="nav-label">Maquinas</span></a>
+                       
                     </li>
                     <li>
                         <a href="salones"><i class="fa fa-address-card-o"></i> <span class="nav-label">Salones</span></a>
@@ -88,7 +93,7 @@
                             <li><a href="configuracion-institucion">Institucion</a></li>
                             <li><a href="configuracion-carrera">Carrera</a></li>
                             <li><a href="configuracion-curso">Curso</a></li>
-                            <li><a href="configuracion-programa">Programas</a></li>
+                            <li><a href="configuracion-programas">Programas</a></li>
                         </ul>
                     </li>
                     <li>
@@ -233,436 +238,228 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="Responsabilidades">Responsabilidades-Areas</a>
+                        <a href="Reponsabilidades">Responsabilidades-Areas</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="responsabilidades-meses">Meses</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <strong>Meses</strong>
+                        <strong>Terminado</strong>
                     </li>
-                </ol>         
-            </div>  
-            <div class="col-lg-1 d-flex justify-content-end align-items-center">
-    <a href="#modal-promediar" class="btn btn-primary" data-toggle="modal">Sacar Promedio</a>
-    <div id="modal-promediar" class="modal fade" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2 class="m-t-none m-b">Promedio del Área de Estructura:</h2>
-                    <form role="form">
-                        <table class="table">
-                            <tr>
-                                <td><label>Mes seleccionado:</label></td>
-                                <td><input type="text" placeholder="Enero - febrero - Marzo" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Semanas en total:</label></td>
-                                <td><input type="text" placeholder="12 semanas" class="form-control"></td>
-                            </tr>
-                            <tr> <td><label> Colaboradores:</label></td></tr>
-                            <tr>
-                                <td><label>Marlo Samaniego</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Daniel Roman	</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Isabel Torres</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Paolo Guerrero</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Julio Flores</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" class="text-right">
-                                    <button class="btn btn-white btn-sm m-t-n-xs center" type="button" data-dismiss="modal">Descartar</button>
-                                    <button class="btn btn-primary btn-sm m-t-n-xs" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
+                </ol>
+            </div>
+            <div class="col-lg-2 text-center">
+                <div class="ibox-content">
+                    <a class="btn btn-primary" href="responsabilidades-asis"> Editar <i class="fa fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
         
-        <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-            <div class="col-md-3">
-    <div class="ibox">
-        <div class="ibox-content product-box">
-            <div class="product-desc text-center">
-                <div class="d-flex justify-content-center align-items-center">
-                    <a href="#" class="product-name">Enero</a>
-                    <input type="checkbox" class="ml-2">
+        <div class="wrapper wrapper-content">
+            <div class="row animated fadeInDown">
+                <div class="col-lg-12">
+                  <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="ibox-content d-flex justify-content-center align-items-center">
+                                    <h1 class="titulo mb-0 mr-3">Responsabilidades</h1>
+                                    <a class="btn btn-primary" href="responsabilidades-asis">Cambiar Modo</a>
+                                </div>        
+                            </div>
+                        <div class="container" id="scrollableContainer">
+                        <div id="scrollableDiv">  
+                          <table>
+                              <thead>
+                                <tr class="m1" colspan="12">
+                                    <th class="hm">Marzo</th>
+                                    <th><a style="text-align: right;" class="btn btn-primary" href="responsabilidades-terminado">&lt;-</a></th>
+                                    <th colspan="6">Semana1:</th>
+                                    <th><a style="text-align: right;" class="btn btn-primary" href="responsabilidades-terminado">-></a></th>
+                                </tr>                                
+                                                                       
+                                </thead>
+                            <thead> 
+                              <tr class="m1">
+                                <th class="hm">Áreas:</th>
+                                <th colspan="8" id="Area">Estructura</th>        
+                              </tr>
+                            </thead>
+                            <thead> 
+                                <tr class="m1">
+                                  <th class="hm">Responsabilidades / Colaboradores</th>
+                                  <th colspan="1" id="colum">Asistencia Diaria</th>
+                                  <th colspan="1" id="colum">Reuniones Virtuales</th> 
+                                  <th colspan="1" id="colum">Aportes de Ideas</th> 
+                                  <th colspan="1" id="colum">Participacion</th>
+                                  <th colspan="1" id="colum">Presentación de trabajos</th>
+                                  <th colspan="1" id="colum">Lecturas</th>   
+                                  <th colspan="1" id="colum">Faltas justificadas</th>
+                                  <th colspan="1" id="total">Total:</th>                
+                                </tr>
+                              </thead>
+                            <tbody>
+                              <tr class="celdas">
+                                <th id="name" rowspan="1" >Marlo Samaniego</th>
+                                <td>20</td>
+                                <td>12</td>
+                                <td>15</td>
+                                <td>18</td>
+                                <td>20</td>
+                                <td>18</td>
+                                <td>20</td>
+                                <td>17,6</td>   
+                              </tr>
+                              <tr class="celdas">
+                                <th id="name" rowspan="1" >Daniel Roman</th>
+                                <td>20</td>
+                                <td>19</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>20</td>
+                                <td>18</td>
+                                <td>20</td>
+                                <td>18,9</td> 
+                              </tr>
+                              <tr class="celdas">
+                                <th id="name" rowspan="1" >Isabel Torres</th>
+                                <td>16</td>
+                                <td>16</td>
+                                <td>16</td>
+                                <td>16</td>
+                                <td>16</td>
+                                <td>16</td>
+                                <td>16</td>
+                                <td>16</td> 
+                              </tr>
+                              <tr class="celdas">
+                                <th id="name" rowspan="1" >Paolo Guerrero</th>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>17</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>14,3</td> 
+                                        
+                              </tr> 
+                              <tr class="celdas">
+                                <th id="hour" rowspan="1" >Julio Flores</th>
+                                <td>15</td> 
+                                <td>15</td>
+                                <td>15</td>
+                                <td>15</td>
+                                <td>15</td>
+                                <td>15</td>
+                                <td>15</td>
+                                <td>15</td> 
+                              </tr>
+                                   
+                            </tbody>
+                          </table>
+                        </div>
+                        </div>
+                        <style>
+                          .container {
+                 
+                          margin: 0 auto;
+                          font-family: sans-serif;
+                          }
+                          
+                          h1 {
+                            text-align: center;
+                          }
+                          
+                          .fecha {
+                            text-align: center;
+                            color: white;
+                            
+                          }
+                          
+                          table {
+                            width: 100%;
+                            border-collapse: collapse;
+                          }
+                          
+                          th, td {
+                            border: 1px solid black;
+                            padding: 5px;
+                            color: black;
+                            height: 50px;
+                            width: 200px;
+                          }
+                          
+                          th {
+                            text-align: center;
+                            min-width: 100px;
+                            
+                            
+                          }
+                          .m1{
+                              background-color: #4e7bbf;
+                              color: white;
+                              height: 40px;
+                              
+                          }
+                          .hm{
+                              background-color: #4e7bbf;
+                              width: 200px;
+                              color: white;
+                          }
+                          .titulo{
+                            font-weight: 600;
+                          }
+                          
+                          td {
+                            text-align: center;
+                          }
+                          #Area{
+                            color: black;
+                            background-color: #86eb95;
+                          }
+                          #colum{
+                            color: black;
+                            background-color: #a6d6f4;
+                          }
+                          #total{
+                            color: black;
+                            background-color: #dbad2c;
+                          }
+                          #name{
+                            color: black;
+                            background-color: #f3f3f3;
+                          }
+                          .celdas{
+                            
+                            height: 10px;
+                          }
+                          #scrollableDiv table {
+                                width: 100%;
+                            }
+                            #scrollableContainer {
+                                width: 100%; /* Ajusta el ancho según sea necesario */
+                                overflow-x: auto; /* Agrega un scroll horizontal si el contenido es más ancho que el contenedor */
+                                position: relative;
+                                
+                                
+                                
+                            }
+                            
+                            #scrollableDiv th:first-child {
+                                
+                                position:sticky;
+                                
+                                z-index: 2; /* Asegura que la columna esté sobre las demás celdas */
+                                
+                                
+                            }   
+                        </style>
+                  </div>      
                 </div>
-                
-                <div class="text-lg m-t-xs">
-                    Semanas Evaluadas: 4
-                </div>
-                <div class="text-lg m-t-xs">
-                    Semanas sin Evaluar: 0
-                </div>
-                <div class="m-t text-righ">
-                    <button class="btn btn-danger btn-circle" type="button">
-                    </button>
-                    <a class="" href="responsabilidades-terminado">Terminado</a>
-                </div>
-                
-                <div class="m-t text-center">
-                    <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>    
-                    <a class="btn btn-success" href="responsabilidades-promedio">Promedio</a>
-                </div>
+              </div>
             </div>
-        </div>
-    </div>
-
-                </div>
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <a href="#" class="product-name">Febrero</a>
-                                <input type="checkbox" class="ml-2">
-                            </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 4
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 0
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-danger btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-terminado">Terminado</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <a href="#" class="product-name">Marzo</a>
-                                <input type="checkbox" class="ml-2">
-                            </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 4
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 0
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-danger btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-terminado">Terminado</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-terminado">Ver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Abril</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 1
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 3
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Mayo</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Junio</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Julio</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Agosto</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Setiembre</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Octubre</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Noviembre</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="ibox">
-                        <div class="ibox-content product-box">
-                            <div class="product-desc text-center">
-                                <!---<span class="product-price">
-                                    ON
-                                </span>
-                                -->
-                                
-                                
-                                <a href="#" class="product-name"> Diciembre</a>
-                                
-                                <div class="text-lg m-t-xs">
-                                    Semanas Evaluadas: 0
-                                </div>
-                                <div class="text-lg m-t-xs">
-                                    Semanas sin Evaluar: 4
-                                </div>
-                                <div class="m-t text-righ">
-                                    <button class="btn btn-primary btn-circle" type="button">
-                                    </button>
-                                    <a class="" href="responsabilidades-asis">Activo</a>
-                                </div>
-                                <div class="m-t text-righ">
-                                    <a class="btn btn-success" href="responsabilidades-asis">Evaluar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+          </div>
             <div class="wrapper wrapper-content">
                 <div class="row">
                     <div class="col-lg-8">

@@ -108,7 +108,12 @@ Route::get('/responsabilidades-terminado', function () {
 Route::get('/responsabilidades-asis', function () {
     return view('Responsabilidades.responsabilidades-asis');
 });
-
+Route::get('/responsabilidades-promedio', function () {
+    return view('Responsabilidades.responsabilidades-promedio');
+});
+Route::get('/responsabilidades-historial', function () {
+    return view('Responsabilidades.responsabilidades-historial');
+});
 
 //AVANCE DIA MIERCOLES 08 MAYO
 
