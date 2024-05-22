@@ -240,57 +240,60 @@
                     </li>
                 </ol>         
             </div>  
-            <div class="col-lg-1 d-flex justify-content-end align-items-center">
-    <a href="#modal-promediar" class="btn btn-primary" data-toggle="modal">Sacar Promedio</a>
-    <div id="modal-promediar" class="modal fade" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2 class="m-t-none m-b">Promedio del Área de Estructura:</h2>
-                    <form role="form">
-                        <table class="table">
-                            <tr>
-                                <td><label>Mes seleccionado:</label></td>
-                                <td><input type="text" placeholder="Enero - febrero - Marzo" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Semanas en total:</label></td>
-                                <td><input type="text" placeholder="12 semanas" class="form-control"></td>
-                            </tr>
-                            <tr> <td><label> Colaboradores:</label></td></tr>
-                            <tr>
-                                <td><label>Marlo Samaniego</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Daniel Roman	</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Isabel Torres</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Paolo Guerrero</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td><label>Julio Flores</label></td>
-                                <td><input type="text" placeholder="10" class="form-control"></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" class="text-right">
-                                    <button class="btn btn-white btn-sm m-t-n-xs center" type="button" data-dismiss="modal">Descartar</button>
-                                    <button class="btn btn-primary btn-sm m-t-n-xs" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
+            <div class="col-lg-2 text-center">
+                <div class="ibox-content">
+                    <a href="#modal-promediar" class="btn btn-primary" data-toggle="modal">Sacar Promedio</a>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+                <div id="modal-promediar" class="modal fade" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h2 class="m-t-none m-b">Promedio del Área de Estructura:</h2>
+                                <form role="form">
+                                    <table class="table">
+                                        <tr>
+                                            <td><label>Mes seleccionado:</label></td>
+                                            <td><input type="text" placeholder="Enero - febrero - Marzo" class="form-control"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Semanas en total:</label></td>
+                                            <td><input type="text" placeholder="12 semanas" class="form-control"></td>
+                                        </tr>
+                                        <tr> <td><label> Colaboradores:</label></td></tr>
+                                        <tr>
+                                            <td><label>Marlo Samaniego</label></td>
+                                            <td><input type="text" placeholder="10" class="form-control"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Daniel Roman	</label></td>
+                                            <td><input type="text" placeholder="10" class="form-control"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Isabel Torres</label></td>
+                                            <td><input type="text" placeholder="10" class="form-control"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Paolo Guerrero</label></td>
+                                            <td><input type="text" placeholder="10" class="form-control"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Julio Flores</label></td>
+                                            <td><input type="text" placeholder="10" class="form-control"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="text-right">
+                                                <button class="btn btn-white btn-sm m-t-n-xs center" type="button" data-dismiss="modal">Descartar</button>
+                                                <button class="btn btn-primary btn-sm m-t-n-xs" type="submit"><i class="fa fa-check"></i>&nbsp;Confirmar</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 </div>
         
         <div class="wrapper wrapper-content animated fadeInRight">
