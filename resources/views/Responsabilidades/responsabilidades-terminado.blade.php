@@ -238,10 +238,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="Reponsabilidades">Responsabilidades-Areas</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="responsabilidades-meses">Meses</a>
+                        <a href="Reponsabilidades">Responsabilidades</a>
                     </li>
                     <li class="breadcrumb-item active">
                         <strong>Terminado</strong>
@@ -260,7 +257,7 @@
                 <div class="col-lg-12">
                   <div class="ibox ">
                     <div class="ibox-content">
-                        <h1 class="titulo">Responsabilidades-Terminado</h1>
+                        <h1 class="titulo">Responsabilidades - Terminado</h1>
                         <br>
                         <div class="container" id="scrollableContainer">
                         <div id="scrollableDiv">  
@@ -268,7 +265,9 @@
                               <thead>
                                   <tr class="m1">
                                     <th class="hm">Marzo</th>
-                                    <th class="fecha" colspan="8">Semana: 01</th>
+                                    <th><a style="text-align: right;" class="btn btn-primary" href="responsabilidades-terminado2">&lt;-</a></th>
+                                    <th colspan="6">Semana1:</th>
+                                    <th><a style="text-align: right;" class="btn btn-primary" href="responsabilidades-terminado2">-></a></th>
                                     
                                   </tr>
                                 </thead>

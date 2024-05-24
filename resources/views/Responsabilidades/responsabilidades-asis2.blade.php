@@ -340,8 +340,8 @@
                 <thead>
                 <tr>
                 <th> Marzo </th>
-                <th class="semana" colspan="8">Semana: 1
-                <a href="responsabilidades-asis2"><button>-></button></a>
+                <th class="semana" colspan="8">Semana: 2
+                    <a href="responsabilidades-asis"><button>-></button></a>
                     
                 </th>
             </tr>

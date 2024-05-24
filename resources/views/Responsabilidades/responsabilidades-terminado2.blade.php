@@ -238,15 +238,17 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="Reponsabilidades">Responsabilidades-Areas</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="responsabilidades-meses">Meses</a>
+                        <a href="Reponsabilidades">Responsabilidades</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <strong>Promedio</strong>
+                        <strong>Terminado</strong>
                     </li>
                 </ol>
+            </div>
+            <div class="col-lg-2 text-center">
+                <div class="ibox-content">
+                    <a class="btn btn-primary" href="responsabilidades-asis2"> Editar <i class="fa fa-long-arrow-right"></i></a>
+                </div>
             </div>
         </div>
         
@@ -255,24 +257,23 @@
                 <div class="col-lg-12">
                   <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="ibox-content d-flex justify-content-center align-items-center">
-                                    <h1 class="titulo mb-0 mr-3">Responsabilidades-Promedio</h1>
-                                    <a class="btn btn-primary" href="responsabilidades-historial">Historial</a>
-                                </div>        
-                            </div>
-                        </div>
-                    <div class="container" id="scrollableContainer">
+                        <h1 class="titulo">Responsabilidades - Terminado</h1>
+                        <br>
+                        <div class="container" id="scrollableContainer">
                         <div id="scrollableDiv">  
                           <table>
                               <thead>
                                   <tr class="m1">
-                                    <th class="fecha" colspan="12"> Enero</th>
+                                    <th class="hm">Marzo</th>
+                                    <th><a style="text-align: right;" class="btn btn-primary" href="responsabilidades-terminado">&lt;-</a></th>
+                                    <th colspan="6">Semana 2:</th>
+                                    <th><a style="text-align: right;" class="btn btn-primary" href="responsabilidades-terminado">-></a></th>
+                                    
                                   </tr>
+                                </thead>
                             <thead> 
                               <tr class="m1">
-                                <th class="hm">Área:</th>
+                                <th class="hm">Áreas:</th>
                                 <th colspan="8" id="Area">Estructura</th>        
                               </tr>
                             </thead>
@@ -292,25 +293,25 @@
                             <tbody>
                               <tr class="celdas">
                                 <th id="name" rowspan="1" >Marlo Samaniego</th>
-                                <td>20</td>
-                                <td>12</td>
+                                <td>14</td>
+                                <td>17</td>
                                 <td>15</td>
-                                <td>18</td>
                                 <td>20</td>
                                 <td>18</td>
-                                <td>20</td>
-                                <td>17,6</td>   
+                                <td>16</td>
+                                <td>11</td>
+                                <td>15,8</td>  
                               </tr>
                               <tr class="celdas">
                                 <th id="name" rowspan="1" >Daniel Roman</th>
-                                <td>20</td>
-                                <td>19</td>
+                                <td>14</td>
+                                <td>13</td>
+                                <td>13</td>
+                                <td>13</td>
                                 <td>17</td>
                                 <td>18</td>
-                                <td>20</td>
-                                <td>18</td>
-                                <td>20</td>
-                                <td>18,9</td> 
+                                <td>17</td>
+                                <td>15</td> 
                               </tr>
                               <tr class="celdas">
                                 <th id="name" rowspan="1" >Isabel Torres</th>
@@ -325,14 +326,14 @@
                               </tr>
                               <tr class="celdas">
                                 <th id="name" rowspan="1" >Paolo Guerrero</th>
-                                <td>10</td>
-                                <td>11</td>
+                                <td>20</td> 
+                                <td>16</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>19</td>
                                 <td>17</td>
-                                <td>15</td>
                                 <td>16</td>
-                                <td>15</td>
-                                <td>16</td>
-                                <td>14,3</td> 
+                                <td>16,4</td> 
                                         
                               </tr> 
                               <tr class="celdas">

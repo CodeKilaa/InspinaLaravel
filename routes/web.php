@@ -105,9 +105,18 @@ Route::get('/responsabilidades-meses', function () {
 Route::get('/responsabilidades-terminado', function () {
     return view('Responsabilidades.responsabilidades-terminado');
 });
+
+Route::get('/responsabilidades-terminado2', function () {
+    return view('Responsabilidades.responsabilidades-terminado2');
+});
 Route::get('/responsabilidades-asis', function () {
     return view('Responsabilidades.responsabilidades-asis');
 });
+
+Route::get('/responsabilidades-asis2', function () {
+    return view('Responsabilidades.responsabilidades-asis2');
+});
+
 Route::get('/responsabilidades-promedio', function () {
     return view('Responsabilidades.responsabilidades-promedio');
 });
